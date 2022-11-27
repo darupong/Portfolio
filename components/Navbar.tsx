@@ -1,57 +1,55 @@
 import { useState } from "react";
 import Link from "next/link";
+import { useTheme } from "next-themes";
 import css from "../styles/Navbar.module.css";
 
+import logo from "../public/img/myimg.png"
+import Image from "next/image";
+
 const Navbar = (): JSX.Element => {
+  const {systemTheme, theme, setTheme} = useTheme();
+
   const [active, setActive] = useState(false);
 
   const handleClick = () => {
     setActive(!active);
   };
   return (
-    <nav className="flex items-center flex-wrap bg-black md:p-3 p-1 fixed w-full z-50 top-0">
-      <Link href="/">
-        <div className="inline-flex items-center p-2 mr-4 ">
-          <div className={`flex w-full md:w-1/2 justify-center md:justify-start`}>
-            <img src="" className={`md:w-[250px] w-[70px] md:h-[55px] h-[30px] cursor-pointer`} alt="Logo The Hidden Ghost" />
-          </div>
+
+    <nav className="bg-white px-2 sm:px-4 py-2.5 dark:bg-gray-900 fixed w-full z-20 top-0 left-0 border-b border-gray-200 dark:border-gray-600">
+      <div className="container flex flex-wrap items-center justify-between mx-auto">
+        <a href="https://flowbite.com/" className="flex items-center">
+          <Image src={logo} className="h-[50px] w-[50px]" alt="Flowbite Logo" />
+        </a>
+        <div className="flex md:order-2">
+          <button type="button" className="text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center mr-3 md:mr-0 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">Contact Me</button>
+          <button data-collapse-toggle="navbar-sticky" type="button" className="inline-flex items-center p-2 text-sm text-gray-500 rounded-lg md:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600" aria-controls="navbar-sticky" aria-expanded="false">
+            <span className="sr-only">Open main menu</span>
+            <svg className="w-6 h-6" aria-hidden="true" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M3 5a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 10a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 15a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1z" clip-rule="evenodd"></path></svg>
+          </button>
         </div>
-      </Link>
-      <button className=" inline-flex p-1 hover:bg-red-800 rounded lg:hidden text-white ml-auto hover:text-white outline-none" onClick={handleClick}>
-        <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-          <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M4 6h16M4 12h16M4 18h16" />
-        </svg>
-      </button>
-      {/*Note that in this div we will use a ternary operator to decide whether or not to display the content of the div  */}
-      <div className={`${active ? '' : 'hidden'}   w-full lg:inline-flex lg:flex-grow lg:w-auto`}>
-        <div className="lg:inline-flex lg:flex-row lg:ml-auto lg:w-auto w-full lg:items-center items-start  flex flex-col lg:h-auto">
-          <a className={`inline-block text-white no-underline ${css.navbarColor} hover:text-underline py-1 px-4 text-[30px] ${css.fontContent}`} href="">
-            Home
-          </a>
-          <a className={`inline-block text-white no-underline ${css.navbarColor} hover:text-underline py-1 px-4 text-[30px] ${css.fontContent}`} href="#character">
-            About Me
-          </a>
-          <a className={`inline-block text-white no-underline ${css.navbarColor} hover:text-underline py-1 px-4 text-[30px] ${css.fontContent}`} href="#gameplay">
-            Tool
-          </a>
-          <a className={`inline-block text-white no-underline ${css.navbarColor} hover:text-underline py-1 px-4 text-[30px] ${css.fontContent}`} href="#news">
-            Resume
-          </a>
-          <a className={`inline-block text-white no-underline ${css.navbarColor} hover:text-underline py-1 px-4 text-[30px] ${css.fontContent}`} href="/about">
-            Experience
-          </a>
-          <a className={`inline-block text-white no-underline ${css.navbarColor} hover:text-underline py-1 px-4 text-[30px] ${css.fontContent}`} href="/about">
-            Contact Me
-          </a>
-          {/*<a className={`inline-block text-white no-underline ${css.navbarColor} hover:text-underline py-1 px-4 text-[30px] ${css.fontContent}`} href="opensource">
-            OpenSource
-  </a>*/}
-          {/* <a className={`inline-block text-white no-underline ${css.navbarColor} hover:text-underline py-1 px-4 text-[30px] ${css.fontContent}`} href="/downloadAR">
-            ดาวน์โหลด
-          </a> */}
+        <div className="items-center justify-between hidden w-full md:flex md:w-auto md:order-1" id="navbar-sticky">
+          <ul className="flex flex-col p-4 mt-4 border border-gray-100 rounded-lg bg-gray-50 md:flex-row md:space-x-8 md:mt-0 md:text-sm md:font-medium md:border-0 md:bg-white dark:bg-gray-800 md:dark:bg-gray-900 dark:border-gray-700">
+            <li>
+              <a href="#" className="block py-2 pl-3 pr-4 text-white bg-blue-700 rounded md:bg-transparent md:text-blue-700 md:p-0 dark:text-white" aria-current="page">Home</a>
+            </li>
+            <li>
+              <a href="#" className="block py-2 pl-3 pr-4 text-gray-700 rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-700 md:p-0 md:dark:hover:text-white dark:text-gray-400 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700">About</a>
+            </li>
+            <li>
+              <a href="#" className="block py-2 pl-3 pr-4 text-gray-700 rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-700 md:p-0 md:dark:hover:text-white dark:text-gray-400 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700">Tools</a>
+            </li>
+            <li>
+              <a href="#" className="block py-2 pl-3 pr-4 text-gray-700 rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-700 md:p-0 md:dark:hover:text-white dark:text-gray-400 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700">Resume</a>
+            </li>
+            <li>
+              <a href="#" className="block py-2 pl-3 pr-4 text-gray-700 rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-700 md:p-0 md:dark:hover:text-white dark:text-gray-400 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700">Experiance</a>
+            </li>
+          </ul>
         </div>
       </div>
     </nav>
+
   );
 };
 
