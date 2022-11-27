@@ -2,24 +2,6 @@
     position: fixed top;
 }
 
-@font-face {
-    font-family: 'ps_pimpdeediiM';
-    src: url('/fonts/ps_pimpdeediiM.ttf') format('truetype');
-}
-  
-@font-face {
-    font-family: 'pspimpdeedIISM';
-    src: url('/fonts/pspimpdeedIISM.ttf') format('truetype');
-}
-  
-.fontTitle {
-    font-family: 'ps_pimpdeediiM';
-}
-  
-.fontContent {
-    font-family: 'pspimpdeedIISM';
-}
-
 .navbarColor:hover {
-    color: #a03f3e;
+    color: #000000;
 }
