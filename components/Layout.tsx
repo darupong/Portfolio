@@ -1,17 +1,24 @@
 import Navbar from "./Navbar"
 import Footer from "./Footer"
+import HeroSection from "./HeroSection"
 import { type } from "os"
+import Head from "next/head"
 
 type Props = {
   children?: JSX.Element,
 }
 const Layout = ({ children }: Props) => {
   return (
-    <div className={`content`}>
-      <Navbar />
-       {children}
-      <Footer />
-    </div>
+    <>
+      <Head>
+        <title>Darupong Portfolio</title>
+      </Head>
+      <div className={`content`}>
+        <Navbar />
+        {children}
+        <Footer />
+      </div>
+    </>
   )
 }
 
