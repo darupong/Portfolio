@@ -13,7 +13,7 @@ const Layout = ({ children }: Props) => {
       <Head>
         <title>Darupong Portfolio</title>
       </Head>
-      <div className={`content`}>
+      <div className={`content bg-white dark:bg-[#272727]`}>
         <Navbar />
         {children}
         <Footer />
