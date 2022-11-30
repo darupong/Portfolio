@@ -5,14 +5,19 @@ import Navbar from '../components/Navbar'
 import Footer from '../components/Footer'
 import HeroSection from '../components/HeroSection'
 import AboutMe from '../components/AboutMe'
-import ToolsSection from '../components/ToolsSection'
+import ResumeSection from '../components/ResumeSection'
+import ExperianceSection from '../components/ExperianceSection'
+
 
 export default function Home() {
   return (
     <div>
       <HeroSection />
       <AboutMe />
-      <ToolsSection />
+      <div className=" bg-[#F8F9FA] py-[10px]">
+      <ResumeSection />
+      </div>
+      <ExperianceSection />
     </div>
   )
 }

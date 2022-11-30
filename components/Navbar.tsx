@@ -31,7 +31,7 @@ const Navbar = (): JSX.Element => {
   }
   return (
 
-    <nav className="bg-white px-2 sm:px-4 py-2.5 dark:bg-gray-900 fixed w-full z-20 top-0 left-0  border-gray-200 dark:border-gray-600">
+    <nav className="bg-white z-50 px-2 sm:px-4 py-2.5 dark:bg-gray-900 fixed w-full top-0 left-0  border-gray-200 dark:border-gray-600">
       <div className="container flex flex-wrap items-center justify-between mx-auto">
         <a href="" className="flex items-center">
           <Image src={logo} className="h-[50px] w-[50px]" alt="Flowbite Logo" />

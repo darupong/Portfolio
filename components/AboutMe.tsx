@@ -7,7 +7,7 @@ const AboutMe = () => {
   return (
     <div className={` py-[50px] container mx-auto`}>
       <div className="mockup-window dark:bg-base-300 bg-slate-400">
-        <div className="flex justify-center px-4 py-16 dark:bg-base-200 bg-[#EBEBEB]">
+        <div className="flex justify-center px-4 py-16 dark:bg-[#111827] bg-[#EBEBEB]">
           <div className="flex flex-col">
             <div className="flex md:flex-row flex-col justify-center items-center md:space-x-6 space-x-0 space-y-6 lg:px-10 px-4 md:py-14 py-6">
               <div>
