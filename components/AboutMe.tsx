@@ -83,7 +83,7 @@ const AboutMe = () => {
                     <code>⭐️ Programming Language:</code>
                   </pre>
                   <pre data-prefix=">" className="text-success">
-                    <code>✓ Javascripts , Typescripts , C#</code>
+                    <code>✓ JS , TS , C# , Virtual Code</code>
                   </pre>
                   <pre data-prefix=">" className="text-warning">
                     <code>⭐️ Tools:</code>
