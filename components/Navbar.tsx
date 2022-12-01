@@ -41,9 +41,6 @@ const Navbar = (): JSX.Element => {
             <FaFacebook className=" w-6 h-6" role="button" />
           </div>
           <div className=" pl-4 flex items-center">
-            <FaTelegram className=" w-6 h-6" role="button" />
-          </div>
-          <div className=" pl-4 flex items-center">
             <FaGithub className=" w-6 h-6" role="button" />
           </div>
           <div className=" pl-4 flex items-center">

@@ -14,9 +14,7 @@ export default function Home() {
     <div>
       <HeroSection />
       <AboutMe />
-      <div className=" bg-[#F8F9FA] py-[10px]">
       <ResumeSection />
-      </div>
       <ExperianceSection />
     </div>
   )

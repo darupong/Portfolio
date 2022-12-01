@@ -12,12 +12,12 @@ const ResumeSection = () => {
           <div className="z-20 flex items-center order-1 bg-gray-800 dark:bg-white shadow-xl w-8 h-8 rounded-full">
             <h1 className="mx-auto font-semibold text-lg text-white dark:text-black">1</h1>
           </div>
-          <div className="order-1 bg-gray-400 rounded-lg shadow-xl w-5/12 px-6 py-4">
-            <h3 className="mb-3 font-bold text-gray-800 md:text-xl text-sm">
+          <div className="order-1 dark:bg-gray-400 bg-[#EBEBEB] rounded-lg shadow-xl w-5/12 px-6 py-4">
+            <h3 className="mb-3 font-bold text-gray-800 md:text-xl text-sm ">
               Woranari Chaloem Songkhla School
             </h3>
             <h3 className="mb-3 font-bold text-gray-800 md:text-xl text-sm">2012-2017</h3>
-            <p className="text-sm leading-snug tracking-wide text-gray-900 text-opacity-100">
+            <p className="text-sm font-medium leading-snug tracking-wide text-gray-900 text-opacity-100">
               High School Certificate equivalent at Woranari Chaloem Songkhla
               School (WCS)
             </p>
@@ -45,12 +45,12 @@ const ResumeSection = () => {
           <div className="z-20 flex items-center order-1 bg-gray-800 dark:bg-white shadow-xl w-8 h-8 rounded-full">
             <h1 className="mx-auto font-semibold text-lg text-white dark:text-black">3</h1>
           </div>
-          <div className="order-1 bg-gray-400 rounded-lg shadow-xl w-5/12 px-6 py-4">
+          <div className="order-1 dark:bg-gray-400 bg-[#EBEBEB] rounded-lg shadow-xl w-5/12 px-6 py-4">
             <h3 className="mb-3 font-bold text-gray-800 md:text-xl text-sm">
               VIZ STUDIO
             </h3>
             <h3 className="mb-3 font-bold text-gray-800 md:text-xl text-sm">2021-2022</h3>
-            <p className="text-sm leading-snug tracking-wide text-gray-900 text-opacity-100">
+            <p className="text-sm font-medium leading-snug tracking-wide text-gray-900 text-opacity-100">
               Develop Website with wordpress or Next.js and Filter Effect to share in social platform.
             </p>
           </div>

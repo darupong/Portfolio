@@ -37,7 +37,7 @@ const AboutMe = () => {
                     <code>✓ Email: darupong000@gmail.com</code>
                   </pre>
                   <pre data-prefix=">" className="text-warning">
-                    <code>✓ From: Songkhla, Thailand</code>
+                    <code>✓ From: Bangkok, Thailand</code>
                   </pre>
                   <pre data-prefix=">" className="text-warning">
                     <code>✓ Education: Rangsit University</code>
