@@ -28,7 +28,7 @@ const ExperianceSection = () => {
       <h1 className="text-[60px] font-bold text-center pb-[50px] dark:text-white text-gray-800">
         Experiance
       </h1>
-      <div className="grid lg:grid-cols-3 grid-flow-row gap-4 justify-center ">
+      <div className="grid lg:grid-cols-3 md:grid-cols-2 grid-cols-1 gap-4 justify-center ">
         <div className="flex justify-center">
           <div className="card w-96 dark:bg-[#191D24] bg-[#EBEBEB] shadow-xl">
             <figure>

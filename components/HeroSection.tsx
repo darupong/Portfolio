@@ -1,5 +1,5 @@
-import React from 'react'
-import css from '../styles/HeroSection.module.css'
+import React from 'react';
+import css from '../styles/HeroSection.module.css';
 
 const HeroSection = () => {
     return (
