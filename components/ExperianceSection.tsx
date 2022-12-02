@@ -1,6 +1,11 @@
 /* eslint-disable react/no-unescaped-entities */
 import React from "react";
-import { FaInstagram, FaFacebookSquare, FaFacebookMessenger , FaTiktok } from "react-icons/fa";
+import {
+  FaInstagram,
+  FaFacebookSquare,
+  FaFacebookMessenger,
+  FaTiktok,
+} from "react-icons/fa";
 
 import hdg from "../public/img/HDG.png";
 import done from "../public/img/DONE.png";
@@ -45,7 +50,11 @@ const ExperianceSection = () => {
                 Phasmophobia.
               </p>
               <div className="card-actions justify-end">
-                <a href="https://hidden-ghost-next-website.vercel.app/" target="_blank" rel="noreferrer">
+                <a
+                  href="https://hidden-ghost-next-website.vercel.app/"
+                  target="_blank"
+                  rel="noreferrer"
+                >
                   <button className="btn btn-accent">Read More</button>
                 </a>
               </div>
@@ -65,16 +74,20 @@ const ExperianceSection = () => {
                 <div className="badge badge-secondary">Virtual Tour</div>
               </h2>
               <p className="dark:text-[#A6ADBA] text-black">
-                A website is a promoting mobile game project that I did during
-                internship. The game is a detective game inspired by
-                Phasmophobia.
+                The 3D walkthrough website for the GSSD Expo 2022 will take you
+                to the largest virtual tour with Thailand as the event first
+                co-host in the Asia-Pacific region.
               </p>
               <div className="card-actions justify-end">
-              <div className="card-actions justify-end">
-                <a href="https://3dwalkthrough.thaidevelopmentexpo.com/" target="_blank" rel="noreferrer">
-                  <button className="btn btn-accent">Read More</button>
-                </a>
-              </div>
+                <div className="card-actions justify-end">
+                  <a
+                    href="https://3dwalkthrough.thaidevelopmentexpo.com/"
+                    target="_blank"
+                    rel="noreferrer"
+                  >
+                    <button className="btn btn-accent">Read More</button>
+                  </a>
+                </div>
               </div>
             </div>
           </div>
@@ -96,7 +109,11 @@ const ExperianceSection = () => {
                 introduce you to the product and all Alps Alpine services.
               </p>
               <div className="card-actions justify-end">
-              <a href="https://alpsalpine-virtual.com/" target="_blank" rel="noreferrer">
+                <a
+                  href="https://alpsalpine-virtual.com/"
+                  target="_blank"
+                  rel="noreferrer"
+                >
                   <button className="btn btn-accent">Read More</button>
                 </a>
               </div>
@@ -121,7 +138,11 @@ const ExperianceSection = () => {
                 website is Thai-Japanese multilingual.
               </p>
               <div className="card-actions justify-end">
-              <a href="https://siapth.com/jp/" target="_blank" rel="noreferrer">
+                <a
+                  href="https://siapth.com/jp/"
+                  target="_blank"
+                  rel="noreferrer"
+                >
                   <button className="btn btn-accent">Read More</button>
                 </a>
               </div>
@@ -147,7 +168,11 @@ const ExperianceSection = () => {
                 require on the website back-end infrastructure.
               </p>
               <div className="card-actions justify-end">
-              <a href="https://www.wedone.work/" target="_blank" rel="noreferrer">
+                <a
+                  href="https://www.wedone.work/"
+                  target="_blank"
+                  rel="noreferrer"
+                >
                   <button className="btn btn-accent">Read More</button>
                 </a>
               </div>
@@ -193,13 +218,21 @@ const ExperianceSection = () => {
                       <h1>Click Here</h1>
                     </div>
                     <div className="justify-center flex space-x-4 pt-[20px]">
-                      <a href="https://www.facebook.com/fbcameraeffects/tryit/482307596688085/" target="_blank" rel="noreferrer">
+                      <a
+                        href="https://www.facebook.com/fbcameraeffects/tryit/482307596688085/"
+                        target="_blank"
+                        rel="noreferrer"
+                      >
                         <FaFacebookSquare
                           className=" w-6 h-6 text-black dark:text-white"
                           role="button"
                         />
                       </a>
-                      <a href="https://www.instagram.com/ar/482307596688085/" target="_blank" rel="noreferrer">
+                      <a
+                        href="https://www.instagram.com/ar/482307596688085/"
+                        target="_blank"
+                        rel="noreferrer"
+                      >
                         <FaInstagram
                           className=" w-6 h-6 text-black dark:text-white"
                           role="button"
@@ -261,25 +294,41 @@ const ExperianceSection = () => {
                       <h1>Click Here</h1>
                     </div>
                     <div className="justify-center flex space-x-4 pt-[20px]">
-                      <a href="https://www.facebook.com/fbcameraeffects/tryit/488720473140506/" target="_blank" rel="noreferrer">
+                      <a
+                        href="https://www.facebook.com/fbcameraeffects/tryit/488720473140506/"
+                        target="_blank"
+                        rel="noreferrer"
+                      >
                         <FaFacebookSquare
                           className=" w-6 h-6 text-black dark:text-white"
                           role="button"
                         />
                       </a>
-                      <a href="https://www.instagram.com/ar/488720473140506/" target="_blank" rel="noreferrer">
+                      <a
+                        href="https://www.instagram.com/ar/488720473140506/"
+                        target="_blank"
+                        rel="noreferrer"
+                      >
                         <FaInstagram
                           className=" w-6 h-6 text-black dark:text-white"
                           role="button"
                         />
                       </a>
-                      <a href="https://www.messenger.com/ar/488720473140506/" target="_blank" rel="noreferrer">
+                      <a
+                        href="https://www.messenger.com/ar/488720473140506/"
+                        target="_blank"
+                        rel="noreferrer"
+                      >
                         <FaFacebookMessenger
                           className=" w-6 h-6 text-black dark:text-white"
                           role="button"
                         />
                       </a>
-                      <a href="https://vt.tiktok.com/ZS8RagH3f/" target="_blank" rel="noreferrer">
+                      <a
+                        href="https://vt.tiktok.com/ZS8RagH3f/"
+                        target="_blank"
+                        rel="noreferrer"
+                      >
                         <FaTiktok
                           className=" w-6 h-6 text-black dark:text-white"
                           role="button"
@@ -327,8 +376,8 @@ const ExperianceSection = () => {
                       Durex Come with Pride
                     </h3>
                     <p className="py-4 dark:text-[#A6ADBA] text-black">
-                    Durex Come with Pride Campaign. a filter face mask on Instagram
-                    and Facebook.
+                      Durex Come with Pride Campaign. a filter face mask on
+                      Instagram and Facebook.
                     </p>
                     <div className="justify-center flex">
                       <Image
@@ -341,7 +390,11 @@ const ExperianceSection = () => {
                       <h1>Click Here</h1>
                     </div>
                     <div className="justify-center flex space-x-4 pt-[20px]">
-                      <a href="https://www.instagram.com/ar/372286178329436/" target="_blank" rel="noreferrer">
+                      <a
+                        href="https://www.instagram.com/ar/372286178329436/"
+                        target="_blank"
+                        rel="noreferrer"
+                      >
                         <FaInstagram
                           className=" w-6 h-6 text-black dark:text-white"
                           role="button"
@@ -371,20 +424,25 @@ const ExperianceSection = () => {
                 <div className="badge badge-error">Filter Tiktok</div>
               </h2>
               <p className="dark:text-[#A6ADBA] text-black">
-              Fifa World Cup 2022. a filter guess flag countries on Tiktok.
+                Fifa World Cup 2022. a filter guess flag countries on Tiktok.
               </p>
               <div className="card-actions justify-end">
                 <label htmlFor="my-modal4" className="btn btn-accent">
                   Try it!
                 </label>
-                <input type="checkbox" id="my-modal4" className="modal-toggle" />
+                <input
+                  type="checkbox"
+                  id="my-modal4"
+                  className="modal-toggle"
+                />
                 <div className="modal">
                   <div className="modal-box dark:bg-[#111827] bg-white">
                     <h3 className="font-bold text-lg dark:text-[#A6ADBA] text-black">
-                    Fifa World Cup 2022
+                      Fifa World Cup 2022
                     </h3>
                     <p className="py-4 dark:text-[#A6ADBA] text-black">
-                    Fifa World Cup 2022. a filter guess flag countries on Tiktok.
+                      Fifa World Cup 2022. a filter guess flag countries on
+                      Tiktok.
                     </p>
                     <div className="justify-center flex">
                       <Image
@@ -397,7 +455,11 @@ const ExperianceSection = () => {
                       <h1>Click Here</h1>
                     </div>
                     <div className="justify-center flex space-x-4 pt-[20px]">
-                    <a href="https://vm.tiktok.com/ZMF4kUXCS/" target="_blank" rel="noreferrer">
+                      <a
+                        href="https://vm.tiktok.com/ZMF4kUXCS/"
+                        target="_blank"
+                        rel="noreferrer"
+                      >
                         <FaTiktok
                           className=" w-6 h-6 text-black dark:text-white"
                           role="button"
@@ -433,7 +495,11 @@ const ExperianceSection = () => {
                 <label htmlFor="my-modal6" className="btn btn-accent">
                   Try it!
                 </label>
-                <input type="checkbox" id="my-modal6" className="modal-toggle" />
+                <input
+                  type="checkbox"
+                  id="my-modal6"
+                  className="modal-toggle"
+                />
                 <div className="modal">
                   <div className="modal-box dark:bg-[#111827] bg-white">
                     <h3 className="font-bold text-lg dark:text-[#A6ADBA] text-black">
@@ -453,7 +519,11 @@ const ExperianceSection = () => {
                       <h1>Click Here</h1>
                     </div>
                     <div className="justify-center flex space-x-4 pt-[20px]">
-                    <a href="https://vt.tiktok.com/ZS8RatJRU/" target="_blank" rel="noreferrer">
+                      <a
+                        href="https://vt.tiktok.com/ZS8RatJRU/"
+                        target="_blank"
+                        rel="noreferrer"
+                      >
                         <FaTiktok
                           className=" w-6 h-6 text-black dark:text-white"
                           role="button"
@@ -489,14 +559,18 @@ const ExperianceSection = () => {
                 <label htmlFor="my-modal7" className="btn btn-accent">
                   Try it!
                 </label>
-                <input type="checkbox" id="my-modal7" className="modal-toggle" />
+                <input
+                  type="checkbox"
+                  id="my-modal7"
+                  className="modal-toggle"
+                />
                 <div className="modal">
                   <div className="modal-box dark:bg-[#111827] bg-white">
                     <h3 className="font-bold text-lg dark:text-[#A6ADBA] text-black">
-                    ChadChart Mask
+                      ChadChart Mask
                     </h3>
                     <p className="py-4 dark:text-[#A6ADBA] text-black">
-                    ChadChart Mask. a filter face mask on Tiktok.
+                      ChadChart Mask. a filter face mask on Tiktok.
                     </p>
                     <div className="justify-center flex">
                       <Image
@@ -509,7 +583,11 @@ const ExperianceSection = () => {
                       <h1>Click Here</h1>
                     </div>
                     <div className="justify-center flex space-x-4 pt-[20px]">
-                    <a href="https://vt.tiktok.com/ZS8Ra37h3/" target="_blank" rel="noreferrer">
+                      <a
+                        href="https://vt.tiktok.com/ZS8Ra37h3/"
+                        target="_blank"
+                        rel="noreferrer"
+                      >
                         <FaTiktok
                           className=" w-6 h-6 text-black dark:text-white"
                           role="button"
