@@ -1,0 +1,7 @@
+.NavbarFixedTop{
+    position: fixed top;
+}
+
+.navbarColor:hover {
+    color: #000000;
+}
