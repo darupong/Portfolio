@@ -27,15 +27,15 @@ import chaddance from "../public/img/chaddance.gif";
 import chadface from "../public/img/Chadface.gif";
 import Image from "next/image";
 
-const ExperianceSection = () => {
+const ExperienceSection = () => {
   return (
-    <div className="container mx-auto py-[100px]">
+    <div className="container mx-auto py-[100px] " id="Experience">
       <h1 className="text-[60px] font-bold text-center pb-[50px] dark:text-white text-gray-800">
         Experiance
       </h1>
-      <div className="grid lg:grid-cols-3 md:grid-cols-2 grid-cols-1 gap-4 justify-center ">
+      <div className="grid lg:grid-cols-3 md:grid-cols-2 grid-cols-1 lg:gap-10 gap-4 mx-2 justify-center ">
         <div className="flex justify-center">
-          <div className="card w-96 dark:bg-[#191D24] bg-[#EBEBEB] shadow-xl">
+          <div className="card w-100 dark:bg-[#191D24] bg-[#EBEBEB] shadow-xl">
             <figure>
               <Image src={hdg} alt="The Hidden Ghost" />
             </figure>
@@ -63,7 +63,7 @@ const ExperianceSection = () => {
         </div>
 
         <div className="flex justify-center">
-          <div className="card w-96 dark:bg-[#191D24] bg-[#EBEBEB] shadow-xl">
+          <div className="card w-100 dark:bg-[#191D24] bg-[#EBEBEB] shadow-xl">
             <figure>
               <Image src={gssd} alt="GSSD" />
             </figure>
@@ -94,7 +94,7 @@ const ExperianceSection = () => {
         </div>
 
         <div className="flex justify-center">
-          <div className="card w-96 dark:bg-[#191D24] bg-[#EBEBEB] shadow-xl">
+          <div className="card w-100 dark:bg-[#191D24] bg-[#EBEBEB] shadow-xl">
             <figure>
               <Image src={alp} alt="AlpsAlpine" />
             </figure>
@@ -122,7 +122,7 @@ const ExperianceSection = () => {
         </div>
 
         <div className="flex justify-center">
-          <div className="card w-96 dark:bg-[#191D24] bg-[#EBEBEB] shadow-xl">
+          <div className="card w-100 dark:bg-[#191D24] bg-[#EBEBEB] shadow-xl">
             <figure>
               <Image src={siap} alt="S.I. ASIA PACIFIC CO., LTD." />
             </figure>
@@ -151,7 +151,7 @@ const ExperianceSection = () => {
         </div>
 
         <div className="flex justify-center">
-          <div className="card w-96 dark:bg-[#191D24] bg-[#EBEBEB] shadow-xl">
+          <div className="card w-100 dark:bg-[#191D24] bg-[#EBEBEB] shadow-xl">
             <figure>
               <Image src={done} alt="Done Engineering and Service Co.,Ltd." />
             </figure>
@@ -181,7 +181,7 @@ const ExperianceSection = () => {
         </div>
 
         <div className="flex justify-center">
-          <div className="card w-96 dark:bg-[#191D24] bg-[#EBEBEB] shadow-xl">
+          <div className="card w-100 dark:bg-[#191D24] bg-[#EBEBEB] shadow-xl">
             <figure>
               <Image src={laz} alt="Lazada" />
             </figure>
@@ -252,7 +252,7 @@ const ExperianceSection = () => {
         </div>
 
         <div className="flex justify-center">
-          <div className="card w-96 dark:bg-[#191D24] bg-[#EBEBEB] shadow-xl">
+          <div className="card w-100 dark:bg-[#191D24] bg-[#EBEBEB] shadow-xl">
             <figure>
               <Image src={ccoobg} alt="CC-OO" />
             </figure>
@@ -348,7 +348,7 @@ const ExperianceSection = () => {
         </div>
 
         <div className="flex justify-center">
-          <div className="card w-96 dark:bg-[#191D24] bg-[#EBEBEB] shadow-xl">
+          <div className="card w-100 dark:bg-[#191D24] bg-[#EBEBEB] shadow-xl">
             <figure>
               <Image src={durexbg} alt="Durex" />
             </figure>
@@ -414,7 +414,7 @@ const ExperianceSection = () => {
         </div>
 
         <div className="flex justify-center">
-          <div className="card w-96 dark:bg-[#191D24] bg-[#EBEBEB] shadow-xl">
+          <div className="card w-100 dark:bg-[#191D24] bg-[#EBEBEB] shadow-xl">
             <figure>
               <Image src={qatar} alt="Durex" />
             </figure>
@@ -479,7 +479,7 @@ const ExperianceSection = () => {
         </div>
 
         <div className="flex justify-center">
-          <div className="card w-96 dark:bg-[#191D24] bg-[#EBEBEB] shadow-xl">
+          <div className="card w-100 dark:bg-[#191D24] bg-[#EBEBEB] shadow-xl">
             <figure>
               <Image src={dance} alt="Chadchart Dance" />
             </figure>
@@ -543,7 +543,7 @@ const ExperianceSection = () => {
         </div>
 
         <div className="flex justify-center">
-          <div className="card w-96 dark:bg-[#191D24] bg-[#EBEBEB] shadow-xl">
+          <div className="card w-100 dark:bg-[#191D24] bg-[#EBEBEB] shadow-xl">
             <figure>
               <Image src={phuwa} alt="Durex" />
             </figure>
@@ -610,4 +610,4 @@ const ExperianceSection = () => {
   );
 };
 
-export default ExperianceSection;
+export default ExperienceSection;

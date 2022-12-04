@@ -6,7 +6,7 @@ import Footer from '../components/Footer'
 import HeroSection from '../components/HeroSection'
 import AboutMe from '../components/AboutMe'
 import ResumeSection from '../components/ResumeSection'
-import ExperianceSection from '../components/ExperianceSection'
+import ExperienceSection from '../components/ExperienceSection'
 
 
 export default function Home() {
@@ -15,7 +15,7 @@ export default function Home() {
       <HeroSection />
       <AboutMe />
       <ResumeSection />
-      <ExperianceSection />
+      <ExperienceSection />
     </div>
   )
 }

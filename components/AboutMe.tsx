@@ -5,7 +5,7 @@ import logo from "../public/img/myimg.png";
 
 const AboutMe = () => {
   return (
-    <div className={` py-[50px] container mx-auto`}>
+    <div className={` py-[50px] container mx-auto`} id="About">
       <div className="mockup-window dark:bg-base-300 bg-slate-400">
         <div className="flex justify-center px-4 py-16 dark:bg-[#111827] bg-[#EBEBEB]">
           <div className="flex flex-col">

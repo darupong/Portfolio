@@ -3,9 +3,9 @@ import React from "react";
 
 const ResumeSection = () => {
   return (
-    <div className="container mx-auto w-full h-full">
+    <div className="container mx-auto w-full h-full " id="Timeline">
       <div className="relative wrap overflow-hidden p-10 h-full">
-        <h1 className="text-[60px] font-bold text-center pb-[50px] dark:text-white text-gray-800">Resume</h1>
+        <h1 className="text-[60px] font-bold text-center pb-[50px] dark:text-white text-gray-800">Timeline</h1>
         <div className="border-2-2 absolute border-opacity-20 border-gray-700 dark:border-white h-full border left-[50%]"></div>
         <div className="mb-8 flex justify-between items-center w-full right-timeline">
           <div className="order-1 w-5/12"></div>
