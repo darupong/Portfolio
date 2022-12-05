@@ -5,7 +5,6 @@ const contact = () => {
   return (
     <div className=" pt-[100px]">
       <FromEmail />
-      <h1>Eiei</h1>
     </div>
   );
 };

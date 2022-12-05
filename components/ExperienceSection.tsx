@@ -262,7 +262,7 @@ const ExperienceSection = () => {
                 <div className="badge badge-error">Filter IG&Tiktok</div>
               </h2>
               <p className="dark:text-[#A6ADBA] text-black">
-                CC-OO x Disney Campaign. a filter face mask with partical effect
+                CC-OO x Disney Campaign. a filter face mask 
                 on Instagram Facebook and Tiktok.
               </p>
               <div className="card-actions justify-end">
@@ -280,8 +280,7 @@ const ExperienceSection = () => {
                       CC-OO x Disney
                     </h3>
                     <p className="py-4 dark:text-[#A6ADBA] text-black">
-                      CC-OO x Disney Campaign. a filter face mask with partical
-                      effect on Instagram Facebook and Tiktok.
+                      CC-OO x Disney Campaign. a filter face mask on Instagram Facebook and Tiktok.
                     </p>
                     <div className="justify-center flex">
                       <Image
