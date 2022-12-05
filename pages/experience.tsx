@@ -31,7 +31,7 @@ const experiancepage = () => {
   return (
     <div className="container mx-auto py-[100px] " id="Experiance">
       <h1 className="text-[60px] font-bold text-center pb-[50px] dark:text-white text-gray-800">
-        Experiance
+        Experience
       </h1>
       <div className="grid lg:grid-cols-3 md:grid-cols-2 grid-cols-1 lg:gap-10 gap-4 mx-2 justify-center ">
         <div className="flex justify-center">
