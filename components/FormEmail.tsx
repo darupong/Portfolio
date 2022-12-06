@@ -28,14 +28,14 @@ const FromEmail = () => {
   };
   return (
     <section className="">
-      <div className=" px-4 mx-auto max-w-screen-md">
+      <div className=" px-4 mx-auto max-w-screen-md min-h-screen">
         <h2 className="mb-4 text-[60px] font-bold text-center text-gray-900 dark:text-white">
           Contact Me
         </h2>
         <p className="mb-8 lg:mb-16 font-light text-center text-gray-500 dark:text-gray-400 sm:text-xl">
-          Email: <span className="text-[#36D399]">darupong000@gmail.com</span> <br />
-          Phone: <span className="text-[#36D399]">+66 89 733 7851</span> <br />
-          Address: <span className="text-[#36D399]">47/235 Soi Nong Rahaeng 3, Sam Wa
+          Email: <span className="dark:text-[#36D399] text-gray-500">darupong000@gmail.com</span> <br />
+          Phone: <span className="dark:text-[#36D399] text-gray-500">+66 89 733 7851</span> <br />
+          Address: <span className="dark:text-[#36D399] text-gray-500">47/235 Soi Nong Rahaeng 3, Sam Wa
           Tawan Tok Sub-district, Klong Sam Wa, Bangkok 10510</span>
         </p>
         <form action="#" className="space-y-8" ref={form} onSubmit={sendEmail}>
