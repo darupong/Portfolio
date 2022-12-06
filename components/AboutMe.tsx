@@ -89,7 +89,7 @@ const AboutMe = () => {
                     <code>⭐️ Tools:</code>
                   </pre>
                   <pre data-prefix=">" className="text-success">
-                    <code>✓ Unity , SparkAR , Wordpress</code>
+                    <code>✓ Unity,SparkAR,Wordpress,Vercel</code>
                   </pre>
                   <pre
                     data-prefix="$"
