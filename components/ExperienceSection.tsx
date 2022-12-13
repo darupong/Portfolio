@@ -25,6 +25,8 @@ import dance from "../public/img/dance.png";
 import guessqatar from "../public/img/guessqatar.gif";
 import chaddance from "../public/img/chaddance.gif";
 import chadface from "../public/img/Chadface.gif";
+import ukrbg from "../public/img/ukr.png";
+import ukrglf from "../public/img/ukrglf.gif";
 import Image from "next/image";
 
 const ExperienceSection = () => {
@@ -71,7 +73,7 @@ const ExperienceSection = () => {
                     <div className="flex items-center"></div>
                     <iframe
                       width="100%"
-                      height="215"
+                      height="300"
                       src="https://www.youtube.com/embed/afgIql0ypUU"
                       title="YouTube video player"
                       frameBorder="0"
@@ -478,13 +480,13 @@ const ExperienceSection = () => {
             </figure>
             <div className="card-body">
               <h2 className="card-title dark:text-[#A6ADBA] text-black text-[17px] font-bold">
-                Fifa World Cup 2022
+                Fifa World Cup Qatar 2022
               </h2>
               <div className="flex flex-row space-x-2">
                 <div className="badge badge-error font-bold">Filter Tiktok</div>
               </div>
               <p className="dark:text-[#A6ADBA] text-black">
-                Fifa World Cup 2022. a filter guess flag countries on Tiktok.
+                Fifa World Cup Qatar 2022. a filter guess flag countries on Tiktok.
               </p>
               <div className="card-actions justify-end">
                 <label htmlFor="qatarid" className="btn btn-accent">
@@ -494,10 +496,10 @@ const ExperienceSection = () => {
                 <div className="modal">
                   <div className="modal-box dark:bg-[#111827] bg-white">
                     <h3 className="font-bold text-lg dark:text-[#A6ADBA] text-black">
-                      Fifa World Cup 2022
+                      Fifa World Cup Qatar 2022
                     </h3>
                     <p className="py-4 dark:text-[#A6ADBA] text-black">
-                      Fifa World Cup 2022. a filter guess flag countries on
+                      Fifa World Cup Qatar 2022. a filter guess flag countries on
                       Tiktok.
                     </p>
                     <div className="justify-center flex">
@@ -656,6 +658,72 @@ const ExperienceSection = () => {
                     </div>
                     <div className="modal-action ">
                       <label htmlFor="my-modal7" className="btn">
+                        Close
+                      </label>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div className="flex justify-center">
+          <div className="card w-100 dark:bg-[#191D24] bg-[#EBEBEB] shadow-xl">
+            <figure>
+              <Image src={ukrbg} alt="Standwithukraine" />
+            </figure>
+            <div className="card-body">
+              <h2 className="card-title dark:text-[#A6ADBA] text-black text-[17px] font-bold">
+                STAND WITH UKRAINE
+              </h2>
+              <div className="flex flex-row space-x-2">
+                <div className="badge badge-error font-bold">Filter Tiktok</div>
+              </div>
+              <p className="dark:text-[#A6ADBA] text-black">
+                #STANDWITHUKRAINE #STOPTHEWAR Campaign. a filter face mask and background on Tiktok.
+              </p>
+              <div className="card-actions justify-end">
+                <label htmlFor="my-ukr" className="btn btn-accent">
+                  Try it!
+                </label>
+                <input
+                  type="checkbox"
+                  id="my-ukr"
+                  className="modal-toggle"
+                />
+                <div className="modal">
+                  <div className="modal-box dark:bg-[#111827] bg-white">
+                    <h3 className="font-bold text-lg dark:text-[#A6ADBA] text-black">
+                    STAND WITH UKRAINE
+                    </h3>
+                    <p className="py-4 dark:text-[#A6ADBA] text-black">
+                      #STANDWITHUKRAINE #STOPTHEWAR Campaign. a filter face mask and background on Tiktok.
+                    </p>
+                    <div className="justify-center flex">
+                      <Image
+                        src={ukrglf}
+                        alt="The Hidden Ghost"
+                        className="h-[300px] w-auto"
+                      />
+                    </div>
+                    <div className="justify-center flex pt-[5px] dark:text-[#A6ADBA] text-black">
+                      <h1>Click Here</h1>
+                    </div>
+                    <div className="justify-center flex space-x-4 pt-[20px]">
+                      <a
+                        href="https://vt.tiktok.com/ZS8NcCLPT/"
+                        target="_blank"
+                        rel="noreferrer"
+                      >
+                        <FaTiktok
+                          className=" w-6 h-6 text-black dark:text-white"
+                          role="button"
+                        />
+                      </a>
+                    </div>
+                    <div className="modal-action ">
+                      <label htmlFor="my-ukr" className="btn">
                         Close
                       </label>
                     </div>

@@ -51,7 +51,7 @@ const timeline = () => {
             </h3>
             <h3 className="mb-3 font-bold text-gray-800 md:text-xl text-sm">2021-2022</h3>
             <p className="text-sm font-medium leading-snug tracking-wide text-gray-900 text-opacity-100">
-              Develop Website with wordpress or Next.js and Filter Effect to share in social platform.
+              Develop Website with Wordpress or Next.js and Filter Effect to share in social platform.
             </p>
           </div>
         </div>
