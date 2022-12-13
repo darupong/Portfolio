@@ -48,7 +48,7 @@ const experiancepage = () => {
               <div className="flex flex-row space-x-2">
                 <div className="badge badge-accent font-bold">Next.js</div>
                 <div className="badge badge-primary font-bold">Vercel</div>
-                <div className="badge badge-ghost font-bold">Unity</div>
+                <div className="badge bg-[#8D8D8D] font-bold text-white border-0">Unity</div>
               </div>
               <p className="dark:text-[#A6ADBA] text-black">
                 A website is a promoting mobile game project that I did during
@@ -74,15 +74,15 @@ const experiancepage = () => {
                       The Hidden Ghost Demo (iOS/Android)
                     </h3>
                     <div className="flex items-center">
-                      <iframe
-                        width="100%"
-                        height="300"
-                        src="https://www.youtube.com/embed/4sYOvNpK_rU"
-                        title="YouTube video player"
-                        frameBorder="0"
-                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                        allowFullScreen
-                      ></iframe>
+                    <iframe
+                      width="100%"
+                      height="300"
+                      src="https://www.youtube.com/embed/4sYOvNpK_rU"
+                      title="YouTube video player"
+                      frameBorder="0"
+                      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                      allowFullScreen
+                    ></iframe>
                     </div>
                     <div className="card-actions justify-center py-[20px]">
                       <a
@@ -114,12 +114,15 @@ const experiancepage = () => {
             </figure>
             <div className="card-body">
               <h2 className="card-title dark:text-[#A6ADBA] text-black text-[17px] font-bold">
-                Global South-South Development Expo
+                Global South-South Development Expo 2022
               </h2>
               <div className="flex flex-row space-x-2">
                 <div className="badge badge-accent font-bold">Wordpress</div>
                 <div className="badge badge-secondary font-bold">
-                  Virtual Tour
+                  VirtualTour
+                </div>
+                <div className="badge bg-[#F06422] font-bold text-white border-0">
+                  WebGL
                 </div>
               </div>
               <p className="dark:text-[#A6ADBA] text-black">
@@ -154,7 +157,7 @@ const experiancepage = () => {
               <div className="flex flex-row space-x-2">
                 <div className="badge badge-accent font-bold">Wordpress</div>
                 <div className="badge badge-secondary font-bold">
-                  Virtual Tour
+                  VirtualTour
                 </div>
               </div>
               <p className="dark:text-[#A6ADBA] text-black">
@@ -246,7 +249,7 @@ const experiancepage = () => {
                 10YEARSWITHLAZADA
               </h2>
               <div className="flex flex-row space-x-2">
-                <div className="badge badge-error font-bold">Filter IG</div>
+              <div className="badge bg-[#405DE6] font-bold text-white border-0">Meta Spark</div>
               </div>
 
               <p className="dark:text-[#A6ADBA] text-black">
@@ -320,8 +323,8 @@ const experiancepage = () => {
                 CC-OO x Disney
               </h2>
               <div className="flex flex-row space-x-2">
-                <div className="badge badge-error font-bold">Filter IG</div>
-                <div className="badge badge-error font-bold">Filter Tiktok</div>
+                <div className="badge bg-[#405DE6] font-bold text-white border-0">Meta Spark</div>
+                <div className="badge bg-[#FF2B54] font-bold text-white border-0">Effect House</div>
               </div>
               <p className="dark:text-[#A6ADBA] text-black">
                 CC-OO x Disney Campaign. a filter face mask on Instagram
@@ -419,7 +422,7 @@ const experiancepage = () => {
                 Durex Come with Pride
               </h2>
               <div className="flex flex-row space-x-2">
-                <div className="badge badge-error font-bold">Filter IG</div>
+              <div className="badge bg-[#405DE6] font-bold text-white border-0">Meta Spark</div>
               </div>
               <p className="dark:text-[#A6ADBA] text-black">
                 Durex Come with Pride Campaign. a filter face mask on Instagram
@@ -487,11 +490,10 @@ const experiancepage = () => {
                 Fifa World Cup Qatar 2022
               </h2>
               <div className="flex flex-row space-x-2">
-                <div className="badge badge-error font-bold">Filter Tiktok</div>
+              <div className="badge bg-[#FF2B54] font-bold text-white border-0">Effect House</div>
               </div>
               <p className="dark:text-[#A6ADBA] text-black">
-                Fifa World Cup Qatar 2022. a filter guess flag countries on
-                Tiktok.
+                Fifa World Cup Qatar 2022. a filter guess flag countries on Tiktok.
               </p>
               <div className="card-actions justify-end">
                 <label htmlFor="qatarid" className="btn btn-accent">
@@ -504,8 +506,8 @@ const experiancepage = () => {
                       Fifa World Cup Qatar 2022
                     </h3>
                     <p className="py-4 dark:text-[#A6ADBA] text-black">
-                      Fifa World Cup Qatar 2022. a filter guess flag countries
-                      on Tiktok.
+                      Fifa World Cup Qatar 2022. a filter guess flag countries on
+                      Tiktok.
                     </p>
                     <div className="justify-center flex">
                       <Image
@@ -551,7 +553,7 @@ const experiancepage = () => {
                 Dance with Chadchart
               </h2>
               <div className="flex flex-row space-x-2">
-                <div className="badge badge-error font-bold">Filter Tiktok</div>
+              <div className="badge bg-[#FF2B54] font-bold text-white border-0">Effect House</div>
               </div>
               <p className="dark:text-[#A6ADBA] text-black">
                 Dance with Chadchart. a filter character drive on Tiktok.
@@ -617,7 +619,7 @@ const experiancepage = () => {
                 ChadChart Mask
               </h2>
               <div className="flex flex-row space-x-2">
-                <div className="badge badge-error font-bold">Filter Tiktok</div>
+              <div className="badge bg-[#FF2B54] font-bold text-white border-0">Effect House</div>
               </div>
               <p className="dark:text-[#A6ADBA] text-black">
                 ChadChart Mask. a filter face mask on Tiktok.
@@ -683,25 +685,27 @@ const experiancepage = () => {
                 STAND WITH UKRAINE
               </h2>
               <div className="flex flex-row space-x-2">
-                <div className="badge badge-error font-bold">Filter Tiktok</div>
+              <div className="badge bg-[#FF2B54] font-bold text-white border-0">Effect House</div>
               </div>
               <p className="dark:text-[#A6ADBA] text-black">
-                #STANDWITHUKRAINE #STOPTHEWAR Campaign. a filter face mask and
-                background on Tiktok.
+                #STANDWITHUKRAINE #STOPTHEWAR Campaign. a filter face mask and background on Tiktok.
               </p>
               <div className="card-actions justify-end">
                 <label htmlFor="my-ukr" className="btn btn-accent">
                   Try it!
                 </label>
-                <input type="checkbox" id="my-ukr" className="modal-toggle" />
+                <input
+                  type="checkbox"
+                  id="my-ukr"
+                  className="modal-toggle"
+                />
                 <div className="modal">
                   <div className="modal-box dark:bg-[#111827] bg-white">
                     <h3 className="font-bold text-lg dark:text-[#A6ADBA] text-black">
-                      STAND WITH UKRAINE
+                    STAND WITH UKRAINE
                     </h3>
                     <p className="py-4 dark:text-[#A6ADBA] text-black">
-                      #STANDWITHUKRAINE #STOPTHEWAR Campaign. a filter face mask
-                      and background on Tiktok.
+                      #STANDWITHUKRAINE #STOPTHEWAR Campaign. a filter face mask and background on Tiktok.
                     </p>
                     <div className="justify-center flex">
                       <Image
