@@ -54,13 +54,48 @@ const ExperienceSection = () => {
                 Phasmophobia.
               </p>
               <div className="card-actions justify-end">
-                <a
-                  href="https://hidden-ghost-next-website.vercel.app/"
-                  target="_blank"
-                  rel="noreferrer"
-                >
-                  <button className="btn btn-accent">Read More</button>
-                </a>
+                <label htmlFor="hdgid" className="btn btn-accent">
+                  Read More
+                </label>
+                <input type="checkbox" id="hdgid" className="modal-toggle" />
+                <div className="modal">
+                  <div className="modal-box dark:bg-[#111827] bg-white">
+                    <h3 className="font-bold text-lg dark:text-[#A6ADBA] text-black">
+                      The Hidden Ghost
+                    </h3>
+                    <p className="py-4 dark:text-[#A6ADBA] text-black">
+                      A website is a promoting mobile game project that I did
+                      during internship. The game is a detective game inspired
+                      by Phasmophobia.
+                    </p>
+                    <div className="flex items-center"></div>
+                    <iframe
+                      width="100%"
+                      height="215"
+                      src="https://www.youtube.com/embed/afgIql0ypUU"
+                      title="YouTube video player"
+                      frameBorder="0"
+                      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                      allowFullScreen
+                    ></iframe>
+                    <div className="card-actions justify-center py-[20px]">
+                      <a
+                        href="https://hidden-ghost-next-website.vercel.app/"
+                        target="_blank"
+                        rel="noreferrer"
+                      >
+                        <button className="btn btn-accent">
+                          Visit Website
+                        </button>
+                      </a>
+                    </div>
+                    <div className="modal-action ">
+                      <label htmlFor="hdgid" className="btn">
+                        Close
+                      </label>
+                    </div>
+                  </div>
+                </div>
               </div>
             </div>
           </div>
@@ -93,7 +128,7 @@ const ExperienceSection = () => {
                     target="_blank"
                     rel="noreferrer"
                   >
-                    <button className="btn btn-accent">Read More</button>
+                    <button className="btn btn-accent">Visit Website</button>
                   </a>
                 </div>
               </div>
@@ -126,7 +161,7 @@ const ExperienceSection = () => {
                   target="_blank"
                   rel="noreferrer"
                 >
-                  <button className="btn btn-accent">Read More</button>
+                  <button className="btn btn-accent">Visit Website</button>
                 </a>
               </div>
             </div>
@@ -157,7 +192,7 @@ const ExperienceSection = () => {
                   target="_blank"
                   rel="noreferrer"
                 >
-                  <button className="btn btn-accent">Read More</button>
+                  <button className="btn btn-accent">Visit Website</button>
                 </a>
               </div>
             </div>
@@ -188,7 +223,7 @@ const ExperienceSection = () => {
                   target="_blank"
                   rel="noreferrer"
                 >
-                  <button className="btn btn-accent">Read More</button>
+                  <button className="btn btn-accent">Visit Website</button>
                 </a>
               </div>
             </div>
@@ -452,14 +487,10 @@ const ExperienceSection = () => {
                 Fifa World Cup 2022. a filter guess flag countries on Tiktok.
               </p>
               <div className="card-actions justify-end">
-                <label htmlFor="my-modal4" className="btn btn-accent">
+                <label htmlFor="qatarid" className="btn btn-accent">
                   Try it!
                 </label>
-                <input
-                  type="checkbox"
-                  id="my-modal4"
-                  className="modal-toggle"
-                />
+                <input type="checkbox" id="qatarid" className="modal-toggle" />
                 <div className="modal">
                   <div className="modal-box dark:bg-[#111827] bg-white">
                     <h3 className="font-bold text-lg dark:text-[#A6ADBA] text-black">
@@ -492,7 +523,7 @@ const ExperienceSection = () => {
                       </a>
                     </div>
                     <div className="modal-action ">
-                      <label htmlFor="my-modal4" className="btn">
+                      <label htmlFor="qatarid" className="btn">
                         Close
                       </label>
                     </div>
