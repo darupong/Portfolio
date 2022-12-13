@@ -48,6 +48,7 @@ const ExperienceSection = () => {
               <div className="flex flex-row space-x-2">
                 <div className="badge badge-accent font-bold">Next.js</div>
                 <div className="badge badge-primary font-bold">Vercel</div>
+                <div className="badge bg-[#405DE6] font-bold text-white border-0">Xcode</div>
                 <div className="badge bg-[#8D8D8D] font-bold text-white border-0">Unity</div>
               </div>
               <p className="dark:text-[#A6ADBA] text-black">
