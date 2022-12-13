@@ -70,16 +70,20 @@ const ExperienceSection = () => {
                       during internship. The game is a detective game inspired
                       by Phasmophobia.
                     </p>
-                    <div className="flex items-center"></div>
+                    <h3 className="font-bold text-lg dark:text-[#A6ADBA] text-black py-4">
+                      The Hidden Ghost Demo (iOS/Android)
+                    </h3>
+                    <div className="flex items-center">
                     <iframe
                       width="100%"
                       height="300"
-                      src="https://www.youtube.com/embed/afgIql0ypUU"
+                      src="https://www.youtube.com/embed/4sYOvNpK_rU"
                       title="YouTube video player"
                       frameBorder="0"
                       allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                       allowFullScreen
                     ></iframe>
+                    </div>
                     <div className="card-actions justify-center py-[20px]">
                       <a
                         href="https://hidden-ghost-next-website.vercel.app/"

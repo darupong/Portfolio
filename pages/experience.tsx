@@ -70,16 +70,20 @@ const experiancepage = () => {
                       during internship. The game is a detective game inspired
                       by Phasmophobia.
                     </p>
-                    <div className="flex items-center"></div>
-                    <iframe
-                      width="100%"
-                      height="300"
-                      src="https://www.youtube.com/embed/afgIql0ypUU"
-                      title="YouTube video player"
-                      frameBorder="0"
-                      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                      allowFullScreen
-                    ></iframe>
+                    <h3 className="font-bold text-lg dark:text-[#A6ADBA] text-black py-4">
+                      The Hidden Ghost Demo (iOS/Android)
+                    </h3>
+                    <div className="flex items-center">
+                      <iframe
+                        width="100%"
+                        height="300"
+                        src="https://www.youtube.com/embed/4sYOvNpK_rU"
+                        title="YouTube video player"
+                        frameBorder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                        allowFullScreen
+                      ></iframe>
+                    </div>
                     <div className="card-actions justify-center py-[20px]">
                       <a
                         href="https://hidden-ghost-next-website.vercel.app/"
@@ -486,7 +490,8 @@ const experiancepage = () => {
                 <div className="badge badge-error font-bold">Filter Tiktok</div>
               </div>
               <p className="dark:text-[#A6ADBA] text-black">
-                Fifa World Cup Qatar 2022. a filter guess flag countries on Tiktok.
+                Fifa World Cup Qatar 2022. a filter guess flag countries on
+                Tiktok.
               </p>
               <div className="card-actions justify-end">
                 <label htmlFor="qatarid" className="btn btn-accent">
@@ -499,8 +504,8 @@ const experiancepage = () => {
                       Fifa World Cup Qatar 2022
                     </h3>
                     <p className="py-4 dark:text-[#A6ADBA] text-black">
-                      Fifa World Cup Qatar 2022. a filter guess flag countries on
-                      Tiktok.
+                      Fifa World Cup Qatar 2022. a filter guess flag countries
+                      on Tiktok.
                     </p>
                     <div className="justify-center flex">
                       <Image
@@ -681,24 +686,22 @@ const experiancepage = () => {
                 <div className="badge badge-error font-bold">Filter Tiktok</div>
               </div>
               <p className="dark:text-[#A6ADBA] text-black">
-                #STANDWITHUKRAINE #STOPTHEWAR Campaign. a filter face mask and background on Tiktok.
+                #STANDWITHUKRAINE #STOPTHEWAR Campaign. a filter face mask and
+                background on Tiktok.
               </p>
               <div className="card-actions justify-end">
                 <label htmlFor="my-ukr" className="btn btn-accent">
                   Try it!
                 </label>
-                <input
-                  type="checkbox"
-                  id="my-ukr"
-                  className="modal-toggle"
-                />
+                <input type="checkbox" id="my-ukr" className="modal-toggle" />
                 <div className="modal">
                   <div className="modal-box dark:bg-[#111827] bg-white">
                     <h3 className="font-bold text-lg dark:text-[#A6ADBA] text-black">
-                    STAND WITH UKRAINE
+                      STAND WITH UKRAINE
                     </h3>
                     <p className="py-4 dark:text-[#A6ADBA] text-black">
-                      #STANDWITHUKRAINE #STOPTHEWAR Campaign. a filter face mask and background on Tiktok.
+                      #STANDWITHUKRAINE #STOPTHEWAR Campaign. a filter face mask
+                      and background on Tiktok.
                     </p>
                     <div className="justify-center flex">
                       <Image
