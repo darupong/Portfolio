@@ -5,6 +5,7 @@ import {
   FaFacebookSquare,
   FaFacebookMessenger,
   FaTiktok,
+  FaGithub,
 } from "react-icons/fa";
 
 import hdg from "../public/img/HDG.png";
@@ -27,6 +28,9 @@ import chaddance from "../public/img/chaddance.gif";
 import chadface from "../public/img/Chadface.gif";
 import ukrbg from "../public/img/ukr.png";
 import ukrglf from "../public/img/ukrglf.gif";
+import Zem from "../public/img/ZEM.jpg";
+import Gnmp from "../public/img/GNMP.jpeg";
+import Erd from "../public/img/ERD.jpg";
 import Image from "next/image";
 
 const experiancepage = () => {
@@ -48,8 +52,12 @@ const experiancepage = () => {
               <div className="flex flex-row space-x-2">
                 <div className="badge badge-accent font-bold">Next.js</div>
                 <div className="badge badge-primary font-bold">Vercel</div>
-                <div className="badge bg-[#405DE6] font-bold text-white border-0">Xcode</div>
-                <div className="badge bg-[#8D8D8D] font-bold text-white border-0">Unity</div>
+                <div className="badge bg-[#405DE6] font-bold text-white border-0">
+                  Xcode
+                </div>
+                <div className="badge bg-[#8D8D8D] font-bold text-white border-0">
+                  Unity
+                </div>
               </div>
               <p className="dark:text-[#A6ADBA] text-black">
                 A website is a promoting mobile game project that I did during
@@ -75,15 +83,15 @@ const experiancepage = () => {
                       The Hidden Ghost Demo (iOS/Android)
                     </h3>
                     <div className="flex items-center">
-                    <iframe
-                      width="100%"
-                      height="300"
-                      src="https://www.youtube.com/embed/4sYOvNpK_rU"
-                      title="YouTube video player"
-                      frameBorder="0"
-                      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                      allowFullScreen
-                    ></iframe>
+                      <iframe
+                        width="100%"
+                        height="300"
+                        src="https://www.youtube.com/embed/4sYOvNpK_rU"
+                        title="YouTube video player"
+                        frameBorder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                        allowFullScreen
+                      ></iframe>
                     </div>
                     <div className="card-actions justify-center py-[20px]">
                       <a
@@ -250,7 +258,9 @@ const experiancepage = () => {
                 10YEARSWITHLAZADA
               </h2>
               <div className="flex flex-row space-x-2">
-              <div className="badge bg-[#405DE6] font-bold text-white border-0">Meta Spark</div>
+                <div className="badge bg-[#405DE6] font-bold text-white border-0">
+                  Meta Spark
+                </div>
               </div>
 
               <p className="dark:text-[#A6ADBA] text-black">
@@ -324,8 +334,12 @@ const experiancepage = () => {
                 CC-OO x Disney
               </h2>
               <div className="flex flex-row space-x-2">
-                <div className="badge bg-[#405DE6] font-bold text-white border-0">Meta Spark</div>
-                <div className="badge bg-[#FF2B54] font-bold text-white border-0">Effect House</div>
+                <div className="badge bg-[#405DE6] font-bold text-white border-0">
+                  Meta Spark
+                </div>
+                <div className="badge bg-[#FF2B54] font-bold text-white border-0">
+                  Effect House
+                </div>
               </div>
               <p className="dark:text-[#A6ADBA] text-black">
                 CC-OO x Disney Campaign. a filter face mask on Instagram
@@ -423,7 +437,9 @@ const experiancepage = () => {
                 Durex Come with Pride
               </h2>
               <div className="flex flex-row space-x-2">
-              <div className="badge bg-[#405DE6] font-bold text-white border-0">Meta Spark</div>
+                <div className="badge bg-[#405DE6] font-bold text-white border-0">
+                  Meta Spark
+                </div>
               </div>
               <p className="dark:text-[#A6ADBA] text-black">
                 Durex Come with Pride Campaign. a filter face mask on Instagram
@@ -491,10 +507,13 @@ const experiancepage = () => {
                 Fifa World Cup Qatar 2022
               </h2>
               <div className="flex flex-row space-x-2">
-              <div className="badge bg-[#FF2B54] font-bold text-white border-0">Effect House</div>
+                <div className="badge bg-[#FF2B54] font-bold text-white border-0">
+                  Effect House
+                </div>
               </div>
               <p className="dark:text-[#A6ADBA] text-black">
-                Fifa World Cup Qatar 2022. a filter guess flag countries on Tiktok.
+                Fifa World Cup Qatar 2022. a filter guess flag countries on
+                Tiktok.
               </p>
               <div className="card-actions justify-end">
                 <label htmlFor="qatarid" className="btn btn-accent">
@@ -507,8 +526,8 @@ const experiancepage = () => {
                       Fifa World Cup Qatar 2022
                     </h3>
                     <p className="py-4 dark:text-[#A6ADBA] text-black">
-                      Fifa World Cup Qatar 2022. a filter guess flag countries on
-                      Tiktok.
+                      Fifa World Cup Qatar 2022. a filter guess flag countries
+                      on Tiktok.
                     </p>
                     <div className="justify-center flex">
                       <Image
@@ -554,7 +573,9 @@ const experiancepage = () => {
                 Dance with Chadchart
               </h2>
               <div className="flex flex-row space-x-2">
-              <div className="badge bg-[#FF2B54] font-bold text-white border-0">Effect House</div>
+                <div className="badge bg-[#FF2B54] font-bold text-white border-0">
+                  Effect House
+                </div>
               </div>
               <p className="dark:text-[#A6ADBA] text-black">
                 Dance with Chadchart. a filter character drive on Tiktok.
@@ -620,7 +641,9 @@ const experiancepage = () => {
                 ChadChart Mask
               </h2>
               <div className="flex flex-row space-x-2">
-              <div className="badge bg-[#FF2B54] font-bold text-white border-0">Effect House</div>
+                <div className="badge bg-[#FF2B54] font-bold text-white border-0">
+                  Effect House
+                </div>
               </div>
               <p className="dark:text-[#A6ADBA] text-black">
                 ChadChart Mask. a filter face mask on Tiktok.
@@ -686,27 +709,27 @@ const experiancepage = () => {
                 STAND WITH UKRAINE
               </h2>
               <div className="flex flex-row space-x-2">
-              <div className="badge bg-[#FF2B54] font-bold text-white border-0">Effect House</div>
+                <div className="badge bg-[#FF2B54] font-bold text-white border-0">
+                  Effect House
+                </div>
               </div>
               <p className="dark:text-[#A6ADBA] text-black">
-                #STANDWITHUKRAINE #STOPTHEWAR Campaign. a filter face mask and background on Tiktok.
+                #STANDWITHUKRAINE #STOPTHEWAR Campaign. a filter face mask and
+                background on Tiktok.
               </p>
               <div className="card-actions justify-end">
                 <label htmlFor="my-ukr" className="btn btn-accent">
                   Try it!
                 </label>
-                <input
-                  type="checkbox"
-                  id="my-ukr"
-                  className="modal-toggle"
-                />
+                <input type="checkbox" id="my-ukr" className="modal-toggle" />
                 <div className="modal">
                   <div className="modal-box dark:bg-[#111827] bg-white">
                     <h3 className="font-bold text-lg dark:text-[#A6ADBA] text-black">
-                    STAND WITH UKRAINE
+                      STAND WITH UKRAINE
                     </h3>
                     <p className="py-4 dark:text-[#A6ADBA] text-black">
-                      #STANDWITHUKRAINE #STOPTHEWAR Campaign. a filter face mask and background on Tiktok.
+                      #STANDWITHUKRAINE #STOPTHEWAR Campaign. a filter face mask
+                      and background on Tiktok.
                     </p>
                     <div className="justify-center flex">
                       <Image
@@ -732,6 +755,199 @@ const experiancepage = () => {
                     </div>
                     <div className="modal-action ">
                       <label htmlFor="my-ukr" className="btn">
+                        Close
+                      </label>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <h1 className="text-[60px] font-bold text-center py-[50px] dark:text-white text-gray-800">
+        Student Project
+      </h1>
+      <div className="grid lg:grid-cols-3 md:grid-cols-2 grid-cols-1 lg:gap-10 gap-4 mx-2 justify-center ">
+        <div className="flex justify-center">
+          <div className="card w-100 dark:bg-[#191D24] bg-[#EBEBEB] shadow-xl">
+            <figure>
+              <Image src={Zem} alt="The Hidden Ghost" />
+            </figure>
+            <div className="card-body">
+              <h2 className="card-title dark:text-[#A6ADBA] text-black text-[17px] font-bold">
+                Zombie Evil Multiplayer
+              </h2>
+              <div className="flex flex-row space-x-2">
+                <div className="badge bg-[#8D8D8D] font-bold text-white border-0">
+                  Unity
+                </div>
+                <div className="badge bg-[#026E00] font-bold">Node.js</div>
+                <div className="badge bg-[#405DE6] font-bold text-white border-0">
+                  Socket.io
+                </div>
+              </div>
+              <p className="dark:text-[#A6ADBA] text-black">
+                The university final project, Computer Game Multimedia. The game
+                is a Top view shooting Multiplayer on Google CloudPlatform.
+              </p>
+              <div className="card-actions justify-end">
+                <label htmlFor="zemid" className="btn btn-accent">
+                  Read More
+                </label>
+                <input type="checkbox" id="zemid" className="modal-toggle" />
+                <div className="modal">
+                  <div className="modal-box dark:bg-[#111827] bg-white">
+                    <h3 className="font-bold text-lg dark:text-[#A6ADBA] text-black">
+                      Zombie Evil Multiplayer
+                    </h3>
+                    <p className="py-4 dark:text-[#A6ADBA] text-black">
+                      The university final project, Computer Game Multimedia.
+                      The game is a Top view shooting Multiplayer on Google
+                      CloudPlatform.
+                    </p>
+                    <h3 className="font-bold text-lg dark:text-[#A6ADBA] text-black py-4">
+                      Zombie Evil Multiplayer Gameplay
+                    </h3>
+                    <div className="flex items-center">
+                      <iframe
+                        width="100%"
+                        height="250"
+                        src="https://www.youtube.com/embed/9qpuxchOmIU"
+                        title="YouTube video player"
+                        frameBorder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                        allowFullScreen
+                      ></iframe>
+                    </div>
+                    <div className="modal-action ">
+                      <label htmlFor="zemid" className="btn">
+                        Close
+                      </label>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div className="flex justify-center">
+          <div className="card w-100 dark:bg-[#191D24] bg-[#EBEBEB] shadow-xl">
+            <figure>
+              <Image src={Gnmp} alt="The Hidden Ghost" />
+            </figure>
+            <div className="card-body">
+              <h2 className="card-title dark:text-[#A6ADBA] text-black text-[17px] font-bold">
+                Guess Number Multiplayer
+              </h2>
+              <div className="flex flex-row space-x-2">
+                <div className="badge bg-[#8D8D8D] font-bold text-white border-0">
+                  Unity
+                </div>
+                <div className="badge bg-[#026E00] font-bold">Node.js</div>
+              </div>
+              <p className="dark:text-[#A6ADBA] text-black">
+                The university midterm project, Computer Game Multimedia. The
+                game is a Guess number on local server with node.js
+              </p>
+              <div className="card-actions justify-end">
+                <label htmlFor="gnid" className="btn btn-accent">
+                  Read More
+                </label>
+                <input type="checkbox" id="gnid" className="modal-toggle" />
+                <div className="modal">
+                  <div className="modal-box dark:bg-[#111827] bg-white">
+                    <h3 className="font-bold text-lg dark:text-[#A6ADBA] text-black">
+                      Guess Number Multiplayer
+                    </h3>
+                    <p className="py-4 dark:text-[#A6ADBA] text-black">
+                      The university midterm project, Computer Game Multimedia.
+                      The game is a Guess number on local server with node.js
+                    </p>
+                    <h3 className="font-bold text-lg dark:text-[#A6ADBA] text-black py-4">
+                      Guess Number Multiplayer Gameplay
+                    </h3>
+                    <div className="flex items-center">
+                      <iframe
+                        width="100%"
+                        height="250"
+                        src="https://www.youtube.com/embed/opWaJTqb_dQ"
+                        title="YouTube video player"
+                        frameBorder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                        allowFullScreen
+                      ></iframe>
+                    </div>
+                    <div className="card-actions justify-center py-[20px]">
+                      <a
+                        href="https://github.com/darupong/guess-number-game"
+                        target="_blank"
+                        rel="noreferrer"
+                      >
+                        <button className="btn btn-accent">View Github</button>
+                      </a>
+                    </div>
+                    <div className="modal-action ">
+                      <label htmlFor="gnid" className="btn">
+                        Close
+                      </label>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div className="flex justify-center">
+          <div className="card w-100 dark:bg-[#191D24] bg-[#EBEBEB] shadow-xl">
+            <figure>
+              <Image src={Erd} alt="The Hidden Ghost" />
+            </figure>
+            <div className="card-body">
+              <h2 className="card-title dark:text-[#A6ADBA] text-black text-[17px] font-bold">
+                Ellen Raider 🏺
+              </h2>
+              <div className="flex flex-row space-x-2">
+                <div className="badge bg-[#8D8D8D] font-bold text-white border-0">
+                  Unity
+                </div>
+              </div>
+              <p className="dark:text-[#A6ADBA] text-black">
+                The university final project, 3D Game Development. The game is a
+                adventure 3D game inspired by Tomb Raider.
+              </p>
+              <div className="card-actions justify-end">
+                <label htmlFor="erid" className="btn btn-accent">
+                  Read More
+                </label>
+                <input type="checkbox" id="erid" className="modal-toggle" />
+                <div className="modal">
+                  <div className="modal-box dark:bg-[#111827] bg-white">
+                    <h3 className="font-bold text-lg dark:text-[#A6ADBA] text-black">
+                      Ellen Raider
+                    </h3>
+                    <p className="py-4 dark:text-[#A6ADBA] text-black">
+                      The university final project, 3D Game Development. The
+                      game is a adventure 3D game inspired by Tomb Raider.
+                    </p>
+                    <h3 className="font-bold text-lg dark:text-[#A6ADBA] text-black py-4">
+                      Ellen Raider Gameplay
+                    </h3>
+                    <div className="flex items-center">
+                      <iframe
+                        width="100%"
+                        height="250"
+                        src="https://www.youtube.com/embed/hK4O0yWeKXk"
+                        title="YouTube video player"
+                        frameBorder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                        allowFullScreen
+                      ></iframe>
+                    </div>
+                    <div className="modal-action ">
+                      <label htmlFor="erid" className="btn">
                         Close
                       </label>
                     </div>

@@ -33,10 +33,21 @@ const FromEmail = () => {
           Contact Me
         </h2>
         <p className="mb-8 lg:mb-16 font-light text-center text-gray-500 dark:text-gray-400 sm:text-xl">
-          Email: <span className="dark:text-[#36D399] text-gray-500">darupong000@gmail.com</span> <br />
-          Phone: <span className="dark:text-[#36D399] text-gray-500">+66 89 733 7851</span> <br />
-          Address: <span className="dark:text-[#36D399] text-gray-500">47/235 Soi Nong Rahaeng 3, Sam Wa
-          Tawan Tok Sub-district, Klong Sam Wa, Bangkok 10510</span>
+          Email:{" "}
+          <span className="dark:text-[#36D399] text-gray-500">
+            darupong000@gmail.com
+          </span>{" "}
+          <br />
+          Phone:{" "}
+          <span className="dark:text-[#36D399] text-gray-500">
+            +66 89 733 7851
+          </span>{" "}
+          <br />
+          Address:{" "}
+          <span className="dark:text-[#36D399] text-gray-500">
+            47/235 Soi Nong Rahaeng 3, Sam Wa Tawan Tok Sub-district, Klong Sam
+            Wa, Bangkok 10510
+          </span>
         </p>
         <form action="#" className="space-y-8" ref={form} onSubmit={sendEmail}>
           <div>
@@ -80,18 +91,18 @@ const FromEmail = () => {
             </label>
             <textarea
               name="message"
-              className="block p-2.5 w-full text-sm text-gray-900 bg-gray-50 rounded-lg shadow-sm border border-gray-300 focus:ring-primary-500 focus:border-primary-500 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-primary-500 dark:focus:border-primary-500"
+              className="block p-2.5 w-full h-[200px] text-sm text-gray-900 bg-gray-50 rounded-lg shadow-sm border border-gray-300 focus:ring-primary-500 focus:border-primary-500 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-primary-500 dark:focus:border-primary-500"
               placeholder="Leave a comment..."
             ></textarea>
           </div>
           <div className="flex justify-center pb-[20px]">
-          <button
-            className="btn btn-success text-white"
-            type="submit"
-            onSubmit={sendEmail}
-          >
-            Send
-          </button>
+            <button
+              className="btn btn-success text-white"
+              type="submit"
+              onSubmit={sendEmail}
+            >
+              Send
+            </button>
           </div>
         </form>
       </div>
