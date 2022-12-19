@@ -31,6 +31,8 @@ import ukrglf from "../public/img/ukrglf.gif";
 import Zem from "../public/img/ZEM.jpg";
 import Gnmp from "../public/img/GNMP.jpeg";
 import Erd from "../public/img/ERD.jpg";
+import Ecl from "../public/img/ECL.png";
+import Adr from "../public/img/Adventure.png";
 import Image from "next/image";
 
 const experiancepage = () => {
@@ -782,7 +784,9 @@ const experiancepage = () => {
                 <div className="badge bg-[#8D8D8D] font-bold text-white border-0">
                   Unity
                 </div>
-                <div className="badge bg-[#026E00] font-bold">Node.js</div>
+                <div className="badge bg-[#026E00] font-bold text-white">
+                  Node.js
+                </div>
                 <div className="badge bg-[#405DE6] font-bold text-white border-0">
                   Socket.io
                 </div>
@@ -845,7 +849,9 @@ const experiancepage = () => {
                 <div className="badge bg-[#8D8D8D] font-bold text-white border-0">
                   Unity
                 </div>
-                <div className="badge bg-[#026E00] font-bold">Node.js</div>
+                <div className="badge bg-[#026E00] font-bold text-white">
+                  Node.js
+                </div>
               </div>
               <p className="dark:text-[#A6ADBA] text-black">
                 The university midterm project, Computer Game Multimedia. The
@@ -915,8 +921,8 @@ const experiancepage = () => {
                 </div>
               </div>
               <p className="dark:text-[#A6ADBA] text-black">
-                The university final project, 3D Game Development. The game is a
-                adventure 3D game inspired by Tomb Raider.
+                The university final project, CGM245 3D Game Development. The
+                game is a adventure 3D game inspired by Tomb Raider.
               </p>
               <div className="card-actions justify-end">
                 <label htmlFor="erid" className="btn btn-accent">
@@ -948,6 +954,120 @@ const experiancepage = () => {
                     </div>
                     <div className="modal-action ">
                       <label htmlFor="erid" className="btn">
+                        Close
+                      </label>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div className="flex justify-center">
+          <div className="card w-100 dark:bg-[#191D24] bg-[#EBEBEB] shadow-xl">
+            <figure>
+              <Image src={Ecl} alt="The Hidden Ghost" />
+            </figure>
+            <div className="card-body">
+              <h2 className="card-title dark:text-[#A6ADBA] text-black text-[17px] font-bold">
+                Eclipse 2021
+              </h2>
+              <div className="flex flex-row space-x-2">
+                <div className="badge bg-[#8D8D8D] font-bold text-white border-0">
+                  Unity
+                </div>
+              </div>
+              <p className="dark:text-[#A6ADBA] text-black">
+                The university final project, CGM392 Project Game. The game is a
+                side scrolling theme ancient aztec inspired by Castlevania.
+              </p>
+              <div className="card-actions justify-end">
+                <label htmlFor="elid" className="btn btn-accent">
+                  Read More
+                </label>
+                <input type="checkbox" id="elid" className="modal-toggle" />
+                <div className="modal">
+                  <div className="modal-box dark:bg-[#111827] bg-white">
+                    <h3 className="font-bold text-lg dark:text-[#A6ADBA] text-black">
+                    Eclipse 2021
+                    </h3>
+                    <p className="py-4 dark:text-[#A6ADBA] text-black">
+                      The university final project, CGM392 Project Game. The
+                      game is a side scrolling theme ancient aztec inspired by Castlevania.
+                    </p>
+                    <h3 className="font-bold text-lg dark:text-[#A6ADBA] text-black py-4">
+                    Eclipse 2021 Gameplay
+                    </h3>
+                    <div className="flex items-center">
+                      <iframe
+                        width="100%"
+                        height="250"
+                        src="https://www.youtube.com/embed/dmLP8nstZsk"
+                        title="YouTube video player"
+                        frameBorder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                        allowFullScreen
+                      ></iframe>
+                    </div>
+                    <div className="modal-action ">
+                      <label htmlFor="elid" className="btn">
+                        Close
+                      </label>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div className="flex justify-center">
+          <div className="card w-100 dark:bg-[#191D24] bg-[#EBEBEB] shadow-xl">
+            <figure>
+              <Image src={Adr} alt="The Hidden Ghost" />
+            </figure>
+            <div className="card-body">
+              <h2 className="card-title dark:text-[#A6ADBA] text-black text-[17px] font-bold">
+                Adventure Island Remake 2020
+              </h2>
+              <div className="flex flex-row space-x-2">
+                <div className="badge bg-[#8D8D8D] font-bold text-white border-0">
+                  Unity
+                </div>
+              </div>
+              <p className="dark:text-[#A6ADBA] text-black">
+                The university final project, CGM391 Project Game. The game is remake from Adventure Island 1986.
+              </p>
+              <div className="card-actions justify-end">
+                <label htmlFor="adrid" className="btn btn-accent">
+                  Read More
+                </label>
+                <input type="checkbox" id="adrid" className="modal-toggle" />
+                <div className="modal">
+                  <div className="modal-box dark:bg-[#111827] bg-white">
+                    <h3 className="font-bold text-lg dark:text-[#A6ADBA] text-black">
+                    Adventure Island Remake 2020
+                    </h3>
+                    <p className="py-4 dark:text-[#A6ADBA] text-black">
+                    The university final project, CGM391 Project Game. The game is remake from Adventure Island 1986.
+                    </p>
+                    <h3 className="font-bold text-lg dark:text-[#A6ADBA] text-black py-4">
+                    Adventure Island Remake 2020 Gameplay
+                    </h3>
+                    <div className="flex items-center">
+                      <iframe
+                        width="100%"
+                        height="250"
+                        src="https://www.youtube.com/embed/nvsTy5_C7kg"
+                        title="YouTube video player"
+                        frameBorder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                        allowFullScreen
+                      ></iframe>
+                    </div>
+                    <div className="modal-action ">
+                      <label htmlFor="adrid" className="btn">
                         Close
                       </label>
                     </div>
