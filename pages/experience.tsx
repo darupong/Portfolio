@@ -33,6 +33,7 @@ import Gnmp from "../public/img/GNMP.jpeg";
 import Erd from "../public/img/ERD.jpg";
 import Ecl from "../public/img/ECL.png";
 import Adr from "../public/img/Adventure.png";
+import Itz from "../public/img/ITZ.jpg";
 import Image from "next/image";
 
 const experiancepage = () => {
@@ -640,7 +641,7 @@ const experiancepage = () => {
             </figure>
             <div className="card-body">
               <h2 className="card-title dark:text-[#A6ADBA] text-black text-[17px] font-bold">
-                ChadChart Mask
+                Chadchart Mask
               </h2>
               <div className="flex flex-row space-x-2">
                 <div className="badge bg-[#FF2B54] font-bold text-white border-0">
@@ -648,7 +649,7 @@ const experiancepage = () => {
                 </div>
               </div>
               <p className="dark:text-[#A6ADBA] text-black">
-                ChadChart Mask. a filter face mask on Tiktok.
+                Chadchart Mask. a filter face mask on Tiktok.
               </p>
               <div className="card-actions justify-end">
                 <label htmlFor="my-modal7" className="btn btn-accent">
@@ -662,10 +663,10 @@ const experiancepage = () => {
                 <div className="modal">
                   <div className="modal-box dark:bg-[#111827] bg-white">
                     <h3 className="font-bold text-lg dark:text-[#A6ADBA] text-black">
-                      ChadChart Mask
+                      Chadchart Mask
                     </h3>
                     <p className="py-4 dark:text-[#A6ADBA] text-black">
-                      ChadChart Mask. a filter face mask on Tiktok.
+                      Chadchart Mask. a filter face mask on Tiktok.
                     </p>
                     <div className="justify-center flex">
                       <Image
@@ -774,7 +775,7 @@ const experiancepage = () => {
         <div className="flex justify-center">
           <div className="card w-100 dark:bg-[#191D24] bg-[#EBEBEB] shadow-xl">
             <figure>
-              <Image src={Zem} alt="The Hidden Ghost" />
+              <Image src={Zem} alt="Zombie Evil Multiplayer" />
             </figure>
             <div className="card-body">
               <h2 className="card-title dark:text-[#A6ADBA] text-black text-[17px] font-bold">
@@ -839,7 +840,7 @@ const experiancepage = () => {
         <div className="flex justify-center">
           <div className="card w-100 dark:bg-[#191D24] bg-[#EBEBEB] shadow-xl">
             <figure>
-              <Image src={Gnmp} alt="The Hidden Ghost" />
+              <Image src={Gnmp} alt="Guess Number Multiplayer" />
             </figure>
             <div className="card-body">
               <h2 className="card-title dark:text-[#A6ADBA] text-black text-[17px] font-bold">
@@ -909,7 +910,7 @@ const experiancepage = () => {
         <div className="flex justify-center">
           <div className="card w-100 dark:bg-[#191D24] bg-[#EBEBEB] shadow-xl">
             <figure>
-              <Image src={Erd} alt="The Hidden Ghost" />
+              <Image src={Erd} alt="Ellen Raider" />
             </figure>
             <div className="card-body">
               <h2 className="card-title dark:text-[#A6ADBA] text-black text-[17px] font-bold">
@@ -967,7 +968,7 @@ const experiancepage = () => {
         <div className="flex justify-center">
           <div className="card w-100 dark:bg-[#191D24] bg-[#EBEBEB] shadow-xl">
             <figure>
-              <Image src={Ecl} alt="The Hidden Ghost" />
+              <Image src={Ecl} alt="Eclipse 2021" />
             </figure>
             <div className="card-body">
               <h2 className="card-title dark:text-[#A6ADBA] text-black text-[17px] font-bold">
@@ -990,14 +991,15 @@ const experiancepage = () => {
                 <div className="modal">
                   <div className="modal-box dark:bg-[#111827] bg-white">
                     <h3 className="font-bold text-lg dark:text-[#A6ADBA] text-black">
-                    Eclipse 2021
+                      Eclipse 2021
                     </h3>
                     <p className="py-4 dark:text-[#A6ADBA] text-black">
                       The university final project, CGM392 Project Game. The
-                      game is a side scrolling theme ancient aztec inspired by Castlevania.
+                      game is a side scrolling theme ancient aztec inspired by
+                      Castlevania.
                     </p>
                     <h3 className="font-bold text-lg dark:text-[#A6ADBA] text-black py-4">
-                    Eclipse 2021 Gameplay
+                      Eclipse 2021 Gameplay
                     </h3>
                     <div className="flex items-center">
                       <iframe
@@ -1025,7 +1027,7 @@ const experiancepage = () => {
         <div className="flex justify-center">
           <div className="card w-100 dark:bg-[#191D24] bg-[#EBEBEB] shadow-xl">
             <figure>
-              <Image src={Adr} alt="The Hidden Ghost" />
+              <Image src={Adr} alt="Adventure Island" />
             </figure>
             <div className="card-body">
               <h2 className="card-title dark:text-[#A6ADBA] text-black text-[17px] font-bold">
@@ -1037,7 +1039,8 @@ const experiancepage = () => {
                 </div>
               </div>
               <p className="dark:text-[#A6ADBA] text-black">
-                The university final project, CGM391 Project Game. The game is remake from Adventure Island 1986.
+                The university final project, CGM391 Project Game. The game is
+                remake from Adventure Island 1986.
               </p>
               <div className="card-actions justify-end">
                 <label htmlFor="adrid" className="btn btn-accent">
@@ -1047,13 +1050,14 @@ const experiancepage = () => {
                 <div className="modal">
                   <div className="modal-box dark:bg-[#111827] bg-white">
                     <h3 className="font-bold text-lg dark:text-[#A6ADBA] text-black">
-                    Adventure Island Remake 2020
+                      Adventure Island Remake 2020
                     </h3>
                     <p className="py-4 dark:text-[#A6ADBA] text-black">
-                    The university final project, CGM391 Project Game. The game is remake from Adventure Island 1986.
+                      The university final project, CGM391 Project Game. The
+                      game is remake from Adventure Island 1986.
                     </p>
                     <h3 className="font-bold text-lg dark:text-[#A6ADBA] text-black py-4">
-                    Adventure Island Remake 2020 Gameplay
+                      Adventure Island Remake 2020 Gameplay
                     </h3>
                     <div className="flex items-center">
                       <iframe
@@ -1068,6 +1072,66 @@ const experiancepage = () => {
                     </div>
                     <div className="modal-action ">
                       <label htmlFor="adrid" className="btn">
+                        Close
+                      </label>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div className="flex justify-center">
+          <div className="card w-100 dark:bg-[#191D24] bg-[#EBEBEB] shadow-xl">
+            <figure>
+              <Image src={Itz} alt="Into The Zombieland" />
+            </figure>
+            <div className="card-body">
+              <h2 className="card-title dark:text-[#A6ADBA] text-black text-[17px] font-bold">
+                Into The Zombieland
+              </h2>
+              <div className="flex flex-row space-x-2">
+                <div className="badge bg-[#8D8D8D] font-bold text-white border-0">
+                  Unity
+                </div>
+              </div>
+              <p className="dark:text-[#A6ADBA] text-black">
+                The university final project, CGM242 2D Game Development. The
+                game is a adventure side scrolling game inspired by Alien
+                Shooter.
+              </p>
+              <div className="card-actions justify-end">
+                <label htmlFor="itzid" className="btn btn-accent">
+                  Read More
+                </label>
+                <input type="checkbox" id="itzid" className="modal-toggle" />
+                <div className="modal">
+                  <div className="modal-box dark:bg-[#111827] bg-white">
+                    <h3 className="font-bold text-lg dark:text-[#A6ADBA] text-black">
+                      Into The Zombieland
+                    </h3>
+                    <p className="py-4 dark:text-[#A6ADBA] text-black">
+                      The university final project, CGM242 2D Game Development.
+                      The game is a adventure side scrolling game inspired by
+                      Alien Shooter.
+                    </p>
+                    <h3 className="font-bold text-lg dark:text-[#A6ADBA] text-black py-4">
+                      Into The Zombieland Gameplay
+                    </h3>
+                    <div className="flex items-center">
+                      <iframe
+                        width="100%"
+                        height="250"
+                        src="https://www.youtube.com/embed/iDwncw6vwLE"
+                        title="YouTube video player"
+                        frameBorder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                        allowFullScreen
+                      ></iframe>
+                    </div>
+                    <div className="modal-action ">
+                      <label htmlFor="itzid" className="btn">
                         Close
                       </label>
                     </div>
