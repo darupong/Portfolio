@@ -47,7 +47,9 @@ const Footer = (): JSX.Element => {
         </div>
       </div>
       <div>
-        <p className="dark:text-white text-black">Copyright © 2022 - All right reserved by Darupong Chouypu</p>
+        <p className="dark:text-white text-black">
+          Copyright © 2023 - All right reserved by Darupong Chouypu
+        </p>
       </div>
     </footer>
   );
