@@ -86,7 +86,7 @@ const timeline = () => {
               Pi R Square
             </h3>
             <h3 className="mb-3 font-bold text-white md:text-xl text-sm">
-              2018-2021
+              2023
             </h3>
             <p className="text-sm font-medium leading-snug tracking-wide text-white text-opacity-100">
               [<span className="text-[#36D399]"> Front-end Developer </span>]
