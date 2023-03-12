@@ -21,7 +21,7 @@ const HeroSection = () => {
             <p
               className={`${css.animated} font-bold md:text-[50px] text-[20px] pt-[10px]`}
             >
-              Front-end Developer
+              Front-End Developer 5
             </p>
           </div>
         </div>

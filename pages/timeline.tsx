@@ -67,9 +67,13 @@ const timeline = () => {
               2021-2022
             </h3>
             <p className="text-sm font-medium leading-snug tracking-wide text-gray-900 text-opacity-100">
-              [<span className="text-white"> Software Programmer </span>]
-              Develop Website with Wordpress, Next.js and Filter Effect to share
-              in social platform.
+              [
+              <span className="dark:text-white text-black">
+                {" "}
+                Software Programmer{" "}
+              </span>
+              ] Develop Website with Wordpress, Next.js and Filter Effect to
+              share in social platform.
             </p>
           </div>
         </div>
