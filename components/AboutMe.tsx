@@ -77,7 +77,7 @@ const AboutMe = () => {
                     <code>⭐️ Library:</code>
                   </pre>
                   <pre data-prefix=">" className="text-success">
-                    <code>✓ React , Tailwind CSS , DaisyUI</code>
+                    <code>✓ React , Tailwind , DaisyUI</code>
                   </pre>
                   <pre data-prefix=">" className="text-warning">
                     <code>⭐️ Programming Language:</code>
@@ -89,7 +89,7 @@ const AboutMe = () => {
                     <code>⭐️ Tools:</code>
                   </pre>
                   <pre data-prefix=">" className="text-success">
-                    <code>✓ Unity,SparkAR,Wordpress,Vercel</code>
+                    <code>✓ Unity , Wordpress , Vercel</code>
                   </pre>
                   <pre
                     data-prefix="$"
