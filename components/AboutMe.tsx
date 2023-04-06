@@ -46,7 +46,7 @@ const AboutMe = () => {
                     <code>✓ Major: Computer Game Multimedia</code>
                   </pre>
                   <pre data-prefix=">" className="text-success">
-                    <code>✓ Position: Software Programmer</code>
+                    <code>✓ Position: Front-end Developer</code>
                   </pre>
                   <pre data-prefix=">" className="text-success">
                     <code>✓ Work Experiance: 1+</code>
@@ -71,13 +71,13 @@ const AboutMe = () => {
                     <code>⭐️ Framework:</code>
                   </pre>
                   <pre data-prefix=">" className="text-success">
-                    <code>✓ Next.js , React Native </code>
+                    <code>✓ Next.js , Vite </code>
                   </pre>
                   <pre data-prefix=">" className="text-warning">
                     <code>⭐️ Library:</code>
                   </pre>
                   <pre data-prefix=">" className="text-success">
-                    <code>✓ React , Tailwind , DaisyUI</code>
+                    <code>✓ Tailwind , DaisyUI , Antd</code>
                   </pre>
                   <pre data-prefix=">" className="text-warning">
                     <code>⭐️ Programming Language:</code>
@@ -104,7 +104,7 @@ const AboutMe = () => {
               <div className="flex flex-col mx-[100px] text-center dark:text-[#A6ADBA] text-black">
                 <h1>
                   I work as a{" "}
-                  <span className=" text-[#36D399]">Software Programmer</span>{" "}
+                  <span className=" text-[#36D399]">Front-end Developer</span>{" "}
                   and{" "}
                   <span className=" text-[#36D399]">Filter Effect Creater</span>{" "}
                   and I am interested in learning about Frontend Developer,
