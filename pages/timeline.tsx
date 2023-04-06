@@ -94,7 +94,8 @@ const timeline = () => {
             </h3>
             <p className="text-sm font-medium leading-snug tracking-wide text-white text-opacity-100">
               [<span className="text-[#36D399]"> Front-end Developer </span>]
-              Develop website and appication with React.js and Nest.js
+              Develop website with React.js , Nest.js and mobile appication from
+              iOS and Android
             </p>
           </div>
         </div>
