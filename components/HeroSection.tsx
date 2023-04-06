@@ -10,7 +10,7 @@ const HeroSection = () => {
             className={` py-[200px] flex flex-col items-center justify-center`}
           >
             <p className=" font-bold md:text-[100px] text-[30px] text-white">
-              My Portfolio
+              My Portfolio 🧑‍💻
             </p>
             <p className=" font-bold md:text-[50px] text-[20px] text-white dark:text-[#36D399]">
               My name is{" "}
