@@ -61,7 +61,7 @@ const ResumeSection = () => {
           </div>
           <div className="order-1 dark:bg-gray-400 bg-[#EBEBEB] rounded-lg shadow-xl w-5/12 px-6 py-4">
             <h3 className="mb-3 font-bold text-gray-800 md:text-xl text-sm">
-              VIZ STUDIO
+              VIZ STUDIO Co.,Ltd.
             </h3>
             <h3 className="mb-3 font-bold text-gray-800 md:text-xl text-sm">
               2021-2022
@@ -87,7 +87,7 @@ const ResumeSection = () => {
           </div>
           <div className="order-1 bg-[#191D24] rounded-lg shadow-xl w-5/12 px-6 py-4">
             <h3 className="mb-3 font-bold text-white md:text-xl text-sm">
-              Pi R Square
+              Pi R Square Co.,Ltd.
             </h3>
             <h3 className="mb-3 font-bold text-white md:text-xl text-sm">
               2023
