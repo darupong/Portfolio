@@ -8,6 +8,7 @@ import {
   FaLine,
   FaLinkedin,
 } from "react-icons/fa";
+import { SiNextdotjs } from "react-icons/si";
 
 const Footer = (): JSX.Element => {
   return (
@@ -50,6 +51,10 @@ const Footer = (): JSX.Element => {
         <p className="dark:text-white text-black">
           Copyright © 2023 - All right reserved by Darupong Chouypu
         </p>
+        <div className=" flex flex-row gap-2 items-center">
+          <p className="dark:text-white text-black">Powered by Next.js</p>
+          <SiNextdotjs className=" w-6 h-6 text-black dark:text-white" />
+        </div>
       </div>
     </footer>
   );
