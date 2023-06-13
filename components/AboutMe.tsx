@@ -1,7 +1,7 @@
 /* eslint-disable react/no-unescaped-entities */
 import React from "react";
 import Image from "next/image";
-import logo from "../public/img/myimg.png";
+import logo from "../public/img/aboutimg.webp";
 
 const AboutMe = () => {
   return (
@@ -25,7 +25,7 @@ const AboutMe = () => {
                     data-prefix="$"
                     className="dark:text-[#A6ADBA] text-black"
                   >
-                    <code>npm i 'About Me'</code>
+                    <code>pnpm i 'About Me'</code>
                   </pre>
                   <pre data-prefix=">" className="text-warning">
                     <code>✓ Name: Darupong Chouypu</code>
@@ -106,13 +106,13 @@ const AboutMe = () => {
                   I work as a{" "}
                   <span className=" text-[#36D399]">Front-end Developer</span>{" "}
                   and{" "}
-                  <span className=" text-[#36D399]">Filter Effect Creater</span>{" "}
+                  <span className=" text-[#36D399]">Content Creater</span>{" "}
                   and I am interested in learning about Frontend Developer,
-                  Mobile Appication from React Native and Android Studio.
+                  Mobile Appication from React Native.
                 </h1>
                 <h1>
-                  I've previously worked on game development, Filter Creater
-                  from Instagram and Tiktok, Virtual tour on website and
+                  I've previously worked on <span className=" text-[#36D399]">Game Development</span> , Filter Creater
+                  from Instagram or Tiktok , Virtual tour on website and
                   Augmented reality on website.
                 </h1>
               </div>

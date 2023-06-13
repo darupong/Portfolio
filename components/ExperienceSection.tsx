@@ -8,6 +8,7 @@ import {
 } from "react-icons/fa";
 
 import hdg from "../public/img/HDG.png";
+import gama from "../public/img/imgExperiance/gamathailand.webp";
 import done from "../public/img/DONE.png";
 import siap from "../public/img/SIAP.png";
 import alp from "../public/img/alpsa.png";
@@ -36,6 +37,7 @@ const ExperienceSection = () => {
         Experience
       </h1>
       <div className="grid lg:grid-cols-3 md:grid-cols-2 grid-cols-1 lg:gap-10 gap-4 mx-2 justify-center ">
+
         <div className="flex justify-center">
           <div className="card w-100 dark:bg-[#191D24] bg-[#EBEBEB] shadow-xl">
             <figure>
@@ -115,6 +117,39 @@ const ExperienceSection = () => {
         <div className="flex justify-center">
           <div className="card w-100 dark:bg-[#191D24] bg-[#EBEBEB] shadow-xl">
             <figure>
+              <Image src={gama} alt="The Hidden Ghost" />
+            </figure>
+            <div className="card-body">
+              <h2 className="card-title dark:text-[#A6ADBA] text-black text-[17px] font-bold">
+                GAMA THAILAND
+              </h2>
+              <div className="flex flex-row space-x-2">
+                <div className="badge badge-accent font-bold">Next.js</div>
+                <div className="badge bg-[#087EA4] font-bold text-white border-0">React.js</div>
+                <div className="badge bg-[#EA2845] font-bold text-white border-0">Nest.js</div>
+              </div>
+              <p className="dark:text-[#A6ADBA] text-black">
+                Association of Life Insurance Business Executives and Financial Advisors Website.
+                This website has a subscription, register, login and award system. manage website on BOF (react)
+              </p>
+              <div className="card-actions justify-end">
+              <div className="card-actions justify-end">
+                  <a
+                    href="https://gamathailand.org/"
+                    target="_blank"
+                    rel="noreferrer"
+                  >
+                    <button className="btn btn-accent">Visit Website</button>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div className="flex justify-center">
+          <div className="card w-100 dark:bg-[#191D24] bg-[#EBEBEB] shadow-xl">
+            <figure>
               <Image src={gssd} alt="GSSD" />
             </figure>
             <div className="card-body">
@@ -138,7 +173,7 @@ const ExperienceSection = () => {
               <div className="card-actions justify-end">
                 <div className="card-actions justify-end">
                   <a
-                    href="https://3dwalkthrough.thaidevelopmentexpo.com/"
+                    href="https://13.251.159.120/wp-content/VIZPlatform/Title/1.8/index.html"
                     target="_blank"
                     rel="noreferrer"
                   >
