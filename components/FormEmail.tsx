@@ -20,9 +20,11 @@ const FromEmail = () => {
       .then(
         (result) => {
           console.log(result.text);
+          alert('Your message has been send!')
         },
         (error) => {
           console.log(error.text);
+          alert('Error to send message')
         }
       );
   };
