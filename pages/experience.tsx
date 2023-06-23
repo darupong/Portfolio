@@ -53,7 +53,9 @@ const experiancepage = () => {
       imgInfo: "Gama Thailand",
       badge: [
         <>
-          <div className="badge badge-accent font-bold">Next.js</div>
+          <div className="badge badge-accent font-bold text-white border-0">
+            Next.js
+          </div>
           <div className="badge bg-[#087EA4] font-bold text-white border-0">
             React.js
           </div>
@@ -79,7 +81,9 @@ const experiancepage = () => {
       imgInfo: "Tom Thanet",
       badge: [
         <>
-          <div className="badge badge-accent font-bold">Next.js</div>
+          <div className="badge badge-accent font-bold text-white border-0">
+            Next.js
+          </div>
           <div className="badge bg-[#087EA4] font-bold text-white border-0">
             React.js
           </div>
@@ -109,7 +113,9 @@ const experiancepage = () => {
       imgInfo: "Flowwsquare",
       badge: [
         <>
-          <div className="badge badge-accent font-bold">Next.js</div>
+          <div className="badge badge-accent font-bold text-white border-0">
+            Next.js
+          </div>
           <div className="badge bg-[#087EA4] font-bold text-white border-0">
             React.js
           </div>
@@ -306,7 +312,9 @@ const experiancepage = () => {
       imgInfo: "The Hidden Ghost",
       badge: [
         <>
-          <div className="badge badge-accent font-bold">Next.js</div>
+          <div className="badge badge-accent font-bold text-white border-0">
+            Next.js
+          </div>
           <div className="badge bg-[#8D8D8D] font-bold text-white border-0">
             Unity
           </div>
