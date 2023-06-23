@@ -1,7 +1,7 @@
 import React from "react";
 import Image from "next/image";
 
-import resumeimg from "../public/img/Resume.png";
+import resumeimg from "../public/img/Resume.webp";
 
 const resume = () => {
   return (
