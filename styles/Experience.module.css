@@ -1,0 +1,45 @@
+.experienceTab :global(.ant-tabs-nav-list) {
+  @apply w-full overflow-y-scroll scrollbar-hide !important;
+}
+
+.experienceTab :global(.ant-tabs-tab) {
+  @apply w-1/2 flex justify-center text-base;
+}
+
+.experienceTab :global(.ant-tabs-tab:hover) {
+  @apply text-[#36D399] !important;
+}
+
+.experienceTab :global(.ant-tabs-tab.ant-tabs-tab-active .ant-tabs-tab-btn) {
+  @apply text-[#36d399] font-medium !important;
+}
+
+.experienceTab :global(.ant-tabs-nav::before) {
+  @apply border-b-[5px] !important;
+}
+
+.experienceTab :global(.ant-tabs-nav .ant-tabs-ink-bar) {
+  @apply h-[5px] bg-[#36D399];
+}
+
+.experienceTab :global(.ant-tabs-nav-wrap) {
+  @apply overflow-auto !important;
+}
+
+.experienceTab :global(.ant-tabs-nav-list) {
+  @apply sm:w-full !important;
+}
+
+.experienceTab :global(.ant-tabs-tab-btn div) {
+  @apply flex gap-2 !important;
+}
+
+.experienceTab :global(.no-scrollbar::-webkit-scrollbar) {
+  display: none;
+}
+
+/* Hide scrollbar for IE, Edge and Firefox */
+.experienceTab :global(.no-scrollbar) {
+  -ms-overflow-style: none; /* IE and Edge */
+  scrollbar-width: none; /* Firefox */
+}
