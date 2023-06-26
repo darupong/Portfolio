@@ -2,6 +2,7 @@
 import React from "react";
 import Image from "next/image";
 import logo from "../public/img/aboutimg.webp";
+import Link from "next/link";
 
 const AboutMe = () => {
   return (
@@ -11,11 +12,13 @@ const AboutMe = () => {
           <div className="flex flex-col">
             <div>
               <div className="flex items-center justify-center ">
-                <Image
-                  src={logo}
-                  className="md:h-[300px] md:w-[300px] h-[150px] w-[150px]"
-                  alt="AboutMe"
-                />
+                <Link href="/infoapi">
+                  <Image
+                    src={logo}
+                    className="md:h-[300px] md:w-[300px] h-[150px] w-[150px]"
+                    alt="AboutMe"
+                  />
+                </Link>
               </div>
             </div>
             <div className="flex lg:flex-row flex-col justify-center items-center grid-cols-2 gap-8 lg:px-10 px-0 md:py-14 py-6">
