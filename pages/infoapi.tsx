@@ -1,3 +1,4 @@
+import Link from "next/link";
 import React from "react";
 
 const infoapi = () => {
@@ -7,12 +8,12 @@ const infoapi = () => {
         API Information <span className="text-[#36D399]">( Beta )</span>
       </h1>
       <div className=" flex flex-col justify-center text-center">
-        <a href="/infoapi/covidinfo" className="text-[#36D399]">
+        <Link href="/infoapi/covidinfo" className="text-[#36D399]">
           Covid Information
-        </a>
-        <a href="/infoapi/catboys" className="text-[#36D399]">
+        </Link>
+        <Link href="/infoapi/catboys" className="text-[#36D399]">
           Random Catboys
-        </a>
+        </Link>
       </div>
     </div>
   );
