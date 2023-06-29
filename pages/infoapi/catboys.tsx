@@ -29,7 +29,7 @@ const catboys = () => {
   return (
     <div className="container mx-auto py-[100px]">
       <h1 className="text-[60px] font-bold text-center pb-[50px] dark:text-white text-gray-800">
-        Catboys
+        Random Catboys
       </h1>
       <div>
         {info ? (

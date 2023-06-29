@@ -1,7 +1,7 @@
 /* eslint-disable react/no-unescaped-entities */
 import React from "react";
 
-const ResumeSection = () => {
+const Timeline = () => {
   return (
     <div className="container mx-auto w-full h-full " id="Timeline">
       <div className="relative wrap overflow-hidden p-10 h-full">
@@ -42,11 +42,13 @@ const ResumeSection = () => {
               Rangsit University
             </h3>
             <h3 className="mb-3 font-bold text-white md:text-xl text-sm">
-              2018-2021
+              2018-2021 ({" "}
+              <span className=" text-[#36D399]">Unity Game Developer</span> )
             </h3>
             <p className="text-sm font-medium leading-snug tracking-wide text-white text-opacity-100">
-              Bachelor's degree{" "}
-              <span className="text-[#36D399]">First Class Honors</span> at
+              [ <span className="text-[#36D399]">GPA 3.56</span> ] Bachelor's
+              degree
+              <span className="text-[#36D399]"> First Class Honors</span> at
               Rangsit University (RSU), Computer Game Multimedia (CGM)
             </p>
           </div>
@@ -64,11 +66,15 @@ const ResumeSection = () => {
               VIZ STUDIO Co.,Ltd.
             </h3>
             <h3 className="mb-3 font-bold text-gray-800 md:text-xl text-sm">
-              2021-2022
+              2021-2022 ( 1Y as a{" "}
+              <span className="dark:text-white text-[#36D399]">
+                Software Programmer
+              </span>{" "}
+              )
             </h3>
             <p className="text-sm font-medium leading-snug tracking-wide text-gray-900 text-opacity-100">
               [
-              <span className="dark:text-white text-black">
+              <span className="dark:text-white text-[#36D399]">
                 {" "}
                 Software Programmer{" "}
               </span>
@@ -90,11 +96,12 @@ const ResumeSection = () => {
               Pi R Square Co.,Ltd.
             </h3>
             <h3 className="mb-3 font-bold text-white md:text-xl text-sm">
-              2023
+              2023 ( 4M as a{" "}
+              <span className="text-[#36D399]">Front-end Developer </span>)
             </h3>
             <p className="text-sm font-medium leading-snug tracking-wide text-white text-opacity-100">
               [<span className="text-[#36D399]"> Front-end Developer </span>]
-              Develop website with React.js , Nest.js and mobile appication from
+              Develop website with React.js , Next.js and mobile appication from
               iOS and Android
             </p>
           </div>
@@ -104,4 +111,4 @@ const ResumeSection = () => {
   );
 };
 
-export default ResumeSection;
+export default Timeline;

@@ -5,13 +5,13 @@ import axios from "axios";
 import { Button, Spin } from "antd";
 import Error from "next/error";
 
-interface ICatboy {
+interface IWaifu {
   url: string;
 }
 
 const waifupic = () => {
-  const api = "https://api.waifu.pics/nsfw/waifu";
-  const [info, setInfo] = useState<ICatboy | null>(null);
+  const api = "https://api.waifu.pics/sfw/waifu";
+  const [info, setInfo] = useState<IWaifu | null>(null);
   const fetchData = async () => {
     try {
       const response = await axios.get(api);
@@ -28,7 +28,7 @@ const waifupic = () => {
   return (
     <div className="container mx-auto py-[100px]">
       <h1 className="text-[60px] font-bold text-center pb-[50px] dark:text-white text-gray-800">
-        Waifu pic
+        Random Waifu
       </h1>
       <div>
         {info ? (
