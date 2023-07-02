@@ -1136,7 +1136,7 @@ const ExperienceSection = () => {
       </h1>
       <Tabs
         defaultActiveKey="1"
-        className={`${css.experienceTab} text-black dark:text-white`}
+        className={`${css.experienceTab} text-black dark:text-white overflow-auto flex`}
       >
         <Tabs.TabPane tab="Website Developer" key="tab1">
           <div className="grid lg:grid-cols-3 md:grid-cols-2 grid-cols-1 lg:gap-10 gap-4 mx-2 justify-center pt-4">
