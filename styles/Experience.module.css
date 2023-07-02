@@ -1,5 +1,5 @@
 .experienceTab :global(.ant-tabs-nav-list) {
-  @apply w-full overflow-y-scroll scrollbar-hide !important;
+  @apply w-full overflow-x-scroll scrollbar-hide !important;
 }
 
 .experienceTab :global(.ant-tabs-tab) {
