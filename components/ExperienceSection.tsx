@@ -245,8 +245,8 @@ const ExperienceSection = () => {
     {
       id: "kooboon",
       img: kooboon,
-      name: "Kooboon Dating Appication",
-      imgInfo: "Kooboon Dating Appication",
+      name: "Kooboon Dating Application",
+      imgInfo: "Kooboon Dating Application",
       badge: [
         <>
           <div className="badge bg-[#087EA4] font-bold text-white border-0">
@@ -257,7 +257,7 @@ const ExperienceSection = () => {
           </div>
         </>,
       ],
-      description: "Appication Dating made by react.js",
+      description: "Application Dating made by react.js",
       btn: [
         <>
           <label htmlFor="kooboon" className="btn btn-accent">
@@ -267,13 +267,13 @@ const ExperienceSection = () => {
           <div className="modal">
             <div className="modal-box dark:bg-[#111827] bg-white">
               <h3 className="font-bold text-lg dark:text-[#A6ADBA] text-black">
-                Kooboon Dating Appication
+                Kooboon Dating Application
               </h3>
               <p className="py-4 dark:text-[#A6ADBA] text-black">
-                Appication Dating made by react.js
+                Application Dating made by react.js
               </p>
               <h3 className="font-bold text-lg dark:text-[#A6ADBA] text-black py-4">
-                Kooboon Dating Appication (iOS/Android)
+                Kooboon Dating Application (iOS/Android)
               </h3>
               <div className="flex items-center"></div>
               <div className="card-actions justify-center py-[20px]">
@@ -1162,7 +1162,7 @@ const ExperienceSection = () => {
             ))}
           </div>
         </Tabs.TabPane>
-        <Tabs.TabPane tab="Appication Developer" key="tab2">
+        <Tabs.TabPane tab="Application Developer" key="tab2">
           <div className="grid lg:grid-cols-3 md:grid-cols-2 grid-cols-1 lg:gap-10 gap-4 mx-2 justify-center pt-4 ">
             {experienceAppData.map((data) => (
               // eslint-disable-next-line react/jsx-key
