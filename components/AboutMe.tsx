@@ -110,7 +110,7 @@ const AboutMe = () => {
                   <span className=" text-[#36D399]">Front-end Developer</span>{" "}
                   and <span className=" text-[#36D399]">Content Creater</span>{" "}
                   and I am interested in learning about Frontend Developer,
-                  Mobile Appication from React Native.
+                  Mobile Application from React Native.
                 </h1>
                 <h1>
                   I've previously worked on{" "}
