@@ -108,14 +108,14 @@ const AboutMe = () => {
                 <h1>
                   I work as a{" "}
                   <span className=" text-[#36D399]">Front-end Developer</span>{" "}
-                  and <span className=" text-[#36D399]">Content Creater</span>{" "}
+                  and <span className=" text-[#36D399]">Content Creator</span>{" "}
                   and I am interested in learning about Frontend Developer,
                   Mobile Application from React Native.
                 </h1>
                 <h1>
                   I've previously worked on{" "}
                   <span className=" text-[#36D399]">Game Development</span> ,
-                  Filter Creater from Instagram or Tiktok , Virtual tour on
+                  Filter Creator from Instagram or Tiktok , Virtual tour on
                   website and Augmented reality on website.
                 </h1>
               </div>

@@ -41,6 +41,7 @@ import Erd from "../public/img/ERD.jpg";
 import Ecl from "../public/img/ECL.png";
 import Adr from "../public/img/Adventure.png";
 import Itz from "../public/img/ITZ.jpg";
+import newport from "../public/img/imgExperiance/newport.webp";
 import Image from "next/image";
 
 const experiancepage = () => {
@@ -1111,6 +1112,38 @@ const experiancepage = () => {
     },
   ];
 
+  const experienceOtherData = [
+    {
+      id: "newportfolio",
+      img: newport,
+      name: "3D Portfolio Beta 2023",
+      imgInfo: "3D Portfolio",
+      badge: [
+        <>
+          <div className="badge bg-[#087EA4] font-bold text-white border-0">
+            React.js
+          </div>
+          <div className="badge bg-gray-700 font-bold text-white border-0">
+            Three.js
+          </div>
+        </>,
+      ],
+      description:
+        "3D Portfolio made by Three.js but it not stable and doesn't optimized",
+      btn: [
+        <>
+          <a
+            href="https://3d-portfolio-pink.vercel.app/"
+            target="_blank"
+            rel="noreferrer"
+          >
+            <button className="btn btn-accent">Visit Website</button>
+          </a>
+        </>,
+      ],
+    },
+  ];
+
   const items: TabsProps["items"] = [
     {
       key: "1",
@@ -1209,7 +1242,7 @@ const experiancepage = () => {
             ))}
           </div>
         </Tabs.TabPane>
-        <Tabs.TabPane tab="Content Creater" key="tab4">
+        <Tabs.TabPane tab="Content Creator" key="tab4">
           <div className="grid lg:grid-cols-3 md:grid-cols-2 grid-cols-1 lg:gap-10 gap-4 mx-2 justify-center pt-4 ">
             {experienceContentData.map((data) => (
               // eslint-disable-next-line react/jsx-key
@@ -1236,6 +1269,30 @@ const experiancepage = () => {
         <Tabs.TabPane tab="Student Project" key="tab5">
           <div className="grid lg:grid-cols-3 md:grid-cols-2 grid-cols-1 lg:gap-10 gap-4 mx-2 justify-center pt-4 ">
             {experienceStudentData.map((data) => (
+              // eslint-disable-next-line react/jsx-key
+              <div className="flex justify-center">
+                <div className="card w-100 dark:bg-[#191D24] bg-[#EBEBEB] shadow-xl">
+                  <figure>
+                    <Image src={data.img} alt={data.imgInfo} />
+                  </figure>
+                  <div className="card-body">
+                    <h2 className="card-title dark:text-[#A6ADBA] text-black text-[17px] font-bold">
+                      {data.name}
+                    </h2>
+                    <div className="flex flex-row space-x-2">{data.badge}</div>
+                    <p className="dark:text-[#A6ADBA] text-black">
+                      {data.description}
+                    </p>
+                    <div className="card-actions justify-end">{data.btn}</div>
+                  </div>
+                </div>
+              </div>
+            ))}
+          </div>
+        </Tabs.TabPane>
+        <Tabs.TabPane tab="Other" key="tab6">
+          <div className="grid lg:grid-cols-3 md:grid-cols-2 grid-cols-1 lg:gap-10 gap-4 mx-2 justify-center pt-4 ">
+            {experienceOtherData.map((data) => (
               // eslint-disable-next-line react/jsx-key
               <div className="flex justify-center">
                 <div className="card w-100 dark:bg-[#191D24] bg-[#EBEBEB] shadow-xl">
