@@ -1130,7 +1130,7 @@ const ExperienceSection = () => {
         </>,
       ],
       description:
-        "3D Portfolio made by Three.js but it not stable and doesn't optimized",
+        "3D Portfolio made by Three.js but it not stable and doesn't optimized.",
       btn: [
         <>
           <a
