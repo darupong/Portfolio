@@ -17,6 +17,7 @@ import gama from "../public/img/imgExperiance/gamathailand.webp";
 import tomthanet from "../public/img/imgExperiance/tomthanet.webp";
 import kooboon from "../public/img/imgExperiance/kooboon.webp";
 import pirfloww from "../public/img/imgExperiance/pirfloww.webp";
+import covid from "../public/img/imgExperiance/covid19.webp";
 import appstore from "../public/icon/appstore.png";
 import playstore from "../public/icon/googleplay.png";
 import done from "../public/img/DONE.png";
@@ -1139,6 +1140,35 @@ const ExperienceSection = () => {
             rel="noreferrer"
           >
             <button className="btn btn-accent">Visit Website</button>
+          </a>
+        </>,
+      ],
+    },
+    {
+      id: "covid19",
+      img: covid,
+      name: "The Animation ต้านภัยไวรัส Covid-19 🦠",
+      imgInfo: "covid19",
+      badge: [
+        <>
+          <div className="badge bg-[#131397] font-bold text-white border-0">
+            Adobe After Effect
+          </div>
+          <div className="badge bg-[#2222d4] font-bold text-white border-0">
+            Adobe Premier Pro
+          </div>
+        </>,
+      ],
+      description:
+        "The Animation ต้านภัยไวรัส Covid-19 🦠 Presented by Student Rangsit University",
+      btn: [
+        <>
+          <a
+            href="https://youtu.be/9TNkjU_rwac"
+            target="_blank"
+            rel="noreferrer"
+          >
+            <button className="btn btn-accent">Enjoy!</button>
           </a>
         </>,
       ],
