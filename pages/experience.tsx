@@ -1,5 +1,4 @@
 /* eslint-disable react/no-unescaped-entities */
-import React from "react";
 import {
   FaInstagram,
   FaFacebookSquare,
@@ -17,6 +16,7 @@ import gama from "../public/img/imgExperiance/gamathailand.webp";
 import tomthanet from "../public/img/imgExperiance/tomthanet.webp";
 import kooboon from "../public/img/imgExperiance/kooboon.webp";
 import pirfloww from "../public/img/imgExperiance/pirfloww.webp";
+import covid from "../public/img/imgExperiance/covid19.webp";
 import appstore from "../public/icon/appstore.png";
 import playstore from "../public/icon/googleplay.png";
 import done from "../public/img/DONE.png";
@@ -42,6 +42,7 @@ import Erd from "../public/img/ERD.jpg";
 import Ecl from "../public/img/ECL.png";
 import Adr from "../public/img/Adventure.png";
 import Itz from "../public/img/ITZ.jpg";
+import newport from "../public/img/imgExperiance/newport.webp";
 import Image from "next/image";
 
 const experiancepage = () => {
@@ -245,8 +246,8 @@ const experiancepage = () => {
     {
       id: "kooboon",
       img: kooboon,
-      name: "Kooboon Dating Appication",
-      imgInfo: "Kooboon Dating Appication",
+      name: "Kooboon Dating Application",
+      imgInfo: "Kooboon Dating Application",
       badge: [
         <>
           <div className="badge bg-[#087EA4] font-bold text-white border-0">
@@ -257,7 +258,7 @@ const experiancepage = () => {
           </div>
         </>,
       ],
-      description: "Appication Dating made by react.js",
+      description: "Application Dating made by react.js",
       btn: [
         <>
           <label htmlFor="kooboon" className="btn btn-accent">
@@ -267,13 +268,13 @@ const experiancepage = () => {
           <div className="modal">
             <div className="modal-box dark:bg-[#111827] bg-white">
               <h3 className="font-bold text-lg dark:text-[#A6ADBA] text-black">
-                Kooboon Dating Appication
+                Kooboon Dating Application
               </h3>
               <p className="py-4 dark:text-[#A6ADBA] text-black">
-                Appication Dating made by react.js
+                Application Dating made by react.js
               </p>
               <h3 className="font-bold text-lg dark:text-[#A6ADBA] text-black py-4">
-                Kooboon Dating Appication (iOS/Android)
+                Kooboon Dating Application (iOS/Android)
               </h3>
               <div className="flex items-center"></div>
               <div className="card-actions justify-center py-[20px]">
@@ -1112,6 +1113,67 @@ const experiancepage = () => {
     },
   ];
 
+  const experienceOtherData = [
+    {
+      id: "newportfolio",
+      img: newport,
+      name: "3D Portfolio Beta 2023",
+      imgInfo: "3D Portfolio",
+      badge: [
+        <>
+          <div className="badge bg-[#087EA4] font-bold text-white border-0">
+            React.js
+          </div>
+          <div className="badge bg-gray-700 font-bold text-white border-0">
+            Three.js
+          </div>
+        </>,
+      ],
+      description:
+        "3D Portfolio made by Three.js but it not stable and doesn't optimized.",
+      btn: [
+        <>
+          <a
+            href="https://3d-portfolio-pink.vercel.app/"
+            target="_blank"
+            rel="noreferrer"
+          >
+            <button className="btn btn-accent">Visit Website</button>
+          </a>
+        </>,
+      ],
+    },
+    {
+      id: "covid19",
+      img: covid,
+      name: "The Animation ต้านภัยไวรัส Covid-19 🦠",
+      imgInfo: "covid19",
+      badge: [
+        <>
+          <div className="badge bg-[#131397] font-bold text-white border-0">
+            Adobe After Effect
+          </div>
+          <div className="badge bg-[#2222d4] font-bold text-white border-0">
+            Adobe Premier Pro
+          </div>
+        </>,
+      ],
+      description:
+        "The Animation ต้านภัยไวรัส Covid-19 🦠 Presented by Student Rangsit University",
+      btn: [
+        <>
+          <a
+            href="https://youtu.be/9TNkjU_rwac"
+            target="_blank"
+            rel="noreferrer"
+          >
+            <button className="btn btn-accent">Enjoy!</button>
+          </a>
+        </>,
+      ],
+    },
+  ];
+
   const items: TabsProps["items"] = [
     {
       key: "1",
@@ -1162,7 +1224,7 @@ const experiancepage = () => {
             ))}
           </div>
         </Tabs.TabPane>
-        <Tabs.TabPane tab="Appication Developer" key="tab2">
+        <Tabs.TabPane tab="Application Developer" key="tab2">
           <div className="grid lg:grid-cols-3 md:grid-cols-2 grid-cols-1 lg:gap-10 gap-4 mx-2 justify-center pt-4 ">
             {experienceAppData.map((data) => (
               // eslint-disable-next-line react/jsx-key
@@ -1210,7 +1272,7 @@ const experiancepage = () => {
             ))}
           </div>
         </Tabs.TabPane>
-        <Tabs.TabPane tab="Content Creater" key="tab4">
+        <Tabs.TabPane tab="Content Creator" key="tab4">
           <div className="grid lg:grid-cols-3 md:grid-cols-2 grid-cols-1 lg:gap-10 gap-4 mx-2 justify-center pt-4 ">
             {experienceContentData.map((data) => (
               // eslint-disable-next-line react/jsx-key
@@ -1237,6 +1299,30 @@ const experiancepage = () => {
         <Tabs.TabPane tab="Student Project" key="tab5">
           <div className="grid lg:grid-cols-3 md:grid-cols-2 grid-cols-1 lg:gap-10 gap-4 mx-2 justify-center pt-4 ">
             {experienceStudentData.map((data) => (
+              // eslint-disable-next-line react/jsx-key
+              <div className="flex justify-center">
+                <div className="card w-100 dark:bg-[#191D24] bg-[#EBEBEB] shadow-xl">
+                  <figure>
+                    <Image src={data.img} alt={data.imgInfo} />
+                  </figure>
+                  <div className="card-body">
+                    <h2 className="card-title dark:text-[#A6ADBA] text-black text-[17px] font-bold">
+                      {data.name}
+                    </h2>
+                    <div className="flex flex-row space-x-2">{data.badge}</div>
+                    <p className="dark:text-[#A6ADBA] text-black">
+                      {data.description}
+                    </p>
+                    <div className="card-actions justify-end">{data.btn}</div>
+                  </div>
+                </div>
+              </div>
+            ))}
+          </div>
+        </Tabs.TabPane>
+        <Tabs.TabPane tab="Other" key="tab6">
+          <div className="grid lg:grid-cols-3 md:grid-cols-2 grid-cols-1 lg:gap-10 gap-4 mx-2 justify-center pt-4 ">
+            {experienceOtherData.map((data) => (
               // eslint-disable-next-line react/jsx-key
               <div className="flex justify-center">
                 <div className="card w-100 dark:bg-[#191D24] bg-[#EBEBEB] shadow-xl">

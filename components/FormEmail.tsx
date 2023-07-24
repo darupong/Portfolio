@@ -1,5 +1,6 @@
 import React, { useRef } from "react";
 import emailjs from "@emailjs/browser";
+import Swal from "sweetalert2";
 
 const FromEmail = () => {
   const form = useRef<HTMLFormElement | null>(null);
@@ -20,11 +21,23 @@ const FromEmail = () => {
       .then(
         (result) => {
           console.log(result.text);
-          alert('Your message has been send!')
+          Swal.fire({
+            icon: "success",
+            title: "Send Success!",
+            text: "Your information will be sent to e-mail soon.",
+            confirmButtonColor: "#36D399",
+            confirmButtonText: "OK",
+          });
         },
         (error) => {
           console.log(error.text);
-          alert('Error to send message')
+          Swal.fire({
+            icon: "error",
+            title: "Oops...",
+            text: "Something went wrong!",
+            confirmButtonColor: "#36D399",
+            confirmButtonText: "OK",
+          });
         }
       );
   };

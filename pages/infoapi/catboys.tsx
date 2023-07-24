@@ -13,6 +13,7 @@ interface ICatboy {
 const catboys = () => {
   const api = "https://api.catboys.com/img";
   const [info, setInfo] = useState<ICatboy | null>(null);
+  
   const fetchData = async () => {
     try {
       const response = await axios.get(api);
