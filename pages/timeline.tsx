@@ -66,20 +66,25 @@ const timeline = () => {
               VIZ STUDIO Co.,Ltd.
             </h3>
             <h3 className="mb-3 font-bold text-gray-800 md:text-xl text-sm">
-              2021-2023 ( 
-              <span className="dark:text-gray-800 text-[#36D399]"> Intern Game Dev. / Programmer </span>{" "})
+              July 2021 - Jan 2023 (
+              <span className="dark:text-gray-800 text-[#36D399]">
+                {" "}
+                Intern Game Dev. / Programmer{" "}
+              </span>{" "}
+              )
             </h3>
             <p className="text-sm font-medium leading-snug tracking-wide text-gray-900 text-opacity-100">
-            Key responsibilities:
+              Key responsibilities:
             </p>
             <p className="text-sm font-medium leading-snug tracking-wide text-gray-900 text-opacity-100">
-            ⭐️ Develop website with Wordpress about Virtual Tour on website, 3D on webisite.
+              ⭐️ Develop website with Wordpress about Virtual Tour on website,
+              3D on webisite.
             </p>
             <p className="text-sm font-medium leading-snug tracking-wide text-gray-900 text-opacity-100">
-            ⭐️ Develop unity game on mobile application.
+              ⭐️ Develop unity game on mobile application.
             </p>
             <p className="text-sm font-medium leading-snug tracking-wide text-gray-900 text-opacity-100">
-            ⭐️ Develop virtual code on social platform (Filter IG, Tiktok).
+              ⭐️ Develop virtual code on social platform (Filter IG, Tiktok).
             </p>
           </div>
         </div>
@@ -96,17 +101,18 @@ const timeline = () => {
               Pi R Square Co.,Ltd.
             </h3>
             <h3 className="mb-3 font-bold text-white md:text-xl text-sm">
-              2023 ( 
+              Feb 2023 - May 2023 (
               <span className="text-[#36D399]"> Front-end Developer </span>)
             </h3>
             <p className="text-sm font-medium leading-snug tracking-wide text-white text-opacity-100">
-            Key responsibilities:
+              Key responsibilities:
             </p>
             <p className="text-sm font-medium leading-snug tracking-wide text-white text-opacity-100">
-            ⭐️ Develop website with Next.js (Front-end) about Shopping, Landing page and Information website.
+              ⭐️ Develop website with Next.js (Front-end) about Shopping,
+              Landing page and Information website.
             </p>
             <p className="text-sm font-medium leading-snug tracking-wide text-white text-opacity-100">
-            ⭐️ Develop web application with React about Dating application.
+              ⭐️ Develop web application with React about Dating application.
             </p>
           </div>
         </div>
