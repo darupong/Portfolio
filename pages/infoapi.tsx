@@ -23,6 +23,20 @@ const infoapi = () => {
         <Link href="/infoapi/waifupic" className="text-[#36D399] underline">
           Random Waifu
         </Link>
+        <Link
+          href="https://react-todolist-wheat-nine.vercel.app/"
+          target="_blank"
+          className="text-[#36D399] underline"
+        >
+          Todo List
+        </Link>
+        <Link
+          href="https://react-moviestore-gray.vercel.app/"
+          target="_blank"
+          className=" text-[#36D399] underline"
+        >
+          Market Store
+        </Link>
       </div>
     </div>
   );
