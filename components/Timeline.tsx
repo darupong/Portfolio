@@ -129,7 +129,7 @@ const Timeline = () => {
               Skuberg Co.,Ltd.
             </h3>
             <h3 className="mb-3 font-bold text-gray-800 md:text-xl text-sm">
-              Sep 2021 - Current (
+              Sep 2023 - Current (
               <span className="dark:text-gray-800 text-[#36D399]">
                 {" "}
                 Front-end Interactive Developer
