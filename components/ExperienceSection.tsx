@@ -44,10 +44,36 @@ import Ecl from "../public/img/ECL.png";
 import Adr from "../public/img/Adventure.png";
 import Itz from "../public/img/ITZ.jpg";
 import newport from "../public/img/imgExperiance/newport.webp";
+import looklike from "../public/img/imgExperiance/Looklike.jpg";
 import Image from "next/image";
 
 const ExperienceSection = () => {
   const experienceWebData = [
+    {
+      id: "looklike",
+      img: looklike,
+      name: "Looklike.ai",
+      imgInfo: "looklike",
+      badge: [
+        <>
+          <div className="badge badge-accent font-bold text-white border-0">
+            Next.js
+          </div>
+          <div className="badge bg-[#2563EB] font-bold text-white border-0">
+            Stable Diffusion
+          </div>
+        </>,
+      ],
+      description:
+        "Looklike.ai website. This website create image from photobooth made by AI Generator.",
+      btn: [
+        <>
+          <a href="https://looklike.ai/" target="_blank" rel="noreferrer">
+            <button className="btn btn-accent">Visit Website</button>
+          </a>
+        </>,
+      ],
+    },
     {
       id: "gamathailand",
       img: gama,

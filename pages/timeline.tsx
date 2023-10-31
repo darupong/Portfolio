@@ -116,6 +116,35 @@ const timeline = () => {
             </p>
           </div>
         </div>
+
+        <div className="mb-8 flex justify-between items-center w-full right-timeline">
+          <div className="order-1 w-5/12"></div>
+          <div className="z-20 flex items-center order-1 bg-gray-800 dark:bg-white shadow-xl w-8 h-8 rounded-full">
+            <h1 className="mx-auto font-semibold text-lg text-white dark:text-black">
+              5
+            </h1>
+          </div>
+          <div className="order-1 dark:bg-gray-400 bg-[#EBEBEB] rounded-lg shadow-xl w-5/12 px-6 py-4">
+            <h3 className="mb-3 font-bold text-gray-800 md:text-xl text-sm">
+              Skuberg Co.,Ltd.
+            </h3>
+            <h3 className="mb-3 font-bold text-gray-800 md:text-xl text-sm">
+              Sep 2023 - Current (
+              <span className="dark:text-gray-800 text-[#36D399]">
+                {" "}
+                Front-end Interactive Developer
+              </span>{" "}
+              )
+            </h3>
+            <p className="text-sm font-medium leading-snug tracking-wide text-gray-900 text-opacity-100">
+              Key responsibilities:
+            </p>
+            <p className="text-sm font-medium leading-snug tracking-wide text-gray-900 text-opacity-100">
+              ⭐️ Develop website with Next.js about AI face mapping used by
+              Stable diffusion.
+            </p>
+          </div>
+        </div>
       </div>
     </div>
   );
