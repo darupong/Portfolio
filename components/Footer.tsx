@@ -49,7 +49,7 @@ const Footer = (): JSX.Element => {
       </div>
       <div>
         <p className="dark:text-white text-black">
-          Copyright © 2021-2023 - All right reserved by Darupong Chouypu
+          © 2021-2024 Darupong Portfolio. All rights reserved.
         </p>
         <div className=" flex flex-row gap-2 items-center">
           <p className="dark:text-white text-black">Powered by Next.js</p>

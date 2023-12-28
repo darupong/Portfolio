@@ -399,6 +399,343 @@ const ExperienceSection = () => {
         </>,
       ],
     },
+    {
+      id: "zombieevil",
+      img: Zem,
+      name: "Zombie Evil Multiplayer",
+      imgInfo: "Zombie Evil Multiplayer",
+      badge: [
+        <>
+          <div className="badge bg-[#8D8D8D] font-bold text-white border-0">
+            Unity
+          </div>
+          <div className="badge bg-[#026E00] font-bold text-white border-0">
+            Node.js
+          </div>
+          <div className="badge bg-[#405DE6] font-bold text-white border-0">
+            Socket.io
+          </div>
+        </>,
+      ],
+      description:
+        "The university final project, Computer Game Multimedia. The game is a Top view shooting Multiplayer on Google CloudPlatform.",
+      btn: [
+        <>
+          <label htmlFor="zemid" className="btn btn-accent">
+            Read More
+          </label>
+          <input type="checkbox" id="zemid" className="modal-toggle" />
+          <div className="modal">
+            <div className="modal-box dark:bg-[#111827] bg-white">
+              <h3 className="font-bold text-lg dark:text-[#A6ADBA] text-black">
+                Zombie Evil Multiplayer
+              </h3>
+              <p className="py-4 dark:text-[#A6ADBA] text-black">
+                The university final project, Computer Game Multimedia. The game
+                is a Top view shooting Multiplayer on Google CloudPlatform.
+              </p>
+              <h3 className="font-bold text-lg dark:text-[#A6ADBA] text-black py-4">
+                Zombie Evil Multiplayer Gameplay
+              </h3>
+              <div className="flex items-center">
+                <iframe
+                  width="100%"
+                  height="250"
+                  src="https://www.youtube.com/embed/9qpuxchOmIU"
+                  title="YouTube video player"
+                  frameBorder="0"
+                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                  allowFullScreen
+                ></iframe>
+              </div>
+              <div className="modal-action ">
+                <label htmlFor="zemid" className="btn">
+                  Close
+                </label>
+              </div>
+            </div>
+          </div>
+        </>,
+      ],
+    },
+    {
+      id: "guessnumbermultiplayer",
+      img: Gnmp,
+      name: "Guess Number Multiplayer",
+      imgInfo: "Guess Number Multiplayer",
+      badge: [
+        <>
+          <div className="badge bg-[#8D8D8D] font-bold text-white border-0">
+            Unity
+          </div>
+          <div className="badge bg-[#026E00] font-bold text-white border-0">
+            Node.js
+          </div>
+        </>,
+      ],
+      description:
+        "The university midterm project, Computer Game Multimedia. The game is a Guess number on local server with node.js",
+      btn: [
+        <>
+          <label htmlFor="gnid" className="btn btn-accent">
+            Read More
+          </label>
+          <input type="checkbox" id="gnid" className="modal-toggle" />
+          <div className="modal">
+            <div className="modal-box dark:bg-[#111827] bg-white">
+              <h3 className="font-bold text-lg dark:text-[#A6ADBA] text-black">
+                Guess Number Multiplayer
+              </h3>
+              <p className="py-4 dark:text-[#A6ADBA] text-black">
+                The university midterm project, Computer Game Multimedia. The
+                game is a Guess number on local server with node.js
+              </p>
+              <h3 className="font-bold text-lg dark:text-[#A6ADBA] text-black py-4">
+                Guess Number Multiplayer Gameplay
+              </h3>
+              <div className="flex items-center">
+                <iframe
+                  width="100%"
+                  height="250"
+                  src="https://www.youtube.com/embed/opWaJTqb_dQ"
+                  title="YouTube video player"
+                  frameBorder="0"
+                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                  allowFullScreen
+                ></iframe>
+              </div>
+              <div className="card-actions justify-center py-[20px]">
+                <a
+                  href="https://github.com/darupong/guess-number-game"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  <button className="btn btn-accent">View Github</button>
+                </a>
+              </div>
+              <div className="modal-action ">
+                <label htmlFor="gnid" className="btn">
+                  Close
+                </label>
+              </div>
+            </div>
+          </div>
+        </>,
+      ],
+    },
+    {
+      id: "ellenraider",
+      img: Erd,
+      name: "Ellen Raider",
+      imgInfo: "Ellen Raider",
+      badge: [
+        <>
+          <div className="badge bg-[#8D8D8D] font-bold text-white border-0">
+            Unity
+          </div>
+        </>,
+      ],
+      description:
+        "The university final project, CGM245 3D Game Development. The game is a adventure 3D game inspired by Tomb Raider.",
+      btn: [
+        <>
+          <label htmlFor="erid" className="btn btn-accent">
+            Read More
+          </label>
+          <input type="checkbox" id="erid" className="modal-toggle" />
+          <div className="modal">
+            <div className="modal-box dark:bg-[#111827] bg-white">
+              <h3 className="font-bold text-lg dark:text-[#A6ADBA] text-black">
+                Ellen Raider
+              </h3>
+              <p className="py-4 dark:text-[#A6ADBA] text-black">
+                The university final project, 3D Game Development. The game is a
+                adventure 3D game inspired by Tomb Raider.
+              </p>
+              <h3 className="font-bold text-lg dark:text-[#A6ADBA] text-black py-4">
+                Ellen Raider Gameplay
+              </h3>
+              <div className="flex items-center">
+                <iframe
+                  width="100%"
+                  height="250"
+                  src="https://www.youtube.com/embed/hK4O0yWeKXk"
+                  title="YouTube video player"
+                  frameBorder="0"
+                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                  allowFullScreen
+                ></iframe>
+              </div>
+              <div className="modal-action ">
+                <label htmlFor="erid" className="btn">
+                  Close
+                </label>
+              </div>
+            </div>
+          </div>
+        </>,
+      ],
+    },
+    {
+      id: "eclipse",
+      img: Ecl,
+      name: "Eclipse 2021",
+      imgInfo: "Eclipse 2021",
+      badge: [
+        <>
+          <div className="badge bg-[#8D8D8D] font-bold text-white border-0">
+            Unity
+          </div>
+        </>,
+      ],
+      description:
+        "The university final project, CGM392 Project Game. The game is a side scrolling theme ancient aztec inspired by Castlevania.",
+      btn: [
+        <>
+          <label htmlFor="elid" className="btn btn-accent">
+            Read More
+          </label>
+          <input type="checkbox" id="elid" className="modal-toggle" />
+          <div className="modal">
+            <div className="modal-box dark:bg-[#111827] bg-white">
+              <h3 className="font-bold text-lg dark:text-[#A6ADBA] text-black">
+                Eclipse 2021
+              </h3>
+              <p className="py-4 dark:text-[#A6ADBA] text-black">
+                The university final project, CGM392 Project Game. The game is a
+                side scrolling theme ancient aztec inspired by Castlevania.
+              </p>
+              <h3 className="font-bold text-lg dark:text-[#A6ADBA] text-black py-4">
+                Eclipse 2021 Gameplay
+              </h3>
+              <div className="flex items-center">
+                <iframe
+                  width="100%"
+                  height="250"
+                  src="https://www.youtube.com/embed/dmLP8nstZsk"
+                  title="YouTube video player"
+                  frameBorder="0"
+                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                  allowFullScreen
+                ></iframe>
+              </div>
+              <div className="modal-action ">
+                <label htmlFor="elid" className="btn">
+                  Close
+                </label>
+              </div>
+            </div>
+          </div>
+        </>,
+      ],
+    },
+    {
+      id: "adventure",
+      img: Adr,
+      name: "Adventure Island Remake 2020",
+      imgInfo: "Adventure Island Remake 2020",
+      badge: [
+        <>
+          <div className="badge bg-[#8D8D8D] font-bold text-white border-0">
+            Unity
+          </div>
+        </>,
+      ],
+      description:
+        "The university final project, CGM391 Project Game. The game is remake from Adventure Island 1986.",
+      btn: [
+        <>
+          <label htmlFor="adrid" className="btn btn-accent">
+            Read More
+          </label>
+          <input type="checkbox" id="adrid" className="modal-toggle" />
+          <div className="modal">
+            <div className="modal-box dark:bg-[#111827] bg-white">
+              <h3 className="font-bold text-lg dark:text-[#A6ADBA] text-black">
+                Adventure Island Remake 2020
+              </h3>
+              <p className="py-4 dark:text-[#A6ADBA] text-black">
+                The university final project, CGM391 Project Game. The game is
+                remake from Adventure Island 1986.
+              </p>
+              <h3 className="font-bold text-lg dark:text-[#A6ADBA] text-black py-4">
+                Adventure Island Remake 2020 Gameplay
+              </h3>
+              <div className="flex items-center">
+                <iframe
+                  width="100%"
+                  height="250"
+                  src="https://www.youtube.com/embed/nvsTy5_C7kg"
+                  title="YouTube video player"
+                  frameBorder="0"
+                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                  allowFullScreen
+                ></iframe>
+              </div>
+              <div className="modal-action ">
+                <label htmlFor="adrid" className="btn">
+                  Close
+                </label>
+              </div>
+            </div>
+          </div>
+        </>,
+      ],
+    },
+    {
+      id: "into the zombieland",
+      img: Itz,
+      name: "Into The Zombieland",
+      imgInfo: "Into The Zombieland",
+      badge: [
+        <>
+          <div className="badge bg-[#8D8D8D] font-bold text-white border-0">
+            Unity
+          </div>
+        </>,
+      ],
+      description:
+        "The university final project, CGM242 2D Game Development. The game is a adventure side scrolling game inspired by Alien Shooter.",
+      btn: [
+        <>
+          <label htmlFor="itzid" className="btn btn-accent">
+            Read More
+          </label>
+          <input type="checkbox" id="itzid" className="modal-toggle" />
+          <div className="modal">
+            <div className="modal-box dark:bg-[#111827] bg-white">
+              <h3 className="font-bold text-lg dark:text-[#A6ADBA] text-black">
+                Into The Zombieland
+              </h3>
+              <p className="py-4 dark:text-[#A6ADBA] text-black">
+                The university final project, CGM242 2D Game Development. The
+                game is a adventure side scrolling game inspired by Alien
+                Shooter.
+              </p>
+              <h3 className="font-bold text-lg dark:text-[#A6ADBA] text-black py-4">
+                Into The Zombieland Gameplay
+              </h3>
+              <div className="flex items-center">
+                <iframe
+                  width="100%"
+                  height="250"
+                  src="https://www.youtube.com/embed/iDwncw6vwLE"
+                  title="YouTube video player"
+                  frameBorder="0"
+                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                  allowFullScreen
+                ></iframe>
+              </div>
+              <div className="modal-action ">
+                <label htmlFor="itzid" className="btn">
+                  Close
+                </label>
+              </div>
+            </div>
+          </div>
+        </>,
+      ],
+    },
   ];
 
   const experienceContentData = [
@@ -1299,7 +1636,7 @@ const ExperienceSection = () => {
             ))}
           </div>
         </Tabs.TabPane>
-        <Tabs.TabPane tab="Content Creator" key="tab4">
+        {/* <Tabs.TabPane tab="Content Creator" key="tab4">
           <div className="grid lg:grid-cols-3 md:grid-cols-2 grid-cols-1 lg:gap-10 gap-4 mx-2 justify-center pt-4 ">
             {experienceContentData.map((data) => (
               // eslint-disable-next-line react/jsx-key
@@ -1346,7 +1683,7 @@ const ExperienceSection = () => {
               </div>
             ))}
           </div>
-        </Tabs.TabPane>
+        </Tabs.TabPane> */}
         <Tabs.TabPane tab="Other" key="tab6">
           <div className="grid lg:grid-cols-3 md:grid-cols-2 grid-cols-1 lg:gap-10 gap-4 mx-2 justify-center pt-4 ">
             {experienceOtherData.map((data) => (

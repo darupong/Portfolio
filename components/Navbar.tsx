@@ -49,7 +49,7 @@ const Navbar = (): JSX.Element => {
   return (
     <nav className="bg-white z-50 px-2 sm:px-4 py-2.5 dark:bg-gray-900 fixed w-full top-0 left-0  border-gray-200 dark:border-gray-600">
       <div className="container flex flex-wrap items-center justify-between mx-auto">
-        <a href="" className="flex items-center">
+        <a href="/" className="flex items-center">
           <Image src={logo} className="h-[50px] w-[50px]" alt="Darupong" />
         </a>
         <div
@@ -108,14 +108,14 @@ const Navbar = (): JSX.Element => {
                 Contact
               </a>
             </li>
-            <li className="flex items-center">
+            {/* <li className="flex items-center">
               <a
                 href="/infoapi"
                 className="block py-2 pl-3 pr-4 text-gray-700 rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-[#36D399] md:p-0 md:dark:hover:text-white dark:text-gray-400 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700"
               >
                 API
               </a>
-            </li>
+            </li> */}
           </ul>
         </div>
         <div className="flex md:order-2">

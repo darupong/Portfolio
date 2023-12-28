@@ -21,7 +21,7 @@ const timeline = () => {
               Woranari Chaloem Songkhla School
             </h3>
             <h3 className="mb-3 font-bold text-gray-800 md:text-xl text-sm">
-              2012-2017
+              2012-2017 ( English-Mathematics Program )
             </h3>
             <p className="text-sm font-medium leading-snug tracking-wide text-gray-900 text-opacity-100">
               High School Certificate equivalent at Woranari Chaloem Songkhla
@@ -142,6 +142,9 @@ const timeline = () => {
             <p className="text-sm font-medium leading-snug tracking-wide text-gray-900 text-opacity-100">
               ⭐️ Develop website with Next.js about AI face mapping used by
               Stable diffusion.
+            </p>
+            <p className="text-sm font-medium leading-snug tracking-wide text-gray-900 text-opacity-100">
+              ⭐️ Maintenance of the kiosk system.
             </p>
           </div>
         </div>

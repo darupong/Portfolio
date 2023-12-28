@@ -34,7 +34,7 @@ const AboutMe = () => {
                     <code>✓ Name: Darupong Chouypu</code>
                   </pre>
                   <pre data-prefix=">" className="text-warning">
-                    <code>✓ Age: 23 y</code>
+                    <code>✓ Age: 24 y</code>
                   </pre>
                   <pre data-prefix=">" className="text-warning">
                     <code>✓ Email: darupong000@gmail.com</code>
@@ -52,7 +52,7 @@ const AboutMe = () => {
                     <code>✓ Position: Front-end Developer</code>
                   </pre>
                   <pre data-prefix=">" className="text-success">
-                    <code>✓ Work Experiance: 1.4 Years</code>
+                    <code>✓ Work Experiance: 2.5 Years</code>
                   </pre>
                   <pre
                     data-prefix="$"
@@ -107,10 +107,11 @@ const AboutMe = () => {
               <div className="flex flex-col mx-[100px] text-center dark:text-[#A6ADBA] text-black">
                 <h1>
                   I work as a{" "}
-                  <span className=" text-[#36D399]">Front-end Developer</span>{" "}
-                  and <span className=" text-[#36D399]">Content Creator</span>{" "}
-                  and I am interested in learning about Frontend Developer,
-                  Mobile Application from React Native.
+                  <span className=" text-[#36D399]">Front-end Developer </span>
+                  (Intermediate) and{" "}
+                  <span className=" text-[#36D399]">Backend Developer </span>
+                  (Entry) and I am interested in learning about Fullstack
+                  Developer, Mobile Application from React Native.
                 </h1>
                 <h1>
                   I've previously worked on{" "}
