@@ -132,7 +132,7 @@ const timeline = () => {
               Sep 2023 - Current (
               <span className="dark:text-gray-800 text-[#36D399]">
                 {" "}
-                Front-end Interactive Developer
+                Full Stack Developer
               </span>{" "}
               )
             </h3>
@@ -144,7 +144,7 @@ const timeline = () => {
               Stable diffusion.
             </p>
             <p className="text-sm font-medium leading-snug tracking-wide text-gray-900 text-opacity-100">
-              ⭐️ Maintenance of the kiosk system.
+              ⭐️ Maintenance of the kiosk system (Photobooth).
             </p>
           </div>
         </div>
