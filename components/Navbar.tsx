@@ -13,7 +13,7 @@ import {
   FaLinkedin,
 } from "react-icons/fa";
 
-import logo from "../public/img/myimg.png";
+import logo from "../public/img/myself.png";
 import Image from "next/image";
 import { Tag } from "antd";
 

@@ -144,7 +144,7 @@ const Timeline = () => {
               Stable diffusion.
             </p>
             <p className="text-sm font-medium leading-snug tracking-wide text-gray-900 text-opacity-100">
-              ⭐️ Maintenance of the kiosk system (Photobooth).
+              ⭐️ Maintenance the kiosk photobooth system.
             </p>
           </div>
         </div>

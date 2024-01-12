@@ -1,7 +1,7 @@
 /* eslint-disable react/no-unescaped-entities */
 import React from "react";
 import Image from "next/image";
-import logo from "../public/img/aboutimg.webp";
+import logo from "../public/img/myself.png";
 import Link from "next/link";
 
 const AboutMe = () => {

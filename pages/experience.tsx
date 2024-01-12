@@ -266,6 +266,72 @@ const experiancepage = () => {
         </>,
       ],
     },
+    {
+      id: "hdgid",
+      img: hdg,
+      name: "The Hidden Ghost",
+      imgInfo: "The Hidden Ghost",
+      badge: [
+        <>
+          <div className="badge badge-accent font-bold text-white border-0">
+            Next.js
+          </div>
+          <div className="badge bg-[#8D8D8D] font-bold text-white border-0">
+            Unity
+          </div>
+        </>,
+      ],
+      description:
+        "A website is a promoting mobile game project that I did during internship. The game is a detective game inspired by Phasmophobia.",
+      btn: [
+        <>
+          <label htmlFor="hdgid" className="btn btn-accent">
+            Read More
+          </label>
+          <input type="checkbox" id="hdgid" className="modal-toggle" />
+          <div className="modal">
+            <div className="modal-box dark:bg-[#111827] bg-white">
+              <h3 className="font-bold text-lg dark:text-[#A6ADBA] text-black">
+                The Hidden Ghost
+              </h3>
+              <p className="py-4 dark:text-[#A6ADBA] text-black">
+                A website is a promoting mobile game project that I did during
+                internship. The game is a detective game inspired by
+                Phasmophobia.
+              </p>
+              <h3 className="font-bold text-lg dark:text-[#A6ADBA] text-black py-4">
+                The Hidden Ghost Demo (iOS/Android)
+              </h3>
+              <div className="flex items-center">
+                <iframe
+                  width="100%"
+                  height="300"
+                  src="https://www.youtube.com/embed/4sYOvNpK_rU"
+                  title="YouTube video player"
+                  frameBorder="0"
+                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                  allowFullScreen
+                ></iframe>
+              </div>
+              <div className="card-actions justify-center py-[20px]">
+                <a
+                  href="https://hidden-ghost-next-website.vercel.app/"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  <button className="btn btn-accent">Visit Website</button>
+                </a>
+              </div>
+              <div className="modal-action ">
+                <label htmlFor="hdgid" className="btn">
+                  Close
+                </label>
+              </div>
+            </div>
+          </div>
+        </>,
+      ],
+    },
   ];
 
   const experienceAppData = [
