@@ -49,7 +49,7 @@ const AboutMe = () => {
                     <code>✓ Major: Computer Game Multimedia</code>
                   </pre>
                   <pre data-prefix=">" className="text-success">
-                    <code>✓ Position: Front-end Developer</code>
+                    <code>✓ Position: Full Stack Developer</code>
                   </pre>
                   <pre data-prefix=">" className="text-success">
                     <code>✓ Work Experiance: 2.5 Years</code>
@@ -74,7 +74,7 @@ const AboutMe = () => {
                     <code>⭐️ Framework:</code>
                   </pre>
                   <pre data-prefix=">" className="text-success">
-                    <code>✓ Next.js , Vite </code>
+                    <code>✓ Next.js , Vue.js </code>
                   </pre>
                   <pre data-prefix=">" className="text-warning">
                     <code>⭐️ Library:</code>
