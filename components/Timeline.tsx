@@ -126,7 +126,7 @@ const Timeline = () => {
           </div>
           <div className="order-1 dark:bg-gray-400 bg-[#EBEBEB] rounded-lg shadow-xl w-5/12 px-6 py-4">
             <h3 className="mb-3 font-bold text-gray-800 md:text-xl text-sm">
-              Skuberg Co.,Ltd.
+              Virtual Reality Co.,Ltd.
             </h3>
             <h3 className="mb-3 font-bold text-gray-800 md:text-xl text-sm">
               Sep 2023 - Current (

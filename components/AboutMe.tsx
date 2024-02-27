@@ -52,7 +52,7 @@ const AboutMe = () => {
                     <code>✓ Position: Full Stack Developer</code>
                   </pre>
                   <pre data-prefix=">" className="text-success">
-                    <code>✓ Work Experiance: 2.5 Years</code>
+                    <code>✓ Work Experiance: 2.7 Years</code>
                   </pre>
                   <pre
                     data-prefix="$"
