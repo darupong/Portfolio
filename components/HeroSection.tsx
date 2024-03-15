@@ -1,7 +1,10 @@
 import React from "react";
 import css from "../styles/HeroSection.module.css";
+import { useTranslation } from "next-i18next";
 
 const HeroSection = () => {
+  const { t } = useTranslation();
+
   return (
     <div className={`${css.bgTitle} `}>
       <div className={` container md:mx-auto`}>
@@ -10,18 +13,18 @@ const HeroSection = () => {
             className={` py-[200px] flex flex-col items-center justify-center`}
           >
             <p className=" font-bold md:text-[100px] text-[30px] text-white">
-              My Portfolio 🧑‍💻
+              {t("portfolio")}
             </p>
             <p className=" font-bold md:text-[50px] text-[20px] text-white dark:text-[#36D399]">
-              My name is{" "}
+              {t("titleName")}{" "}
               <span className={` text-[#36D399] dark:text-white`}>
-                Darupong Chouypu
+                {t("fullName")}
               </span>
             </p>
             <p
               className={`${css.animated} font-bold md:text-[50px] text-[20px] pt-[10px]`}
             >
-              Website Developer
+              {t("role")}
             </p>
           </div>
         </div>

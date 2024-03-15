@@ -3,8 +3,10 @@ import React from "react";
 import Image from "next/image";
 import logo from "../public/img/myself.png";
 import Link from "next/link";
+import { useTranslation } from "next-i18next";
 
 const AboutMe = () => {
+  const { t } = useTranslation();
   return (
     <div className={` py-[50px] container mx-auto`} id="About">
       <div className="mockup-window dark:bg-base-300 bg-slate-400">
@@ -28,31 +30,43 @@ const AboutMe = () => {
                     data-prefix="$"
                     className="dark:text-[#A6ADBA] text-black"
                   >
-                    <code>pnpm i 'About Me'</code>
+                    <code>pnpm i '{t("aboutMe")}'</code>
                   </pre>
                   <pre data-prefix=">" className="text-warning">
-                    <code>✓ Name: Darupong Chouypu</code>
+                    <code>
+                      ✓ {t("titleN")}: {t("fullName")}
+                    </code>
                   </pre>
                   <pre data-prefix=">" className="text-warning">
-                    <code>✓ Age: 24 y</code>
+                    <code>
+                      ✓ {t("titleAge")}: 24 {t("titleYear")}
+                    </code>
                   </pre>
                   <pre data-prefix=">" className="text-warning">
-                    <code>✓ Email: darupong000@gmail.com</code>
+                    <code>✓ {t("titleEmail")}: darupong000@gmail.com</code>
                   </pre>
                   <pre data-prefix=">" className="text-warning">
-                    <code>✓ From: Bangkok, Thailand</code>
+                    <code>
+                      ✓ {t("titleFrom")}: {t("location")}
+                    </code>
                   </pre>
                   <pre data-prefix=">" className="text-warning">
-                    <code>✓ Education: Rangsit University</code>
+                    <code>
+                      ✓ {t("titleEducation")}: {t("university")}
+                    </code>
                   </pre>
                   <pre data-prefix=">" className="text-warning">
-                    <code>✓ Major: Computer Game Multimedia</code>
+                    <code>
+                      ✓ {t("titleMajor")}: {t("major")}
+                    </code>
                   </pre>
                   <pre data-prefix=">" className="text-success">
-                    <code>✓ Position: Full Stack Developer</code>
+                    <code>✓ {t("titlePosition")}: Full Stack Developer</code>
                   </pre>
                   <pre data-prefix=">" className="text-success">
-                    <code>✓ Work Experiance: 2.7 Years</code>
+                    <code>
+                      ✓ {t("titleExperience")}: 2.7 {t("titleYear")}
+                    </code>
                   </pre>
                   <pre
                     data-prefix="$"
@@ -74,25 +88,25 @@ const AboutMe = () => {
                     <code>⭐️ Framework:</code>
                   </pre>
                   <pre data-prefix=">" className="text-success">
-                    <code>✓ Next.js , Vue.js </code>
+                    <code>✓ Next.js, Vue.js </code>
                   </pre>
                   <pre data-prefix=">" className="text-warning">
                     <code>⭐️ Library:</code>
                   </pre>
                   <pre data-prefix=">" className="text-success">
-                    <code>✓ Tailwind , DaisyUI , Antd</code>
+                    <code>✓ Tailwind, Antd, Axios</code>
                   </pre>
                   <pre data-prefix=">" className="text-warning">
                     <code>⭐️ Programming Language:</code>
                   </pre>
                   <pre data-prefix=">" className="text-success">
-                    <code>✓ JS , TS , C# , Python</code>
+                    <code>✓ JS, TS, C#, Python</code>
                   </pre>
                   <pre data-prefix=">" className="text-warning">
                     <code>⭐️ Tools:</code>
                   </pre>
                   <pre data-prefix=">" className="text-success">
-                    <code>✓ Unity , Wordpress , Docker</code>
+                    <code>✓ Unity, Wordpress, Docker</code>
                   </pre>
                   <pre
                     data-prefix="$"

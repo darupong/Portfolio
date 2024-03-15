@@ -46,8 +46,10 @@ import Itz from "../public/img/ITZ.jpg";
 import newport from "../public/img/imgExperiance/newport.webp";
 import looklike from "../public/img/imgExperiance/Looklike.jpg";
 import Image from "next/image";
+import { useTranslation } from "next-i18next";
 
 const ExperienceSection = () => {
+  const { t } = useTranslation();
   const experienceWebData = [
     {
       id: "looklike",
@@ -1624,7 +1626,7 @@ const ExperienceSection = () => {
   return (
     <div className="container mx-auto py-[100px] " id="Experience">
       <h1 className="text-[60px] font-bold text-center pb-[50px] dark:text-white text-gray-800">
-        Developer Experience
+        {t("experience")}
       </h1>
       <Tabs
         defaultActiveKey="1"

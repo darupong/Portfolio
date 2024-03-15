@@ -1,12 +1,14 @@
 /* eslint-disable react/no-unescaped-entities */
 import React from "react";
+import { useTranslation } from "next-i18next";
 
 const Timeline = () => {
+  const { t } = useTranslation();
   return (
     <div className="container mx-auto w-full h-full " id="Timeline">
       <div className="relative wrap overflow-hidden p-10 h-full">
         <h1 className="text-[60px] font-bold text-center pb-[50px] dark:text-white text-gray-800">
-          Timeline
+          {t("timeline")}
         </h1>
         <div className="border-2-2 absolute border-opacity-20 border-gray-700 dark:border-white h-full border left-[50%]"></div>
         <div className="mb-8 flex justify-between items-center w-full right-timeline">

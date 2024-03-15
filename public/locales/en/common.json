@@ -1,0 +1,22 @@
+{
+    "title" : "Hello",
+    "portfolio" : "My Portfolio 🧑‍💻",
+    "timeline": "Timeline",
+    "experience" : "Developer Experience",
+    "titleName" : "My name is",
+    "fullName": "Darupong Chouypu",
+    "role" : "WEBSITE DEVELOPER",
+    "aboutMe": "About Me",
+    "titleYear" : "Years",
+    "titleN" : "Name",
+    "titleAge" : "Age",
+    "titleEmail": "Email",
+    "titleFrom" : "Form",
+    "titleEducation" : "Education",
+    "location" : "Bangkok, Thailand",
+    "university": "Rangsit University",
+    "major" : "Computer Game Multimedia",
+    "titleMajor" : "Major",
+    "titlePosition": "Position",
+    "titleExperience" : "Experience"
+}
