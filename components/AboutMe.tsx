@@ -120,18 +120,16 @@ const AboutMe = () => {
             <div className="dark:bg-[#191D24] bg-white py-6 rounded-[20px]">
               <div className="flex flex-col mx-[100px] text-center dark:text-[#A6ADBA] text-black">
                 <h1>
-                  I work as a{" "}
+                  {t("workat")}{" "}
                   <span className=" text-[#36D399]">Front-end Developer </span>
-                  (Intermediate) and{" "}
+                  (Intermediate) {t("and")}{" "}
                   <span className=" text-[#36D399]">Backend Developer </span>
-                  (Entry) and I am interested in learning about Fullstack
-                  Developer, Mobile Application from React Native.
+                  (Entry) {t("interested")}
                 </h1>
                 <h1>
-                  I've previously worked on{" "}
+                  {t("previously")}{" "}
                   <span className=" text-[#36D399]">Game Development</span> ,
-                  Filter Creator from Instagram or Tiktok , Virtual tour on
-                  website and Augmented reality on website.
+                  {t("filter")}
                 </h1>
               </div>
             </div>

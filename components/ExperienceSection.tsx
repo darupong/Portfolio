@@ -402,7 +402,7 @@ const ExperienceSection = () => {
 
   const experienceGameData = [
     {
-      id: "hdgid",
+      id: "hdgid1",
       img: hdg,
       name: "The Hidden Ghost",
       imgInfo: "The Hidden Ghost",
@@ -420,10 +420,10 @@ const ExperienceSection = () => {
         "A website is a promoting mobile game project that I did during internship. The game is a detective game inspired by Phasmophobia.",
       btn: [
         <>
-          <label htmlFor="hdgid" className="btn btn-accent">
+          <label htmlFor="hdgid1" className="btn btn-accent">
             Read More
           </label>
-          <input type="checkbox" id="hdgid" className="modal-toggle" />
+          <input type="checkbox" id="hdgid1" className="modal-toggle" />
           <div className="modal">
             <div className="modal-box dark:bg-[#111827] bg-white">
               <h3 className="font-bold text-lg dark:text-[#A6ADBA] text-black">
@@ -458,7 +458,7 @@ const ExperienceSection = () => {
                 </a>
               </div>
               <div className="modal-action ">
-                <label htmlFor="hdgid" className="btn">
+                <label htmlFor="hdgid1" className="btn">
                   Close
                 </label>
               </div>
