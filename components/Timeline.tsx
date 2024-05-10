@@ -1,12 +1,14 @@
 /* eslint-disable react/no-unescaped-entities */
 import React from "react";
+import { useTranslation } from "next-i18next";
 
 const Timeline = () => {
+  const { t } = useTranslation();
   return (
     <div className="container mx-auto w-full h-full " id="Timeline">
       <div className="relative wrap overflow-hidden p-10 h-full">
         <h1 className="text-[60px] font-bold text-center pb-[50px] dark:text-white text-gray-800">
-          Timeline
+          {t("timeline")}
         </h1>
         <div className="border-2-2 absolute border-opacity-20 border-gray-700 dark:border-white h-full border left-[50%]"></div>
         <div className="mb-8 flex justify-between items-center w-full right-timeline">
@@ -18,14 +20,13 @@ const Timeline = () => {
           </div>
           <div className="order-1 dark:bg-gray-400 bg-[#EBEBEB] rounded-lg shadow-xl w-5/12 px-6 py-4">
             <h3 className="mb-3 font-bold text-gray-800 md:text-xl text-sm ">
-              Woranari Chaloem Songkhla School
+              {t("wcs")}
             </h3>
             <h3 className="mb-3 font-bold text-gray-800 md:text-xl text-sm">
-              2012-2017 ( English-Mathematics Program )
+              {t("feb")} 2012 - {t("may")} 2017 ( {t("wcsProgram")} )
             </h3>
             <p className="text-sm font-medium leading-snug tracking-wide text-gray-900 text-opacity-100">
-              High School Certificate equivalent at Woranari Chaloem Songkhla
-              School (WCS)
+              {t("wcsDescription")}
             </p>
           </div>
         </div>
@@ -39,16 +40,16 @@ const Timeline = () => {
           </div>
           <div className="order-1 bg-[#191D24] rounded-lg shadow-xl w-5/12 px-6 py-4">
             <h3 className="mb-3 font-bold text-white md:text-xl text-sm">
-              Rangsit University
+              {t("university")}
             </h3>
             <h3 className="mb-3 font-bold text-white md:text-xl text-sm">
-              2018-2021 ({" "}
+              {t("may")} 2018 - {t("dec")} 2021 ({" "}
               <span className=" text-[#36D399]">Unity Game Developer</span> )
             </h3>
             <p className="text-sm font-medium leading-snug tracking-wide text-white text-opacity-100">
-              [ <span className="text-[#36D399]">GPA 3.56</span> ] Bachelor's
-              degree
-              <span className="text-[#36D399]"> First Class Honors</span> at
+              [ <span className="text-[#36D399]">GPA 3.56</span> ]{" "}
+              {t("bachelor")}
+              <span className="text-[#36D399]"> {t("firstclasshonor")}</span> at
               Rangsit University (RSU), Computer Game Multimedia (CGM)
             </p>
           </div>
@@ -63,28 +64,27 @@ const Timeline = () => {
           </div>
           <div className="order-1 dark:bg-gray-400 bg-[#EBEBEB] rounded-lg shadow-xl w-5/12 px-6 py-4">
             <h3 className="mb-3 font-bold text-gray-800 md:text-xl text-sm">
-              VIZ STUDIO Co.,Ltd.
+              {t("viz")}
             </h3>
             <h3 className="mb-3 font-bold text-gray-800 md:text-xl text-sm">
-              July 2021 - Jan 2023 (
+              {t("jul")} 2021 - {t("jan")} 2023 (
               <span className="dark:text-gray-800 text-[#36D399]">
                 {" "}
-                Intern Game Dev. / Programmer{" "}
+                {t("intern")} Game Dev. / Programmer{" "}
               </span>{" "}
               )
             </h3>
             <p className="text-sm font-medium leading-snug tracking-wide text-gray-900 text-opacity-100">
-              Key responsibilities:
+              {t("responsibility")}:
             </p>
             <p className="text-sm font-medium leading-snug tracking-wide text-gray-900 text-opacity-100">
-              ⭐️ Develop website with Wordpress about Virtual Tour on website,
-              3D on webisite.
+              ⭐️ {t("vizres1")}
             </p>
             <p className="text-sm font-medium leading-snug tracking-wide text-gray-900 text-opacity-100">
-              ⭐️ Develop unity game on mobile application.
+              ⭐️ {t("vizres2")}
             </p>
             <p className="text-sm font-medium leading-snug tracking-wide text-gray-900 text-opacity-100">
-              ⭐️ Develop virtual code on social platform (Filter IG, Tiktok).
+              ⭐️ {t("vizres3")}
             </p>
           </div>
         </div>
@@ -98,21 +98,20 @@ const Timeline = () => {
           </div>
           <div className="order-1 bg-[#191D24] rounded-lg shadow-xl w-5/12 px-6 py-4">
             <h3 className="mb-3 font-bold text-white md:text-xl text-sm">
-              Pi R Square Co.,Ltd.
+              {t("pir")}
             </h3>
             <h3 className="mb-3 font-bold text-white md:text-xl text-sm">
-              Feb 2023 - May 2023 (
+              {t("feb")} 2023 - {t("may")} 2023 (
               <span className="text-[#36D399]"> Front-end Developer </span>)
             </h3>
             <p className="text-sm font-medium leading-snug tracking-wide text-white text-opacity-100">
-              Key responsibilities:
+              {t("responsibility")}:
             </p>
             <p className="text-sm font-medium leading-snug tracking-wide text-white text-opacity-100">
-              ⭐️ Develop website with Next.js (Front-end) about Shopping,
-              Landing page and Information website.
+              ⭐️ {t("pirres1")}
             </p>
             <p className="text-sm font-medium leading-snug tracking-wide text-white text-opacity-100">
-              ⭐️ Develop web application with React about Dating application.
+              ⭐️ {t("pirres2")}
             </p>
           </div>
         </div>
@@ -126,10 +125,10 @@ const Timeline = () => {
           </div>
           <div className="order-1 dark:bg-gray-400 bg-[#EBEBEB] rounded-lg shadow-xl w-5/12 px-6 py-4">
             <h3 className="mb-3 font-bold text-gray-800 md:text-xl text-sm">
-              Virtual Reality Co.,Ltd.
+              {t("vir")}
             </h3>
             <h3 className="mb-3 font-bold text-gray-800 md:text-xl text-sm">
-              Sep 2023 - Current (
+              {t("sep")} 2023 - Current (
               <span className="dark:text-gray-800 text-[#36D399]">
                 {" "}
                 Full Stack Developer
@@ -137,14 +136,13 @@ const Timeline = () => {
               )
             </h3>
             <p className="text-sm font-medium leading-snug tracking-wide text-gray-900 text-opacity-100">
-              Key responsibilities:
+              {t("responsibility")}:
             </p>
             <p className="text-sm font-medium leading-snug tracking-wide text-gray-900 text-opacity-100">
-              ⭐️ Develop website with Next.js about AI face mapping used by
-              Stable diffusion.
+              ⭐️ {t("virres1")}
             </p>
             <p className="text-sm font-medium leading-snug tracking-wide text-gray-900 text-opacity-100">
-              ⭐️ Maintenance the kiosk photobooth system.
+              ⭐️ {t("virres2")}
             </p>
           </div>
         </div>

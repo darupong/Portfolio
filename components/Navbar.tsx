@@ -13,17 +13,69 @@ import {
   FaLinkedin,
 } from "react-icons/fa";
 
+import { Button, Dropdown, Space } from "antd";
+import type { MenuProps } from "antd";
+
 import logo from "../public/img/myself.png";
 import Image from "next/image";
 import { Tag } from "antd";
+import { MdGTranslate } from "react-icons/md";
+
+import { useRouter } from "next/router";
 
 const Navbar = (): JSX.Element => {
+  const router = useRouter();
   const { systemTheme, theme, setTheme } = useTheme();
   const [mounted, setMounted] = useState(false);
 
   useEffect(() => {
     setMounted(true);
   }, []);
+
+  const items: MenuProps["items"] = [
+    {
+      key: "1",
+      label: (
+        <a
+          rel="noopener noreferrer"
+          onClick={(e) => {
+            e.preventDefault();
+            router.push("/", "/", { locale: "en" });
+          }}
+        >
+          🇺🇸 English
+        </a>
+      ),
+    },
+    {
+      key: "2",
+      label: (
+        <a
+          rel="noopener noreferrer"
+          onClick={(e) => {
+            e.preventDefault();
+            router.push("/", "/", { locale: "th" });
+          }}
+        >
+          🇹🇭 ภาษาไทย
+        </a>
+      ),
+    },
+    {
+      key: "3",
+      label: (
+        <a
+          rel="noopener noreferrer"
+          onClick={(e) => {
+            e.preventDefault();
+            router.push("/", "/", { locale: "zh" });
+          }}
+        >
+          🇨🇳 中文 (Beta)
+        </a>
+      ),
+    },
+  ];
 
   const renderThemeChanger = () => {
     if (!mounted) return null;
@@ -119,6 +171,15 @@ const Navbar = (): JSX.Element => {
           </ul>
         </div>
         <div className="flex md:order-2">
+          <div className="pl-4">
+            <Dropdown menu={{ items }} placement="bottomRight">
+              <a onClick={(e) => e.preventDefault()}>
+                <Space className="flex justify-center">
+                  <MdGTranslate className="dark:text-white text-black text-[24px]" />
+                </Space>
+              </a>
+            </Dropdown>
+          </div>
           <div className=" pl-4 flex items-center">{renderThemeChanger()}</div>
         </div>
       </div>
