@@ -16,7 +16,7 @@
     "location" : "เขตคลองสามวา, กรุงเทพมหานคร",
     "university": "มหาวิทยาลัยรังสิต",
     "major" : "คอมพิวเตอร์เกมมัลติมีเดีย",
-    "titleMajor" : "คณะ",
+    "titleMajor" : "สาขา",
     "titlePosition": "ตำแหน่ง",
     "titleExperience" : "ประสบการณ์",
     "workat" : "ฉันทำงานตำแหน่ง",
@@ -46,5 +46,7 @@
     "pirres2" : "พัฒนาเว็บแอปพลิเคชันโดยใช้ React โดยพัฒนาเกี่ยวกับ Dating App แอพหาคู่",
     "vir" : "บริษัท เวอร์ชวล เรียลลิตี้ จำกัด",
     "virres1" : "พัฒนาเว็บไซน์โดยใช้ Next.js โดยพัฒนาเกี่ยวกับเว็บไซน์ AI face mapping โดยใช้ Stable diffusion",
-    "virres2" : "พัฒนาระบบตู้ถ่ายรูป AI Photobooth"
+    "virres2" : "พัฒนาระบบตู้ถ่ายรูป AI Photobooth",
+    "at" : "จาก",
+    "current" : "ปัจจุบัน"
 }

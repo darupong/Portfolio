@@ -65,7 +65,7 @@ const AboutMe = () => {
                   </pre>
                   <pre data-prefix=">" className="text-success">
                     <code>
-                      ✓ {t("titleExperience")}: 2.7 {t("titleYear")}
+                      ✓ {t("titleExperience")}: 2.8 {t("titleYear")}
                     </code>
                   </pre>
                   <pre

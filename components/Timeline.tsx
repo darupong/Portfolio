@@ -49,8 +49,12 @@ const Timeline = () => {
             <p className="text-sm font-medium leading-snug tracking-wide text-white text-opacity-100">
               [ <span className="text-[#36D399]">GPA 3.56</span> ]{" "}
               {t("bachelor")}
-              <span className="text-[#36D399]"> {t("firstclasshonor")}</span> at
-              Rangsit University (RSU), Computer Game Multimedia (CGM)
+              <span className="text-[#36D399]">
+                {" "}
+                {t("firstclasshonor")}
+              </span>{" "}
+              {t("at")}
+              {t("university")} (RSU), {t("major")} (CGM)
             </p>
           </div>
         </div>
@@ -128,7 +132,7 @@ const Timeline = () => {
               {t("vir")}
             </h3>
             <h3 className="mb-3 font-bold text-gray-800 md:text-xl text-sm">
-              {t("sep")} 2023 - Current (
+              {t("sep")} 2023 - {t("current")} (
               <span className="dark:text-gray-800 text-[#36D399]">
                 {" "}
                 Full Stack Developer
