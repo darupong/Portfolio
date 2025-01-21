@@ -65,7 +65,7 @@ const AboutMe = () => {
                   </pre>
                   <pre data-prefix=">" className="text-success">
                     <code>
-                      ✓ {t("titleExperience")}: 2.8 {t("titleYear")}
+                      ✓ {t("titleExperience")}: 3 {t("titleYear")}
                     </code>
                   </pre>
                   <pre
@@ -121,10 +121,12 @@ const AboutMe = () => {
               <div className="flex flex-col mx-[100px] text-center dark:text-[#A6ADBA] text-black">
                 <h1>
                   {t("workat")}{" "}
-                  <span className=" text-[#36D399]">Front-end Developer </span>
+                  <span className=" text-[#36D399]">Fullstack Developer </span>
                   (Intermediate) {t("and")}{" "}
-                  <span className=" text-[#36D399]">Backend Developer </span>
-                  (Entry) {t("interested")}
+                  <span className=" text-[#36D399]">
+                    Interactive Programmer{" "}
+                  </span>
+                  (Beginner) {t("interested")}
                 </h1>
                 <h1>
                   {t("previously")}{" "}

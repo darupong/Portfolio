@@ -45,12 +45,41 @@ import Adr from "../public/img/Adventure.png";
 import Itz from "../public/img/ITZ.jpg";
 import newport from "../public/img/imgExperiance/newport.webp";
 import looklike from "../public/img/imgExperiance/Looklike.jpg";
+import sathumart from "../public/img/Sathumart.png";
 import Image from "next/image";
 import { useTranslation } from "next-i18next";
 
 const ExperienceSection = () => {
   const { t } = useTranslation();
   const experienceWebData = [
+    {
+      id: "Sathumart",
+      img: sathumart,
+      name: "Sathumart - วอลเปเปอร์มงคลอันดับ 1",
+      imgInfo: "sathumart",
+      badge: [
+        <>
+          <div className="badge badge-accent font-bold text-white border-0">
+            Next.js
+          </div>
+          <div className="badge bg-[#009485] font-bold text-white border-0">
+            FastAPI
+          </div>
+          <div className="badge bg-gray-500 font-bold text-white border-0">
+            ComfyUI
+          </div>
+        </>,
+      ],
+      description:
+        "Looklike.ai website. This website create image from photobooth made by AI Generator.",
+      btn: [
+        <>
+          <a href="https://www.sathumart.com/" target="_blank" rel="noreferrer">
+            <button className="btn btn-accent">Visit Website</button>
+          </a>
+        </>,
+      ],
+    },
     {
       id: "looklike",
       img: looklike,
@@ -60,6 +89,9 @@ const ExperienceSection = () => {
         <>
           <div className="badge badge-accent font-bold text-white border-0">
             Next.js
+          </div>
+          <div className="badge bg-[#009485] font-bold text-white border-0">
+            FastAPI
           </div>
           <div className="badge bg-[#2563EB] font-bold text-white border-0">
             Stable Diffusion
@@ -1752,7 +1784,7 @@ const ExperienceSection = () => {
             ))}
           </div>
         </Tabs.TabPane> */}
-        <Tabs.TabPane tab="Other" key="tab6">
+        {/* <Tabs.TabPane tab="Interactive Event" key="tab6">
           <div className="grid lg:grid-cols-3 md:grid-cols-2 grid-cols-1 lg:gap-10 gap-4 mx-2 justify-center pt-4 ">
             {experienceOtherData.map((data) => (
               // eslint-disable-next-line react/jsx-key
@@ -1775,7 +1807,7 @@ const ExperienceSection = () => {
               </div>
             ))}
           </div>
-        </Tabs.TabPane>
+        </Tabs.TabPane> */}
       </Tabs>
     </div>
   );
