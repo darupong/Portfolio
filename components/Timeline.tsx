@@ -90,7 +90,7 @@ const Timeline = () => {
               {t("vir")}
             </h3>
             <h3 className="mb-3 font-bold text-gray-800 md:text-lg text-base">
-              {t("sep")} 2023 - {t("april")} 2025 (
+              {t("sep")} 2023 - {t("mar")} 2025 (
               <span className="dark:text-gray-800 text-[#36D399]">
                 Full Stack Developer
               </span>

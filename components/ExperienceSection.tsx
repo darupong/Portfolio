@@ -46,12 +46,41 @@ import Itz from "../public/img/ITZ.jpg";
 import newport from "../public/img/imgExperiance/newport.webp";
 import looklike from "../public/img/imgExperiance/Looklike.jpg";
 import sathumart from "../public/img/Sathumart.png";
+import lays from "../public/img/Lays.png";  
 import Image from "next/image";
 import { useTranslation } from "next-i18next";
 
 const ExperienceSection = () => {
   const { t } = useTranslation();
   const experienceWebData = [
+    {
+      id: "Lays",
+      img: lays,
+      name: "Lay's Valentines - รักแล้วบอกเลย์",
+      imgInfo: "sathumart",
+      badge: [
+        <>
+          <div className="badge badge-accent font-bold text-white border-0">
+            Next.js
+          </div>
+          <div className="badge bg-[#009485] font-bold text-white border-0">
+            FastAPI
+          </div>
+          <div className="badge bg-gray-500 font-bold text-white border-0">
+            ComfyUI
+          </div>
+        </>,
+      ],
+      description:
+        "Lay's Valentines event. This website create text and wallpaper wallpaper used by AI.",
+      btn: [
+        <>
+          <a href="https://virtualrealityth.com/laysvalentines/event/" target="_blank" rel="noreferrer">
+            <button className="btn btn-accent">Visit Website</button>
+          </a>
+        </>,
+      ],
+    },
     {
       id: "Sathumart",
       img: sathumart,
@@ -71,7 +100,7 @@ const ExperienceSection = () => {
         </>,
       ],
       description:
-        "Looklike.ai website. This website create image from photobooth made by AI Generator.",
+        "Satumart website. This website create ganesha wallpaper used by AI.",
       btn: [
         <>
           <a href="https://www.sathumart.com/" target="_blank" rel="noreferrer">
@@ -99,7 +128,7 @@ const ExperienceSection = () => {
         </>,
       ],
       description:
-        "Looklike.ai website. This website create image from photobooth made by AI Generator.",
+        "Looklike.ai website. This website create image from photobooth used by AI.",
       btn: [
         <>
           <a href="https://looklike.ai/" target="_blank" rel="noreferrer">

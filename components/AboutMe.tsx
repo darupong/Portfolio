@@ -39,11 +39,14 @@ const AboutMe = () => {
                   </pre>
                   <pre data-prefix=">" className="text-warning">
                     <code>
-                      ✓ {t("titleAge")}: 24 {t("titleYear")}
+                      ✓ {t("titleAge")}: 25 {t("titleYear")}
                     </code>
                   </pre>
                   <pre data-prefix=">" className="text-warning">
                     <code>✓ {t("titleEmail")}: darupong000@gmail.com</code>
+                  </pre>
+                  <pre data-prefix=">" className="text-warning">
+                    <code>✓ Line: @darupong</code>
                   </pre>
                   <pre data-prefix=">" className="text-warning">
                     <code>
@@ -60,12 +63,17 @@ const AboutMe = () => {
                       ✓ {t("titleMajor")}: {t("major")}
                     </code>
                   </pre>
+                  <pre data-prefix=">" className="text-warning">
+                    <code>
+                      ✓ English CEFR: B2
+                    </code>
+                  </pre>
                   <pre data-prefix=">" className="text-success">
                     <code>✓ {t("titlePosition")}: Full Stack Developer</code>
                   </pre>
                   <pre data-prefix=">" className="text-success">
                     <code>
-                      ✓ {t("titleExperience")}: 3 {t("titleYear")}
+                      ✓ {t("titleExperience")}: 3.5 {t("titleYear")}
                     </code>
                   </pre>
                   <pre
@@ -89,6 +97,12 @@ const AboutMe = () => {
                   </pre>
                   <pre data-prefix=">" className="text-success">
                     <code>✓ Next.js, Vue.js </code>
+                  </pre>
+                  <pre data-prefix=">" className="text-warning">
+                    <code>⭐️ Backend:</code>
+                  </pre>
+                  <pre data-prefix=">" className="text-success">
+                    <code>✓ FastAPI, Nest.js </code>
                   </pre>
                   <pre data-prefix=">" className="text-warning">
                     <code>⭐️ Library:</code>
