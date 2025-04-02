@@ -75,9 +75,48 @@ const ExperienceSection = () => {
         "Lay's Valentines event. This website create text and wallpaper wallpaper used by AI.",
       btn: [
         <>
-          <a href="https://virtualrealityth.com/laysvalentines/event/" target="_blank" rel="noreferrer">
-            <button className="btn btn-accent">Visit Website</button>
-          </a>
+          <label htmlFor="valen" className="btn btn-accent">
+            Read More
+          </label>
+          <input type="checkbox" id="valen" className="modal-toggle" />
+          <div className="modal">
+            <div className="modal-box dark:bg-[#111827] bg-white">
+              <h3 className="font-bold text-lg dark:text-[#A6ADBA] text-black">
+              Lay's Valentines - รักแล้วบอกเลย์
+              </h3>
+              <p className="py-4 dark:text-[#A6ADBA] text-black">
+                Event Valentine day at 14 February 2025
+              </p>
+              <h3 className="font-bold text-lg dark:text-[#A6ADBA] text-black py-4">
+              Lay's Valentines - รักแล้วบอกเลย์
+              </h3>
+              <div className="flex items-center">
+                <iframe
+                  width="100%"
+                  height="250"
+                  src="https://www.youtube.com/embed/EKeoFvslh7M?si=Pl-wqubJsorI52_X"
+                  title="YouTube video player"
+                  frameBorder="0"
+                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                  allowFullScreen
+                ></iframe>
+              </div>
+              <div className="card-actions justify-center py-[20px]">
+                <a
+                  href="https://virtualrealityth.com/laysvalentines/event/"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  <button className="btn btn-accent">View Website</button>
+                </a>
+              </div>
+              <div className="modal-action ">
+                <label htmlFor="valen" className="btn">
+                  Close
+                </label>
+              </div>
+            </div>
+          </div>
         </>,
       ],
     },

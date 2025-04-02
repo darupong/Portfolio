@@ -1,17 +1,13 @@
 /* eslint-disable @next/next/no-html-link-for-pages */
 import { useState, useEffect } from "react";
-import Link from "next/link";
 import { useTheme } from "next-themes";
-import css from "../styles/Navbar.module.css";
-import { FaSun, FaMoon } from "react-icons/fa";
-import { Button, Dropdown, Space } from "antd";
+import { Dropdown, Space } from "antd";
 import type { MenuProps } from "antd";
-
-import logo from "../public/img/myself.png";
 import Image from "next/image";
-import { MdGTranslate } from "react-icons/md";
-
 import { useRouter } from "next/router";
+import { FaCog, FaLanguage, FaPalette } from "react-icons/fa"; // Settings icon
+
+import logo from "../public/img/New2025.png";
 import zh from "../public/img/zh.png";
 import th from "../public/img/th.png";
 import us from "../public/img/us.png";
@@ -26,7 +22,8 @@ const Navbar = (): JSX.Element => {
     setMounted(true);
   }, []);
 
-  const items: MenuProps["items"] = [
+  // Language dropdown items
+  const languageItems: MenuProps["items"] = [
     {
       key: "1",
       label: (
@@ -37,13 +34,7 @@ const Navbar = (): JSX.Element => {
             router.push("/", "/", { locale: "en" });
           }}
         >
-          <Image
-            src={us}
-            alt="English"
-            width={20}
-            height={14}
-            className="inline mr-2"
-          />
+          <Image src={us} alt="English" width={20} height={14} className="inline mr-2" />
           English
         </a>
       ),
@@ -58,13 +49,7 @@ const Navbar = (): JSX.Element => {
             router.push("/", "/", { locale: "th" });
           }}
         >
-          <Image
-            src={th}
-            alt="Thai"
-            width={20}
-            height={14}
-            className="inline mr-2"
-          />
+          <Image src={th} alt="Thai" width={20} height={14} className="inline mr-2" />
           ภาษาไทย
         </a>
       ),
@@ -79,13 +64,7 @@ const Navbar = (): JSX.Element => {
             router.push("/", "/", { locale: "zh" });
           }}
         >
-          <Image
-            src={zh}
-            alt="Chinese"
-            width={20}
-            height={14}
-            className="inline mr-2"
-          />
+          <Image src={zh} alt="Chinese" width={20} height={14} className="inline mr-2" />
           中文
         </a>
       ),
@@ -100,40 +79,58 @@ const Navbar = (): JSX.Element => {
             router.push("/", "/", { locale: "jp" });
           }}
         >
-          <Image
-            src={jp}
-            alt="Japanese"
-            width={20}
-            height={14}
-            className="inline mr-2"
-          />
+          <Image src={jp} alt="Japanese" width={20} height={14} className="inline mr-2" />
           日本語
         </a>
       ),
     },
   ];
 
-  const renderThemeChanger = () => {
-    if (!mounted) return null;
-    const currentTheme = theme === "system" ? systemTheme : theme;
-    if (currentTheme === "dark") {
-      return (
-        <FaMoon
-          className=" w-6 h-6 text-black dark:text-white"
-          role="button"
-          onClick={() => setTheme("light")}
-        />
-      );
-    } else {
-      return (
-        <FaSun
-          className=" w-6 h-6 text-black dark:text-white"
-          role="button"
-          onClick={() => setTheme("dark")}
-        />
-      );
-    }
-  };
+  const themeItems: MenuProps["items"] = [
+    {
+      key: "1",
+      label: (
+        <span className="flex items-center">
+          <span className="w-3 h-3 rounded-full bg-white border border-gray-300 mr-2 inline-block" />
+          White
+        </span>
+      ),
+      onClick: () => setTheme("light"),
+    },
+    {
+      key: "2",
+      label: (
+        <span className="flex items-center">
+          <span className="w-3 h-3 rounded-full bg-black border border-gray-300 mr-2 inline-block" />
+          Black
+        </span>
+      ),
+      onClick: () => setTheme("dark"),
+    },
+  ];
+
+  const settingsItems: MenuProps["items"] = [
+    {
+      key: "1",
+      label: (
+        <span className="flex items-center">
+          <FaLanguage className="text-gray-600 mr-2" />
+          Language
+        </span>
+      ),
+      children: languageItems,
+    },
+    {
+      key: "2",
+      label: (
+        <span className="flex items-center">
+          <FaPalette className="text-gray-600 mr-2" />
+          Theme
+        </span>
+      ),
+      children: themeItems,
+    },
+  ];
 
   const navLinks = [
     { href: "/", label: "Home" },
@@ -145,7 +142,7 @@ const Navbar = (): JSX.Element => {
   ];
 
   return (
-    <nav className="bg-white z-50 px-2 sm:px-4 py-2.5 dark:bg-gray-900 fixed w-full top-0 left-0  border-gray-200 dark:border-gray-600">
+    <nav className="bg-white z-50 px-2 sm:px-4 py-2.5 dark:bg-gray-900 fixed w-full top-0 left-0 border-gray-200 dark:border-gray-600">
       <div className="container flex flex-wrap items-center justify-between mx-auto">
         <a href="/" className="flex items-center">
           <Image src={logo} className="h-[50px] w-[50px]" alt="Darupong" />
@@ -161,12 +158,10 @@ const Navbar = (): JSX.Element => {
                   href={link.href}
                   className={`block py-2 pl-3 pr-4 rounded md:p-0 ${
                     router.pathname === link.href
-                      ? "text-white bg-[#36D399] md:bg-transparent md:text-[#36D399] "
+                      ? "text-white bg-[#36D399] md:bg-transparent md:text-[#36D399]"
                       : "text-gray-700 hover:bg-gray-100 md:hover:bg-transparent md:hover:text-[#36D399] dark:text-gray-400 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent"
                   }`}
-                  aria-current={
-                    router.pathname === link.href ? "page" : undefined
-                  }
+                  aria-current={router.pathname === link.href ? "page" : undefined}
                 >
                   {link.label}
                 </a>
@@ -176,15 +171,14 @@ const Navbar = (): JSX.Element => {
         </div>
         <div className="flex md:order-2">
           <div className="pl-4">
-            <Dropdown menu={{ items }} placement="bottomRight">
+            <Dropdown menu={{ items: settingsItems }} overlayClassName="no-arrow">
               <a onClick={(e) => e.preventDefault()}>
-                <Space className="flex justify-center">
-                  <MdGTranslate className="dark:text-white text-black text-[24px]" />
+                <Space className="flex justify-center items-center">
+                  <FaCog className="w-6 h-6 text-black dark:text-white" /> {/* Settings icon */}
                 </Space>
               </a>
             </Dropdown>
           </div>
-          <div className="pl-4 flex items-center">{renderThemeChanger()}</div>
         </div>
       </div>
     </nav>

@@ -1,3 +1,8 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.no-arrow .ant-dropdown-menu-submenu-expand-icon,
+.no-arrow .ant-dropdown-menu-submenu-arrow {
+  display: none !important;
+}

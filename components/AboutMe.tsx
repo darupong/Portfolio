@@ -1,7 +1,7 @@
 /* eslint-disable react/no-unescaped-entities */
 import React from "react";
 import Image from "next/image";
-import logo from "../public/img/myself.png";
+import logo from "../public/img/New2025.png";
 import Link from "next/link";
 import { useTranslation } from "next-i18next";
 
@@ -25,7 +25,7 @@ const AboutMe = () => {
             </div>
             <div className="flex lg:flex-row flex-col justify-center items-center grid-cols-2 gap-8 lg:px-10 px-0 md:py-14 py-6">
               <div>
-                <div className="mockup-code dark:bg-[#191D24] bg-white">
+                <div className="mockup-code dark:bg-[#191D24] bg-white md:w-[500px] w-[400px]">
                   <pre
                     data-prefix="$"
                     className="dark:text-[#A6ADBA] text-black"
@@ -85,7 +85,7 @@ const AboutMe = () => {
                 </div>
               </div>
               <div>
-                <div className="mockup-code dark:bg-[#191D24] bg-white">
+                <div className="mockup-code dark:bg-[#191D24] bg-white md:w-[500px] w-[400px]">
                   <pre
                     data-prefix="$"
                     className="dark:text-[#A6ADBA] text-black"
@@ -131,16 +131,16 @@ const AboutMe = () => {
                 </div>
               </div>
             </div>
-            <div className="dark:bg-[#191D24] bg-white py-6 rounded-[20px]">
-              <div className="flex flex-col mx-[100px] text-center dark:text-[#A6ADBA] text-black">
+            <div className="dark:bg-[#191D24] bg-white py-6 rounded-[20px] md:w-full w-[400px]">
+              <div className="flex flex-col md:mx-[100px] mx-[10px] text-center dark:text-[#A6ADBA] text-black">
                 <h1>
                   {t("workat")}{" "}
-                  <span className=" text-[#36D399]">Fullstack Developer </span>
-                  (Intermediate) {t("and")}{" "}
+                  <span className=" text-[#36D399]">Fullstack Engineer </span>
+                  {t("and")}{" "}
                   <span className=" text-[#36D399]">
-                    Interactive Programmer{" "}
+                    Backend Developer{" "}
                   </span>
-                  (Beginner) {t("interested")}
+                  {t("interested")}
                 </h1>
                 <h1>
                   {t("previously")}{" "}
