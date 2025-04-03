@@ -11,7 +11,7 @@ const Layout = ({ children }: Props) => {
   return (
     <>
       <Head>
-        <link rel="icon" type="image/svg" href="/img/iconsvg.svg" />
+        <link rel="icon" type="image/svg" href="/img/newicontab.svg" />
         <title>Darupong Portfolio</title>
       </Head>
       <div className={`content bg-white dark:bg-[#272727]`}>

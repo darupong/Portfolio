@@ -45,6 +45,26 @@ const Footer = (): JSX.Element => {
               role="button"
             />
           </a>
+          <a
+            href="https://t.me/alexanderdulakov/"
+            target="_blank"
+            rel="noreferrer"
+          >
+            <FaTelegram
+              className=" w-6 h-6 text-black dark:text-white"
+              role="button"
+            />
+          </a>
+          <a
+            href="https://line.me/ti/p/toqPYA4kB0/"
+            target="_blank"
+            rel="noreferrer"
+          >
+            <FaLine
+              className=" w-6 h-6 text-black dark:text-white"
+              role="button"
+            />
+          </a>
         </div>
       </div>
       <div>

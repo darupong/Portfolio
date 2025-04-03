@@ -5,7 +5,8 @@ import { Dropdown, Space } from "antd";
 import type { MenuProps } from "antd";
 import Image from "next/image";
 import { useRouter } from "next/router";
-import { FaCog, FaLanguage, FaPalette } from "react-icons/fa"; // Settings icon
+import { FaCog, FaLanguage, FaPalette } from "react-icons/fa";
+import { HiOutlineMenuAlt3 } from "react-icons/hi";
 
 import logo from "../public/img/New2025.png";
 import zh from "../public/img/zh.png";
@@ -171,10 +172,10 @@ const Navbar = (): JSX.Element => {
         </div>
         <div className="flex md:order-2">
           <div className="pl-4">
-            <Dropdown menu={{ items: settingsItems }} overlayClassName="no-arrow">
+            <Dropdown menu={{ items: settingsItems }} placement="bottomRight" overlayClassName="no-arrow">
               <a onClick={(e) => e.preventDefault()}>
                 <Space className="flex justify-center items-center">
-                  <FaCog className="w-6 h-6 text-black dark:text-white" /> {/* Settings icon */}
+                  <HiOutlineMenuAlt3 className="w-6 h-6 text-black dark:text-white" /> {/* Settings icon */}
                 </Space>
               </a>
             </Dropdown>
