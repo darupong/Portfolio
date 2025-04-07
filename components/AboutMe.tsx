@@ -96,7 +96,7 @@ const AboutMe = () => {
                     <code>⭐️ Framework:</code>
                   </pre>
                   <pre data-prefix=">" className="text-success">
-                    <code>✓ Next.js, Vue.js </code>
+                    <code>✓ Next.js, Vite </code>
                   </pre>
                   <pre data-prefix=">" className="text-warning">
                     <code>⭐️ Backend:</code>
