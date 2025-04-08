@@ -96,13 +96,13 @@ const AboutMe = () => {
                     <code>⭐️ Framework:</code>
                   </pre>
                   <pre data-prefix=">" className="text-success">
-                    <code>✓ Next.js, Vite </code>
+                    <code>✓ Next, React </code>
                   </pre>
                   <pre data-prefix=">" className="text-warning">
                     <code>⭐️ Backend:</code>
                   </pre>
                   <pre data-prefix=">" className="text-success">
-                    <code>✓ FastAPI, Nest.js </code>
+                    <code>✓ FastAPI, NestJS, ExpressJS</code>
                   </pre>
                   <pre data-prefix=">" className="text-warning">
                     <code>⭐️ Library:</code>
@@ -124,7 +124,7 @@ const AboutMe = () => {
                   </pre>
                   <pre
                     data-prefix="$"
-                    className="dark:text-[#A6ADBA] text-black"
+                    className="dxwark:text-[#A6ADBA] text-black"
                   >
                     <code>Done!</code>
                   </pre>
