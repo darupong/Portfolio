@@ -30,50 +30,77 @@ const AboutMe = () => {
                     data-prefix="$"
                     className="dark:text-[#A6ADBA] text-black"
                   >
-                    <code>pnpm i '{t("aboutMe")}'</code>
+                    <code>bun i '{t("aboutMe")}'</code>
                   </pre>
                   <pre data-prefix=">" className="text-warning">
                     <code>
-                      ✓ {t("titleN")}: {t("fullName")}
+                      ✓ {t("titleN")}:{" "}
+                      <span className="text-[#36D399]">{t("fullName")}</span>
                     </code>
                   </pre>
                   <pre data-prefix=">" className="text-warning">
                     <code>
-                      ✓ {t("titleAge")}: 25 {t("titleYear")}
-                    </code>
-                  </pre>
-                  <pre data-prefix=">" className="text-warning">
-                    <code>✓ {t("titleEmail")}: darupong000@gmail.com</code>
-                  </pre>
-                  <pre data-prefix=">" className="text-warning">
-                    <code>✓ Line: @darupong</code>
-                  </pre>
-                  <pre data-prefix=">" className="text-warning">
-                    <code>
-                      ✓ {t("titleFrom")}: {t("location")}
+                      ✓ {t("titleAge")}:{" "}
+                      <span className="text-[#36D399]">
+                        25 {t("titleYear")}
+                      </span>
                     </code>
                   </pre>
                   <pre data-prefix=">" className="text-warning">
                     <code>
-                      ✓ {t("titleEducation")}: {t("university")}
+                      ✓ {t("titleEmail")}:{" "}
+                      <span className="text-[#36D399]">
+                        darupong000@gmail.com
+                      </span>
                     </code>
                   </pre>
                   <pre data-prefix=">" className="text-warning">
                     <code>
-                      ✓ {t("titleMajor")}: {t("major")}
+                      ✓ {t("titleFrom")}:{" "}
+                      <span className="text-[#36D399]">{t("location")}</span>
                     </code>
                   </pre>
                   <pre data-prefix=">" className="text-warning">
                     <code>
-                      ✓ English CEFR: B2
+                      ✓ {t("titleEducation")}:{" "}
+                      <span className="text-[#36D399]">{t("university")}</span>
                     </code>
                   </pre>
-                  <pre data-prefix=">" className="text-success">
-                    <code>✓ {t("titlePosition")}: Full Stack Developer</code>
-                  </pre>
-                  <pre data-prefix=">" className="text-success">
+                  <pre data-prefix=">" className="text-warning">
                     <code>
-                      ✓ {t("titleExperience")}: 3.5 {t("titleYear")}
+                      ✓ {t("titleMajor")} 1:{" "}
+                      <span className="text-[#36D399]">
+                        {t("bachelor")} (BS)
+                      </span>
+                    </code>
+                  </pre>
+                  <pre data-prefix=">" className="text-warning">
+                    <code>
+                      ✓ {t("titleMajor")} 2:{" "}
+                      <span className="text-[#36D399]">{t("major")} (MIS)</span>
+                    </code>
+                  </pre>
+                  <pre data-prefix=">" className="text-warning">
+                    <code>
+                      ✓ English CEFR:{" "}
+                      <span className="text-[#36D399]">RSU-PET B2</span>
+                    </code>
+                  </pre>
+                  <pre data-prefix=">" className="text-warning">
+                    <code>
+                      ✓ {t("titlePosition")}:{" "}
+                      <span className="text-[#36D399]">
+                        Full Stack Engineer
+                      </span>
+                    </code>
+                  </pre>
+                  <pre data-prefix=">" className="text-warning">
+                    <code>
+                      ✓ {t("titleExperience")}:{" "}
+                      <span className="text-transparent bg-clip-text bg-gradient-to-r from-red-500 via-yellow-500 via-green-500 via-blue-500 to-purple-500 animate-rainbow">
+                        3
+                      </span>{" "}
+                      <span className="text-[#36D399]">{t("titleYear")}</span>
                     </code>
                   </pre>
                   <pre
@@ -93,38 +120,80 @@ const AboutMe = () => {
                     <code>cd Skill</code>
                   </pre>
                   <pre data-prefix=">" className="text-warning">
-                    <code>⭐️ Framework:</code>
-                  </pre>
-                  <pre data-prefix=">" className="text-success">
-                    <code>✓ Next, React </code>
-                  </pre>
-                  <pre data-prefix=">" className="text-warning">
-                    <code>⭐️ Backend:</code>
-                  </pre>
-                  <pre data-prefix=">" className="text-success">
-                    <code>✓ FastAPI, NestJS, ExpressJS</code>
+                    <code>
+                      ✓ Frontend Framework:{" "}
+                      <span className="text-[#36D399]">Next, React, Astro</span>
+                    </code>
                   </pre>
                   <pre data-prefix=">" className="text-warning">
-                    <code>⭐️ Library:</code>
-                  </pre>
-                  <pre data-prefix=">" className="text-success">
-                    <code>✓ Tailwind, Antd, Axios</code>
-                  </pre>
-                  <pre data-prefix=">" className="text-warning">
-                    <code>⭐️ Programming Language:</code>
-                  </pre>
-                  <pre data-prefix=">" className="text-success">
-                    <code>✓ JS, TS, C#, Python</code>
+                    <code>
+                      ✓ Backend Framework:{" "}
+                      <span className="text-[#36D399]">
+                        FastAPI, Nest, Express
+                      </span>
+                    </code>
                   </pre>
                   <pre data-prefix=">" className="text-warning">
-                    <code>⭐️ Tools:</code>
+                    <code>
+                      ✓ App Development:{" "}
+                      <span className="text-[#36D399]">
+                        Electron, React Native
+                      </span>
+                    </code>
                   </pre>
-                  <pre data-prefix=">" className="text-success">
-                    <code>✓ Unity, Wordpress, Docker</code>
+                  <pre data-prefix=">" className="text-warning">
+                    <code>
+                      ✓ Game Development::{" "}
+                      <span className="text-[#36D399]">
+                        Unity, Unreal Engine
+                      </span>
+                    </code>
+                  </pre>
+                  <pre data-prefix=">" className="text-warning">
+                    <code>
+                      ✓ Programming Languages:{" "}
+                      <span className="text-[#36D399]">Python, C#, JS, TS</span>
+                    </code>
+                  </pre>
+                  <pre data-prefix=">" className="text-warning">
+                    <code>
+                      ✓ UI Libraries:{" "}
+                      <span className="text-[#36D399]">
+                        Tailwind, Antd, Daisy, MUI
+                      </span>
+                    </code>
+                  </pre>
+                  <pre data-prefix=">" className="text-warning">
+                    <code>
+                      ✓ Other Libraries:{" "}
+                      <span className="text-[#36D399]">
+                        Zustand, Axios, Stripe
+                      </span>
+                    </code>
+                  </pre>
+                  <pre data-prefix=">" className="text-warning">
+                    <code>
+                      ✓ Databases:{" "}
+                      <span className="text-[#36D399]">
+                        PostgreSQL, MongoDB
+                      </span>
+                    </code>
+                  </pre>
+                  <pre data-prefix=">" className="text-warning">
+                    <code>
+                      ✓ Cloud Services:{" "}
+                      <span className="text-[#36D399]">Vercel, AWS</span>
+                    </code>
+                  </pre>
+                  <pre data-prefix=">" className="text-warning">
+                    <code>
+                      ✓ OS Server:{" "}
+                      <span className="text-[#36D399]">Ubuntu, Windows</span>
+                    </code>
                   </pre>
                   <pre
                     data-prefix="$"
-                    className="dxwark:text-[#A6ADBA] text-black"
+                    className="dark:text-[#A6ADBA] text-black"
                   >
                     <code>Done!</code>
                   </pre>
@@ -137,9 +206,7 @@ const AboutMe = () => {
                   {t("workat")}{" "}
                   <span className=" text-[#36D399]">Fullstack Engineer </span>
                   {t("and")}{" "}
-                  <span className=" text-[#36D399]">
-                    Backend Developer{" "}
-                  </span>
+                  <span className=" text-[#36D399]">Backend Developer </span>
                   {t("interested")}
                 </h1>
                 <h1>

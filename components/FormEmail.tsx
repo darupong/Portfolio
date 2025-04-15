@@ -119,7 +119,19 @@ const FromEmail = () => {
               Send
             </button>
           </div>
+          
         </form>
+        <div className="flex justify-center pb-10">
+            <iframe
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3873.831058956095!2d100.70421161508326!3d13.906500090247297!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x311d7c81064b687d%3A0x3326337c087dbc5f!2sDarupong%20House!5e0!3m2!1sen!2sth!4v1698765432109!5m2!1sen!2sth"
+              width="100%"
+              height="400"
+              style={{ border: 0, maxWidth: "800px" }}
+              allowFullScreen
+              loading="lazy"
+              referrerPolicy="no-referrer-when-downgrade"
+            ></iframe>
+          </div>
       </div>
     </section>
   );

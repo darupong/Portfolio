@@ -6,3 +6,28 @@
 .no-arrow .ant-dropdown-menu-submenu-arrow {
   display: none !important;
 }
+
+@keyframes rainbow {
+  0% {
+    background-position: 0% 0%;
+  }
+  100% {
+    background-position: 200% 0%;
+  }
+}
+
+.animate-rainbow {
+  background: linear-gradient(
+    to right,
+    rgb(255, 0, 0),    /* Red */
+    rgb(255, 165, 0),  /* Orange */
+    rgb(255, 255, 0),  /* Yellow */
+    rgb(0, 255, 0),    /* Green */
+    rgb(238, 130, 238), /* Violet */
+    rgb(255, 0, 0)     /* Red (loop back) */
+  );
+  background-size: 200%;
+  -webkit-background-clip: text;
+  background-clip: text;
+  animation: rainbow 1s linear infinite;
+}

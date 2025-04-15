@@ -138,7 +138,7 @@ const Navbar = (): JSX.Element => {
     { href: "/timeline", label: "Timeline" },
     { href: "/experience", label: "Experience" },
     { href: "/resume", label: "Resume" },
-    { href: "/certificate", label: "Certificate" },
+    // { href: "/certificate", label: "Certificate" },
     { href: "/contact", label: "Contact" },
   ];
 
