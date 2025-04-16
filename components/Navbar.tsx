@@ -18,10 +18,80 @@ const Navbar = (): JSX.Element => {
   const router = useRouter();
   const { systemTheme, theme, setTheme } = useTheme();
   const [mounted, setMounted] = useState(false);
+  const [activeSection, setActiveSection] = useState("home");
 
   useEffect(() => {
     setMounted(true);
   }, []);
+
+  useEffect(() => {
+    const handleScroll = () => {
+      const sections = ["home", "timeline", "experience"];
+      const scrollPosition = window.scrollY + 100;
+
+      for (const section of sections) {
+        const element = document.getElementById(section);
+        if (element) {
+          const { offsetTop, offsetHeight } = element;
+          if (
+            scrollPosition >= offsetTop &&
+            scrollPosition < offsetTop + offsetHeight
+          ) {
+            setActiveSection(section);
+            break;
+          }
+        }
+      }
+    };
+
+    // Update active section based on current route
+    if (router.pathname !== "/") {
+      setActiveSection(router.pathname.replace("/", ""));
+    }
+
+    window.addEventListener("scroll", handleScroll);
+    return () => window.removeEventListener("scroll", handleScroll);
+  }, [router.pathname]);
+
+  const handleNavigation = (href: string, sectionId?: string) => {
+    if (sectionId) {
+      // If we're not on the home page and clicking a section link, go to home page first
+      if (router.pathname !== "/") {
+        router.push("/").then(() => {
+          // Wait for the page to load and then scroll to the section
+          setTimeout(() => {
+            const element = document.getElementById(sectionId);
+            if (element) {
+              const navbarHeight = 80;
+              const elementPosition = element.getBoundingClientRect().top;
+              const offsetPosition = elementPosition + window.pageYOffset - navbarHeight;
+
+              window.scrollTo({
+                top: offsetPosition,
+                behavior: "smooth"
+              });
+            }
+          }, 100);
+        });
+      } else {
+        // If we're already on home page, just scroll to the section
+        const element = document.getElementById(sectionId);
+        if (element) {
+          const navbarHeight = 80;
+          const elementPosition = element.getBoundingClientRect().top;
+          const offsetPosition = elementPosition + window.pageYOffset - navbarHeight;
+
+          window.scrollTo({
+            top: offsetPosition,
+            behavior: "smooth"
+          });
+        }
+      }
+    } else {
+      // If it's a page link, navigate to it
+      router.push(href);
+    }
+  };
 
   // Language dropdown items
   const languageItems: MenuProps["items"] = [
@@ -134,11 +204,10 @@ const Navbar = (): JSX.Element => {
   ];
 
   const navLinks = [
-    { href: "/", label: "Home" },
-    { href: "/timeline", label: "Timeline" },
-    { href: "/experience", label: "Experience" },
+    { href: "#home", label: "Home", sectionId: "home" },
+    { href: "#timeline", label: "Timeline", sectionId: "timeline" },
+    { href: "#experience", label: "Experience", sectionId: "experience" },
     { href: "/resume", label: "Resume" },
-    // { href: "/certificate", label: "Certificate" },
     { href: "/contact", label: "Contact" },
   ];
 
@@ -157,12 +226,16 @@ const Navbar = (): JSX.Element => {
               <li key={link.href}>
                 <a
                   href={link.href}
+                  onClick={(e) => {
+                    e.preventDefault();
+                    handleNavigation(link.href, link.sectionId);
+                  }}
                   className={`block py-2 pl-3 pr-4 rounded md:p-0 ${
-                    router.pathname === link.href
-                      ? "text-white bg-[#36D399] md:bg-transparent md:text-[#36D399]"
+                    activeSection === (link.sectionId || link.href.replace("/", ""))
+                      ? "text-[#36D399]"
                       : "text-gray-700 hover:bg-gray-100 md:hover:bg-transparent md:hover:text-[#36D399] dark:text-gray-400 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent"
                   }`}
-                  aria-current={router.pathname === link.href ? "page" : undefined}
+                  aria-current={activeSection === (link.sectionId || link.href.replace("/", "")) ? "page" : undefined}
                 >
                   {link.label}
                 </a>
@@ -175,7 +248,7 @@ const Navbar = (): JSX.Element => {
             <Dropdown menu={{ items: settingsItems }} placement="bottomRight" overlayClassName="no-arrow">
               <a onClick={(e) => e.preventDefault()}>
                 <Space className="flex justify-center items-center">
-                  <HiOutlineMenuAlt3 className="w-6 h-6 text-black dark:text-white" /> {/* Settings icon */}
+                  <HiOutlineMenuAlt3 className="w-6 h-6 text-black dark:text-white" />
                 </Space>
               </a>
             </Dropdown>

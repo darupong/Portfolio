@@ -7,6 +7,10 @@
   display: none !important;
 }
 
+.ant-badge-status-dot {
+  display: none !important;
+}
+
 @keyframes rainbow {
   0% {
     background-position: 0% 0%;

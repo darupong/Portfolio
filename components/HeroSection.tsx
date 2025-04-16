@@ -6,7 +6,7 @@ const HeroSection = () => {
   const { t } = useTranslation();
 
   return (
-    <div className={`${css.bgTitle} `}>
+    <div className={`${css.bgTitle}`} id="home">
       <div className={` container md:mx-auto`}>
         <div className={`md:py-[100px] marker:min-h-[564px] md:min-h-screen`}>
           <div

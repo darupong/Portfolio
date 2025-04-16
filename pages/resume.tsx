@@ -18,7 +18,7 @@ const resume = () => {
     <div className="container mx-auto py-[100px]">
       <div className="flex flex-col justify-center items-center gap-6">
         <Image src={resumeimg} alt="resume" className="w-[600px] h-auto" />
-        <Button type="primary" size="large" shape="round" icon={<DownloadOutlined rev={undefined} />}
+        <Button type="primary" size="large" shape="round" icon={<DownloadOutlined />}
           onClick={handleDownload}
           className="bg-[#36D399] hover:bg-[#36D399] text-white border-none"
         >

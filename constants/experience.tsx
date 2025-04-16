@@ -41,9 +41,135 @@ import Ecl from "../public/img/ECL.png";
 import Adr from "../public/img/Adventure.png";
 import Itz from "../public/img/ITZ.jpg";
 import newport from "../public/img/imgExperiance/newport.webp";
+import sathumart from "../public/img/Sathumart.png";
+import lays from "../public/img/Lays.png"; 
 import Image from "next/image";
+import looklike from "../public/img/imgExperiance/Looklike.jpg";
 
 const experienceWebData = [
+  {
+    id: "Lays",
+    img: lays,
+    name: "Lay's Valentines - รักแล้วบอกเลย์",
+    imgInfo: "sathumart",
+    badge: [
+      <>
+        <div className="badge badge-accent font-bold text-white border-0 mr-2">
+          Next.js
+        </div>
+        <div className="badge badge-accent font-bold text-white border-0 mr-2">
+          FastAPI
+        </div>
+        <div className="badge badge-accent font-bold text-white border-0">
+          ComfyUI
+        </div>
+      </>,
+    ],
+    description:
+      "Lay's Valentines event. This website create text and wallpaper wallpaper used by AI.",
+    btn: [
+      <>
+        <label htmlFor="valen" className="btn btn-accent">
+          Read More
+        </label>
+        <input type="checkbox" id="valen" className="modal-toggle" />
+        <div className="modal">
+          <div className="modal-box dark:bg-[#111827] bg-white">
+            <h3 className="font-bold text-lg dark:text-[#A6ADBA] text-black">
+            Lay's Valentines - รักแล้วบอกเลย์
+            </h3>
+            <p className="py-4 dark:text-[#A6ADBA] text-black">
+              Event Valentine day at 14 February 2025
+            </p>
+            <h3 className="font-bold text-lg dark:text-[#A6ADBA] text-black py-4">
+            Lay's Valentines - รักแล้วบอกเลย์
+            </h3>
+            <div className="flex items-center mb-4">
+              <iframe
+                width="100%"
+                height="250"
+                src="https://www.youtube.com/embed/EKeoFvslh7M?si=Pl-wqubJsorI52_X"
+                title="YouTube video player"
+                frameBorder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowFullScreen
+              ></iframe>
+            </div>
+            <div className="card-actions justify-center py-[20px]">
+              <a
+                href="https://virtualrealityth.com/laysvalentines/event/"
+                target="_blank"
+                rel="noreferrer"
+              >
+                <button className="btn btn-accent">View Website</button>
+              </a>
+            </div>
+            <div className="modal-action ">
+              <label htmlFor="valen" className="btn">
+                Close
+              </label>
+            </div>
+          </div>
+        </div>
+      </>,
+    ],
+  },
+  {
+    id: "Sathumart",
+    img: sathumart,
+    name: "Sathumart - วอลเปเปอร์มงคลอันดับ 1",
+    imgInfo: "sathumart",
+    badge: [
+      <>
+        <div className="badge badge-accent font-bold text-white border-0 mr-2">
+          Next.js
+        </div>
+        <div className="badge badge-accent font-bold text-white border-0 mr-2">
+          FastAPI
+        </div>
+        <div className="badge badge-accent font-bold text-white border-0">
+          ComfyUI
+        </div>
+      </>,
+    ],
+    description:
+      "Satumart website. This website create ganesha wallpaper used by AI.",
+    btn: [
+      <>
+        <a href="https://www.sathumart.com/" target="_blank" rel="noreferrer">
+          <button className="btn btn-accent">Visit Website</button>
+        </a>
+      </>,
+    ],
+  },
+  {
+    id: "looklike",
+    img: looklike,
+    name: "Looklike.ai",
+    imgInfo: "looklike",
+    badge: [
+      <>
+        <div className="badge badge-accent font-bold text-white border-0 mr-2">
+          Next.js
+        </div>
+        <div className="badge badge-accent font-bold text-white border-0 mr-2">
+          FastAPI
+        </div>
+        <div className="badge badge-accent font-bold text-white border-0 mr-2">
+          Stable Diffusion
+        </div>
+      </>,
+    ],
+    description:
+      "Looklike.ai website. This website create image from photobooth used by AI.",
+    btn: [
+      <>
+        <a href="https://looklike.ai/" target="_blank" rel="noreferrer">
+          <button className="btn btn-accent">Visit Website</button>
+        </a>
+      </>,
+    ],
+  },
   {
     id: "gamathailand",
     img: gama,
@@ -51,13 +177,13 @@ const experienceWebData = [
     imgInfo: "Gama Thailand",
     badge: [
       <>
-        <div className="badge badge-accent font-bold text-white border-0">
+        <div className="badge badge-accent font-bold text-white border-0 mr-2">
           Next.js
         </div>
-        <div className="badge bg-[#087EA4] font-bold text-white border-0">
+        <div className="badge badge-accent font-bold text-white border-0 mr-2">
           React.js
         </div>
-        <div className="badge bg-[#EA2845] font-bold text-white border-0">
+        <div className="badge badge-accent font-bold text-white border-0 mr-2">
           Nest.js
         </div>
       </>,
@@ -73,19 +199,79 @@ const experienceWebData = [
     ],
   },
   {
+    id: "kooboon",
+    img: kooboon,
+    name: "Kooboon Dating Application",
+    imgInfo: "Kooboon Dating Application",
+    badge: [
+      <>
+        <div className="badge badge-accent font-bold text-white border-0 mr-2">
+          React.js
+        </div>
+        <div className="badge badge-accent font-bold text-white border-0 mr-2">
+          Nest.js
+        </div>
+      </>,
+    ],
+    description: "Application Dating made by react.js",
+    btn: [
+      <>
+        <label htmlFor="kooboon" className="btn btn-accent">
+          Read More
+        </label>
+        <input type="checkbox" id="kooboon" className="modal-toggle" />
+        <div className="modal">
+          <div className="modal-box dark:bg-[#111827] bg-white">
+            <h3 className="font-bold text-lg dark:text-[#A6ADBA] text-black">
+              Kooboon Dating Application
+            </h3>
+            <p className="py-4 dark:text-[#A6ADBA] text-black">
+              Application Dating made by react.js
+            </p>
+            <h3 className="font-bold text-lg dark:text-[#A6ADBA] text-black py-4">
+              Kooboon Dating Application (iOS/Android)
+            </h3>
+            <div className="flex items-center"></div>
+            <div className="card-actions justify-center py-[20px]">
+              <a
+                href="https://apps.apple.com/th/app/kooboon/id1660708706"
+                target="_blank"
+                rel="noreferrer"
+              >
+                <Image src={appstore} className="w-40" alt="appstore" />
+              </a>
+              <a
+                href="https://play.google.com/store/apps/details?id=com.kooboondating.kooboon"
+                target="_blank"
+                rel="noreferrer"
+              >
+                <Image src={playstore} className="w-40" alt="playstore" />
+              </a>
+            </div>
+            <div className="modal-action ">
+              <label htmlFor="kooboon" className="btn">
+                Close
+              </label>
+            </div>
+          </div>
+        </div>
+      </>,
+    ],
+  },
+  {
     id: "tomthanet",
     img: tomthanet,
     name: "Tom Thanet",
     imgInfo: "Tom Thanet",
     badge: [
       <>
-        <div className="badge badge-accent font-bold text-white border-0">
+        <div className="badge badge-accent font-bold text-white border-0 mr-2">
           Next.js
         </div>
-        <div className="badge bg-[#087EA4] font-bold text-white border-0">
+        <div className="badge badge-accent font-bold text-white border-0 mr-2">
           React.js
         </div>
-        <div className="badge bg-[#EA2845] font-bold text-white border-0">
+        <div className="badge badge-accent font-bold text-white border-0 mr-2">
           Nest.js
         </div>
       </>,
@@ -111,13 +297,13 @@ const experienceWebData = [
     imgInfo: "Flowwsquare",
     badge: [
       <>
-        <div className="badge badge-accent font-bold text-white border-0">
+        <div className="badge badge-accent font-bold text-white border-0 mr-2">
           Next.js
         </div>
-        <div className="badge bg-[#087EA4] font-bold text-white border-0">
+        <div className="badge badge-accent font-bold text-white border-0 mr-2">
           React.js
         </div>
-        <div className="badge bg-[#EA2845] font-bold text-white border-0">
+        <div className="badge badge-accent font-bold text-white border-0 mr-2">
           Nest.js
         </div>
       </>,
@@ -143,11 +329,11 @@ const experienceWebData = [
     imgInfo: "Global South-South Development Expo 2022",
     badge: [
       <>
-        <div className="badge bg-[#21759B] font-bold text-white border-0">
+        <div className="badge badge-accent font-bold text-white border-0 mr-2">
           Wordpress
         </div>
-        <div className="badge badge-secondary font-bold">VirtualTour</div>
-        <div className="badge bg-[#F06422] font-bold text-white border-0">
+        <div className="badge badge-accent font-bold text-white border-0 mr-2">VirtualTour</div>
+        <div className="badge badge-accent font-bold text-white border-0 mr-2">
           PlayCanvas
         </div>
       </>,
@@ -173,10 +359,10 @@ const experienceWebData = [
     imgInfo: "Alpsalpine",
     badge: [
       <>
-        <div className="badge bg-[#21759B] font-bold text-white border-0">
+        <div className="badge badge-accent font-bold text-white border-0 mr-2">
           Wordpress
         </div>
-        <div className="badge badge-secondary font-bold">VirtualTour</div>
+        <div className="badge badge-accent font-bold text-white border-0 mr-2">VirtualTour</div>
       </>,
     ],
     description:
@@ -200,7 +386,7 @@ const experienceWebData = [
     imgInfo: "S.I. ASIA PACIFIC CO., LTD.",
     badge: [
       <>
-        <div className="badge bg-[#21759B] font-bold text-white border-0">
+        <div className="badge badge-accent font-bold text-white border-0 mr-2">
           Wordpress
         </div>
       </>,
@@ -222,7 +408,7 @@ const experienceWebData = [
     imgInfo: "Done Engineering and Service Co.,Ltd.",
     badge: [
       <>
-        <div className="badge bg-[#21759B] font-bold text-white border-0">
+        <div className="badge badge-accent font-bold text-white border-0 mr-2">
           Wordpress
         </div>
       </>,
@@ -234,6 +420,72 @@ const experienceWebData = [
         <a href="https://www.wedone.work/" target="_blank" rel="noreferrer">
           <button className="btn btn-accent">Visit Website</button>
         </a>
+      </>,
+    ],
+  },
+  {
+    id: "hdgid",
+    img: hdg,
+    name: "The Hidden Ghost",
+    imgInfo: "The Hidden Ghost",
+    badge: [
+      <>
+        <div className="badge badge-accent font-bold text-white border-0 mr-2">
+          Next.js
+        </div>
+        <div className="badge badge-accent font-bold text-white border-0 mr-2">
+          Unity
+        </div>
+      </>,
+    ],
+    description:
+      "A website is a promoting mobile game project that I did during internship. The game is a detective game inspired by Phasmophobia.",
+    btn: [
+      <>
+        <label htmlFor="hdgid" className="btn btn-accent">
+          Read More
+        </label>
+        <input type="checkbox" id="hdgid" className="modal-toggle" />
+        <div className="modal">
+          <div className="modal-box dark:bg-[#111827] bg-white">
+            <h3 className="font-bold text-lg dark:text-[#A6ADBA] text-black">
+              The Hidden Ghost
+            </h3>
+            <p className="py-4 dark:text-[#A6ADBA] text-black">
+              A website is a promoting mobile game project that I did during
+              internship. The game is a detective game inspired by
+              Phasmophobia.
+            </p>
+            <h3 className="font-bold text-lg dark:text-[#A6ADBA] text-black py-4">
+              The Hidden Ghost Demo (iOS/Android)
+            </h3>
+            <div className="flex items-center mb-4">
+              <iframe
+                width="100%"
+                height="300"
+                src="https://www.youtube.com/embed/4sYOvNpK_rU"
+                title="YouTube video player"
+                frameBorder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowFullScreen
+              ></iframe>
+            </div>
+            <div className="card-actions justify-center py-[20px]">
+              <a
+                href="https://hidden-ghost-next-website.vercel.app/"
+                target="_blank"
+                rel="noreferrer"
+              >
+                <button className="btn btn-accent">Visit Website</button>
+              </a>
+            </div>
+            <div className="modal-action ">
+              <label htmlFor="hdgid" className="btn">
+                Close
+              </label>
+            </div>
+          </div>
+        </div>
       </>,
     ],
   },
@@ -304,16 +556,16 @@ const experienceAppData = [
 
 const experienceGameData = [
   {
-    id: "hdgid",
+    id: "hdgg",
     img: hdg,
     name: "The Hidden Ghost",
     imgInfo: "The Hidden Ghost",
     badge: [
       <>
-        <div className="badge badge-accent font-bold text-white border-0">
+        <div className="badge badge-accent font-bold text-white border-0 mr-2">
           Next.js
         </div>
-        <div className="badge bg-[#8D8D8D] font-bold text-white border-0">
+        <div className="badge badge-accent font-bold text-white border-0 mr-2">
           Unity
         </div>
       </>,
@@ -322,10 +574,10 @@ const experienceGameData = [
       "A website is a promoting mobile game project that I did during internship. The game is a detective game inspired by Phasmophobia.",
     btn: [
       <>
-        <label htmlFor="hdgid" className="btn btn-accent">
+        <label htmlFor="hdgg" className="btn btn-accent">
           Read More
         </label>
-        <input type="checkbox" id="hdgid" className="modal-toggle" />
+        <input type="checkbox" id="hdgg" className="modal-toggle " />
         <div className="modal">
           <div className="modal-box dark:bg-[#111827] bg-white">
             <h3 className="font-bold text-lg dark:text-[#A6ADBA] text-black">
@@ -338,7 +590,7 @@ const experienceGameData = [
             <h3 className="font-bold text-lg dark:text-[#A6ADBA] text-black py-4">
               The Hidden Ghost Demo (iOS/Android)
             </h3>
-            <div className="flex items-center">
+            <div className="flex items-center mb-4">
               <iframe
                 width="100%"
                 height="300"
@@ -359,7 +611,343 @@ const experienceGameData = [
               </a>
             </div>
             <div className="modal-action ">
-              <label htmlFor="hdgid" className="btn">
+              <label htmlFor="hdgg" className="btn">
+                Close
+              </label>
+            </div>
+          </div>
+        </div>
+      </>,
+    ],
+  },
+  {
+    id: "zombieevil",
+    img: Zem,
+    name: "Zombie Evil Multiplayer",
+    imgInfo: "Zombie Evil Multiplayer",
+    badge: [
+      <>
+        <div className="badge badge-accent font-bold text-white border-0 mr-2">
+          Unity
+        </div>
+        <div className="badge badge-accent font-bold text-white border-0 mr-2">
+          Node.js
+        </div>
+        <div className="badge badge-accent font-bold text-white border-0 mr-2">
+          Socket.io
+        </div>
+      </>,
+    ],
+    description:
+      "The university final project, Computer Game Multimedia. The game is a Top view shooting Multiplayer on Google CloudPlatform.",
+    btn: [
+      <>
+        <label htmlFor="zemid" className="btn btn-accent">
+          Read More
+        </label>
+        <input type="checkbox" id="zemid" className="modal-toggle" />
+        <div className="modal">
+          <div className="modal-box dark:bg-[#111827] bg-white">
+            <h3 className="font-bold text-lg dark:text-[#A6ADBA] text-black">
+              Zombie Evil Multiplayer
+            </h3>
+            <p className="py-4 dark:text-[#A6ADBA] text-black">
+              The university final project, Computer Game Multimedia. The game
+              is a Top view shooting Multiplayer on Google CloudPlatform.
+            </p>
+            <h3 className="font-bold text-lg dark:text-[#A6ADBA] text-black py-4">
+              Zombie Evil Multiplayer Gameplay
+            </h3>
+            <div className="flex items-center">
+              <iframe
+                width="100%"
+                height="250"
+                src="https://www.youtube.com/embed/9qpuxchOmIU"
+                title="YouTube video player"
+                frameBorder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowFullScreen
+              ></iframe>
+            </div>
+            <div className="modal-action ">
+              <label htmlFor="zemid" className="btn">
+                Close
+              </label>
+            </div>
+          </div>
+        </div>
+      </>,
+    ],
+  },
+  {
+    id: "guessnumbermultiplayer",
+    img: Gnmp,
+    name: "Guess Number Multiplayer",
+    imgInfo: "Guess Number Multiplayer",
+    badge: [
+      <>
+        <div className="badge badge-accent font-bold text-white border-0 mr-2">
+          Unity
+        </div>
+        <div className="badge badge-accent font-bold text-white border-0 mr-2">
+          Node.js
+        </div>
+      </>,
+    ],
+    description:
+      "The university midterm project, Computer Game Multimedia. The game is a Guess number on local server with node.js",
+    btn: [
+      <>
+        <label htmlFor="gnid" className="btn btn-accent">
+          Read More
+        </label>
+        <input type="checkbox" id="gnid" className="modal-toggle" />
+        <div className="modal">
+          <div className="modal-box dark:bg-[#111827] bg-white">
+            <h3 className="font-bold text-lg dark:text-[#A6ADBA] text-black">
+              Guess Number Multiplayer
+            </h3>
+            <p className="py-4 dark:text-[#A6ADBA] text-black">
+              The university midterm project, Computer Game Multimedia. The game
+              is a Guess number on local server with node.js
+            </p>
+            <h3 className="font-bold text-lg dark:text-[#A6ADBA] text-black py-4">
+              Guess Number Multiplayer Gameplay
+            </h3>
+            <div className="flex items-center mb-4">
+              <iframe
+                width="100%"
+                height="250"
+                src="https://www.youtube.com/embed/opWaJTqb_dQ"
+                title="YouTube video player"
+                frameBorder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowFullScreen
+              ></iframe>
+            </div>
+            <div className="card-actions justify-center py-[20px]">
+              <a
+                href="https://github.com/darupong/guess-number-game"
+                target="_blank"
+                rel="noreferrer"
+              >
+                <button className="btn btn-accent">View Github</button>
+              </a>
+            </div>
+            <div className="modal-action ">
+              <label htmlFor="gnid" className="btn">
+                Close
+              </label>
+            </div>
+          </div>
+        </div>
+      </>,
+    ],
+  },
+  {
+    id: "ellenraider",
+    img: Erd,
+    name: "Ellen Raider",
+    imgInfo: "Ellen Raider",
+    badge: [
+      <>
+        <div className="badge badge-accent font-bold text-white border-0 mr-2">
+          Unity
+        </div>
+      </>,
+    ],
+    description:
+      "The university final project, CGM245 3D Game Development. The game is a adventure 3D game inspired by Tomb Raider.",
+    btn: [
+      <>
+        <label htmlFor="erid" className="btn btn-accent">
+          Read More
+        </label>
+        <input type="checkbox" id="erid" className="modal-toggle" />
+        <div className="modal">
+          <div className="modal-box dark:bg-[#111827] bg-white">
+            <h3 className="font-bold text-lg dark:text-[#A6ADBA] text-black">
+              Ellen Raider
+            </h3>
+            <p className="py-4 dark:text-[#A6ADBA] text-black">
+              The university final project, 3D Game Development. The game is a
+              adventure 3D game inspired by Tomb Raider.
+            </p>
+            <h3 className="font-bold text-lg dark:text-[#A6ADBA] text-black py-4">
+              Ellen Raider Gameplay
+            </h3>
+            <div className="flex items-center">
+              <iframe
+                width="100%"
+                height="250"
+                src="https://www.youtube.com/embed/hK4O0yWeKXk"
+                title="YouTube video player"
+                frameBorder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowFullScreen
+              ></iframe>
+            </div>
+            <div className="modal-action ">
+              <label htmlFor="erid" className="btn">
+                Close
+              </label>
+            </div>
+          </div>
+        </div>
+      </>,
+    ],
+  },
+  {
+    id: "eclipse",
+    img: Ecl,
+    name: "Eclipse 2021",
+    imgInfo: "Eclipse 2021",
+    badge: [
+      <>
+        <div className="badge badge-accent font-bold text-white border-0 mr-2">
+          Unity
+        </div>
+      </>,
+    ],
+    description:
+      "The university final project, CGM392 Project Game. The game is a side scrolling theme ancient aztec inspired by Castlevania.",
+    btn: [
+      <>
+        <label htmlFor="elid" className="btn btn-accent">
+          Read More
+        </label>
+        <input type="checkbox" id="elid" className="modal-toggle" />
+        <div className="modal">
+          <div className="modal-box dark:bg-[#111827] bg-white">
+            <h3 className="font-bold text-lg dark:text-[#A6ADBA] text-black">
+              Eclipse 2021
+            </h3>
+            <p className="py-4 dark:text-[#A6ADBA] text-black">
+              The university final project, CGM392 Project Game. The game is a
+              side scrolling theme ancient aztec inspired by Castlevania.
+            </p>
+            <h3 className="font-bold text-lg dark:text-[#A6ADBA] text-black py-4">
+              Eclipse 2021 Gameplay
+            </h3>
+            <div className="flex items-center">
+              <iframe
+                width="100%"
+                height="250"
+                src="https://www.youtube.com/embed/dmLP8nstZsk"
+                title="YouTube video player"
+                frameBorder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowFullScreen
+              ></iframe>
+            </div>
+            <div className="modal-action ">
+              <label htmlFor="elid" className="btn">
+                Close
+              </label>
+            </div>
+          </div>
+        </div>
+      </>,
+    ],
+  },
+  {
+    id: "adventure",
+    img: Adr,
+    name: "Adventure Island Remake 2020",
+    imgInfo: "Adventure Island Remake 2020",
+    badge: [
+      <>
+        <div className="badge badge-accent font-bold text-white border-0 mr-2">
+          Unity
+        </div>
+      </>,
+    ],
+    description:
+      "The university final project, CGM391 Project Game. The game is remake from Adventure Island 1986.",
+    btn: [
+      <>
+        <label htmlFor="adrid" className="btn btn-accent">
+          Read More
+        </label>
+        <input type="checkbox" id="adrid" className="modal-toggle" />
+        <div className="modal">
+          <div className="modal-box dark:bg-[#111827] bg-white">
+            <h3 className="font-bold text-lg dark:text-[#A6ADBA] text-black">
+              Adventure Island Remake 2020
+            </h3>
+            <p className="py-4 dark:text-[#A6ADBA] text-black">
+              The university final project, CGM391 Project Game. The game is
+              remake from Adventure Island 1986.
+            </p>
+            <h3 className="font-bold text-lg dark:text-[#A6ADBA] text-black py-4">
+              Adventure Island Remake 2020 Gameplay
+            </h3>
+            <div className="flex items-center">
+              <iframe
+                width="100%"
+                height="250"
+                src="https://www.youtube.com/embed/nvsTy5_C7kg"
+                title="YouTube video player"
+                frameBorder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowFullScreen
+              ></iframe>
+            </div>
+            <div className="modal-action ">
+              <label htmlFor="adrid" className="btn">
+                Close
+              </label>
+            </div>
+          </div>
+        </div>
+      </>,
+    ],
+  },
+  {
+    id: "into the zombieland",
+    img: Itz,
+    name: "Into The Zombieland",
+    imgInfo: "Into The Zombieland",
+    badge: [
+      <>
+        <div className="badge badge-accent font-bold text-white border-0 mr-2">
+          Unity
+        </div>
+      </>,
+    ],
+    description:
+      "The university final project, CGM242 2D Game Development. The game is a adventure side scrolling game inspired by Alien Shooter.",
+    btn: [
+      <>
+        <label htmlFor="itzid" className="btn btn-accent">
+          Read More
+        </label>
+        <input type="checkbox" id="itzid" className="modal-toggle" />
+        <div className="modal">
+          <div className="modal-box dark:bg-[#111827] bg-white">
+            <h3 className="font-bold text-lg dark:text-[#A6ADBA] text-black">
+              Into The Zombieland
+            </h3>
+            <p className="py-4 dark:text-[#A6ADBA] text-black">
+              The university final project, CGM242 2D Game Development. The game
+              is a adventure side scrolling game inspired by Alien Shooter.
+            </p>
+            <h3 className="font-bold text-lg dark:text-[#A6ADBA] text-black py-4">
+              Into The Zombieland Gameplay
+            </h3>
+            <div className="flex items-center">
+              <iframe
+                width="100%"
+                height="250"
+                src="https://www.youtube.com/embed/iDwncw6vwLE"
+                title="YouTube video player"
+                frameBorder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowFullScreen
+              ></iframe>
+            </div>
+            <div className="modal-action ">
+              <label htmlFor="itzid" className="btn">
                 Close
               </label>
             </div>
@@ -378,7 +966,7 @@ const experienceContentData = [
     imgInfo: "10 YEARS WITH LAZADA",
     badge: [
       <>
-        <div className="badge bg-[#405DE6] font-bold text-white border-0">
+        <div className="badge badge-error font-bold text-white border-0 mr-2">
           Meta Spark
         </div>
       </>,
@@ -448,10 +1036,10 @@ const experienceContentData = [
     imgInfo: "CC-OO x Disney",
     badge: [
       <>
-        <div className="badge bg-[#405DE6] font-bold text-white border-0">
+        <div className="badge badge-error font-bold text-white border-0 mr-2">
           Meta Spark
         </div>
-        <div className="badge bg-[#FF2B54] font-bold text-white border-0">
+        <div className="badge badge-accent font-bold text-white border-0 mr-2">
           Effect House
         </div>
       </>,
@@ -538,7 +1126,7 @@ const experienceContentData = [
     imgInfo: "Durex",
     badge: [
       <>
-        <div className="badge bg-[#405DE6] font-bold text-white border-0">
+        <div className="badge badge-error font-bold text-white border-0 mr-2">
           Meta Spark
         </div>
       </>,
@@ -595,7 +1183,7 @@ const experienceContentData = [
     imgInfo: "Fifa world cup qatar 2022",
     badge: [
       <>
-        <div className="badge bg-[#FF2B54] font-bold text-white border-0">
+        <div className="badge badge-accent font-bold text-white border-0 mr-2">
           Effect House
         </div>
       </>,
@@ -656,7 +1244,7 @@ const experienceContentData = [
     imgInfo: "Chadchart Dance",
     badge: [
       <>
-        <div className="badge bg-[#FF2B54] font-bold text-white border-0">
+        <div className="badge badge-accent font-bold text-white border-0 mr-2">
           Effect House
         </div>
       </>,
@@ -715,7 +1303,7 @@ const experienceContentData = [
     imgInfo: "Chadchart Mask",
     badge: [
       <>
-        <div className="badge bg-[#FF2B54] font-bold text-white border-0">
+        <div className="badge badge-accent font-bold text-white border-0 mr-2">
           Effect House
         </div>
       </>,

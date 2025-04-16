@@ -4,7 +4,7 @@ import { useTranslation } from "next-i18next";
 const Timeline = () => {
   const { t } = useTranslation();
   return (
-    <div className="container mx-auto w-full h-full px-4" id="Timeline">
+    <div className="container mx-auto w-full h-full px-4" id="timeline">
       <div className="relative wrap overflow-hidden p-10 h-full">
         <h1 className="text-3xl md:text-5xl font-bold text-center pb-10 dark:text-white text-gray-800">
           {t("timeline")}
@@ -26,7 +26,7 @@ const Timeline = () => {
             <h3 className="mb-3 font-bold text-gray-800 md:text-lg text-base">
               {t("sep")} 2023 - {t("mar")} 2025 (
               <span className="dark:text-gray-800 text-[#36D399]">
-                Full Stack Developer
+                FullStack Developer
               </span>
               )
             </h3>
