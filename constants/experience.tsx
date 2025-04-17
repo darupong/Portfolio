@@ -45,6 +45,8 @@ import sathumart from "../public/img/Sathumart.png";
 import lays from "../public/img/Lays.png"; 
 import Image from "next/image";
 import looklike from "../public/img/imgExperiance/Looklike.jpg";
+import jaspalgif from "../public/img/jaspalgif.gif";
+import jaspal from "../public/img/jaspal.webp";
 
 const experienceWebData = [
   {
@@ -959,6 +961,76 @@ const experienceGameData = [
 ];
 
 const experienceContentData = [
+  {
+    id: "jaspal",
+    img: jaspal,
+    name: "Jaspal x Orla Kiely",
+    imgInfo: "Jaspal x Orla Kiely",
+    badge: [
+      <>
+        <div className="badge badge-error font-bold text-white border-0 mr-2">
+          Meta Spark
+        </div>
+      </>,
+    ],
+    description:
+      "Jaspal x Orla Kiely. AR 3D Object Filter for an event promoting a product collection to welcome the Chinese New Year of the Rabbit.",
+    btn: [
+      <>
+        <label htmlFor="my-modaljas" className="btn btn-accent">
+          Try it!
+        </label>
+        <input type="checkbox" id="my-modaljas" className="modal-toggle" />
+        <div className="modal">
+          <div className="modal-box dark:bg-[#111827] bg-white">
+            <h3 className="font-bold text-lg dark:text-[#A6ADBA] text-black">
+            Jaspal x Orla Kiely
+            </h3>
+            <p className="py-4 dark:text-[#A6ADBA] text-black">
+              Filter Effect campaign "Jaspal x Orla Kiely"
+            </p>
+            <div className="justify-center flex">
+              <Image
+                src={jaspalgif}
+                alt="Jaspal x Orla Kiely"
+                className="h-[300px] w-auto"
+              />
+            </div>
+            {/* <div className="justify-center flex pt-[5px] dark:text-[#A6ADBA] text-black">
+              <h1>Click Here</h1>
+            </div>
+            <div className="justify-center flex space-x-4 pt-[20px]">
+              <a
+                href="https://www.facebook.com/fbcameraeffects/tryit/482307596688085/"
+                target="_blank"
+                rel="noreferrer"
+              >
+                <FaFacebookSquare
+                  className=" w-6 h-6 text-black dark:text-white"
+                  role="button"
+                />
+              </a>
+              <a
+                href="https://www.instagram.com/ar/482307596688085/"
+                target="_blank"
+                rel="noreferrer"
+              >
+                <FaInstagram
+                  className=" w-6 h-6 text-black dark:text-white"
+                  role="button"
+                />
+              </a>
+            </div> */}
+            <div className="modal-action ">
+              <label htmlFor="my-modaljas" className="btn">
+                Close
+              </label>
+            </div>
+          </div>
+        </div>
+      </>,
+    ],
+  },
   {
     id: "lazada",
     img: laz,
