@@ -45,7 +45,7 @@ import sathumart from "../public/img/Sathumart.png";
 import lays from "../public/img/Lays.png"; 
 import Image from "next/image";
 import looklike from "../public/img/imgExperiance/Looklike.jpg";
-import jaspalgif from "../public/img/jaspalgif.gif";
+import jaspalgif from "../public/img/jaspalre.gif";
 import jaspal from "../public/img/jaspal.webp";
 
 const experienceWebData = [
